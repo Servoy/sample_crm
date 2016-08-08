@@ -1,0 +1,11 @@
+addEmptyValue:1,
+dataProviderID1:"c_name_full",
+dataProviderID2:"c_job_company",
+dataSource:"db:/svy_sample/contacts",
+name:"val_existingContactsCompany",
+returnDataProviders:1,
+separator:" ",
+showDataProviders:3,
+typeid:34,
+uuid:"B4EE0911-7EC1-4B7C-A591-807B53D14D7D",
+valueListType:1

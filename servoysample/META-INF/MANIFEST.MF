@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+CSS-ClientLibs: servoysample/lib/material/angular-material.min.css;nam
+ e=angular-material.css;version=v1.0.0-rc5-master, servoysample/lib/ma
+ terial/angular-material.layouts.css;name=angular-material-layouts-css
+ ;version=v1.0.0-rc5-master, servoysample/lib/material/fonts/MaterialI
+ cons-Regular/MaterialIcons-Regular.css;name=material-icons-regular.cs
+ s;version=v1.0.0-rc5-master, servoysample/lib/font-awsome/font-awsome
+ .min.css;name=font-awsome.css;version=v4.6.3
+Bundle-SymbolicName: servoysample
+Bundle-Name: Servoy Sample Components
+Bundle-Version: 1.0.0
+Package-Type: Web-Component
+JS-ClientLibs: servoysample/lib/material/angular-material.min.js;name=
+ angular-material.js;version=v1.0.0-rc5-master, servoysample/lib/mater
+ ial/angular-animate.min.js;name=angular-animate.js;version=1.4.3, ser
+ voysample/lib/material/angular-aria.min.js;name=angular-aria.js;versi
+ on=v1.5.0, servoysample/lib/hammer/hammer.min.js;name=hammer.js;versi
+ on=v2.0.4
+
+Name: scSearchbar/scSearchbar.spec
+Web-Component: True
+
+Name: scTextFieldImage/scTextFieldImage.spec
+Web-Component: True
+
+Name: scCardView/scCardView.spec
+Web-Component: True
+
+Name: scNavMainMenu/scNavMainMenu.spec
+Web-Component: True
+
+Name: scTextField/scTextField.spec
+Web-Component: True
+
+Name: scImage/scImage.spec
+Web-Component: True
+

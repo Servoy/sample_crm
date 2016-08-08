@@ -1,0 +1,84 @@
+/*** HEADER PART ***/
+.sc-mainMenu {
+	background-color: #dc6a1f;
+	color: #fff;
+	border-bottom: 0 solid transparent;
+	-webkit-transition: width .3s ease-in-out;
+	-o-transition: width .3s ease-in-out;
+	transition: width .3s ease-in-out;
+	float: left;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+	width: 230px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 0 15px;
+	font-weight: 300;
+	overflow: hidden;
+	
+}
+
+/*** MENU PART ***/
+.sc-mainSidebar {
+	background-color: #222d32;
+	top: 0;
+	left: 0;
+	padding-top: 50px;
+	min-height: 100%;
+	width: 230px;
+	z-index: 810;
+	-webkit-transition: -webkit-transform 0.3s ease-in-out, width 0.3s ease-in-out;
+	-moz-transition: -moz-transform 0.3s ease-in-out, width 0.3s ease-in-out;
+	-o-transition: -o-transform 0.3s ease-in-out, width 0.3s ease-in-out;
+	transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
+}
+
+.sc-sidebar {
+	padding-bottom: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.sc-sidebarMenu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sc-sidebarMenu>.scHeader {
+	color: #4b646f;
+	background: #1a2226;
+	padding: 10px 25px 10px 15px;
+	font-size: 12px;
+	overflow: hidden;
+	text-overflow: clip;
+}
+
+.sc-sidebarMenu>li {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.sc-sidebarMenu li>a {
+	position: relative;
+	text-decoration: none;
+	background-color: transparent;
+	color: #fff;
+	padding: 5px 5px 5px 15px;
+	display: block;
+	font-size: 14px;
+}
+.sc-sidebarMenu li>a:hover {
+	color: tomato;
+}
+
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

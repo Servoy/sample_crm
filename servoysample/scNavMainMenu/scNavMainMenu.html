@@ -1,0 +1,20 @@
+<header class="sc-mainMenu">
+      <span class="logo">{{model.logoTitle}}</span>
+</header>  
+<aside class="sc-mainSidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sc-sidebar">
+      <!-- Sidebar Menu -->
+      <ul class="sc-sidebarMenu">
+        <li class="scHeader">{{model.headerTitle}}</li>
+        <!-- Optionally, you can add icons to the links -->
+        <li ng-repeat="item in model.menuItems">
+			<a href="#"><i class="{{item.faImage ? 'fa ' + item.faImage : 'fa'}}"></i>
+				<span>{{item.title}}</span>
+			</a>
+		</li>
+      </ul>
+      <!-- /.sidebar-menu -->
+    </section>
+    <!-- /.sidebar -->
+</aside>

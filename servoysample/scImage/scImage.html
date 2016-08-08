@@ -1,0 +1,10 @@
+<img class='amd-image-img bts-media' ng-src='{{model.dataProviderID.url ? model.dataProviderID.url : model.alternateImage}}'
+	ng-class='model.styleClass'
+	sablo-tabseq='model.tabSeq'
+	alt="{{model.alternate}}"
+	svy-click='handlers.onActionMethodID($event)'
+ 	svy-rightclick='handlers.onRightClickMethodID($event)'
+	ng-mouseover="test()"
+	ng-mouseleave="style={}"
+ 	ng-disabled='!model.enabled'
+ 	id="{{::model.svyMarkupId}}" />

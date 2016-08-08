@@ -1,0 +1,16 @@
+<md-input-container 
+		class = "amd-textfield"
+		ng-class="model.styleClass" 
+		svy-tooltip='model.toolTipText'
+		svy-enter="handlers.onActionMethodID($event)" 
+	 	svy-rightclick='handlers.onRightClickMethodID($event)'
+		id="{{::model.svyMarkupId}}"
+		ng-if="model.visible">
+
+	<label ng-bind-html="model.label"></label>
+	<md-icon><img ng-show="hasFieldImage()" class="fieldImage" ng-src="{{model.fieldimage}}" /></md-icon>
+	<data-servoysample-sctextfieldimage-template/>
+	<div ng-messages="$error">
+          <div ng-message="required">{{model.requiredText}}</div>
+    </div>
+</md-input-container>

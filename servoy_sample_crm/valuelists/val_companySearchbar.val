@@ -1,0 +1,11 @@
+addEmptyValue:1,
+dataProviderID1:"displayvalue",
+dataProviderID2:"returnvalue",
+dataSource:"db:/svy_sample/searchbardata",
+name:"val_companySearchbar",
+returnDataProviders:2,
+showDataProviders:1,
+sortOptions:"displayvalue asc",
+typeid:34,
+uuid:"8C58D921-28F1-4815-AA6A-707B47BF121D",
+valueListType:1

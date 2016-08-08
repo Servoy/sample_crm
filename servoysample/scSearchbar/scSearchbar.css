@@ -1,0 +1,25 @@
+md-autocomplete.amd-autocomplete {
+	min-width: 0px;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+.noResultButtonAdd {
+	float: right;
+	margin-right: -10px;
+	z-index:99999;
+}

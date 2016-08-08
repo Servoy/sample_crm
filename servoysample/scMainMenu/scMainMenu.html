@@ -1,0 +1,23 @@
+<div id="{{model.svyMarkupId}}" ng-style="style">
+  <div class="menubar">
+     <nav ng-class="{closedmenu: closedmenu}" >
+       <ul>
+         <li ng-repeat="menuitem in menu" ng-mouseenter="mouseOverMenuItem($event, menuitem)">
+           <img ng-src="{{getImage(menuitem)}}">
+           {{menuitem.description}}
+           <ul>
+             <li ng-repeat="menuitem in menuitem.children" ng-click="clickMenuItem(menuitem)">
+               {{menuitem.description}}
+               <img ng-src="{{getNestedImage(menuitem)}}">
+               <ul>
+                 <li ng-repeat="menuitem in menuitem.children" ng-click="clickMenuItem(menuitem)">
+                   {{menuitem.description}}
+                 </li>
+               </ul>       
+             </li>
+           </ul>              
+         </li>
+       </ul>
+     </nav>
+  </div>
+</div>
