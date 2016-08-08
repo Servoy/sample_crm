@@ -24,7 +24,19 @@ specname:\"2columns\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"col-md-3\"\
+class:\"col-md-9 main-content\"\
+},\
+properties:{\
+packagename:\"12grid\",\
+specname:\"column\"\
+}",
+location:"3,3",
+typeid:46,
+uuid:"38E7536B-FD7F-4E40-9C15-39353D071401"
+},
+{
+customProperties:"attributes:{\
+class:\"col-md-3 nav-container\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -74,6 +86,13 @@ specname:\"column\"\
 }",
 items:[
 {
+location:"3,3",
+name:"tab_content",
+typeName:"bootstrapcomponents-tablesspanel",
+typeid:47,
+uuid:"312D6DD4-36E4-4A57-A96A-FC692C7BBB4F"
+},
+{
 customProperties:"attributes:{\
 class:\"col-md-12\"\
 },\
@@ -81,15 +100,7 @@ properties:{\
 packagename:\"12grid\",\
 specname:\"column\"\
 }",
-items:[
-{
-name:"tab_content",
-typeName:"bootstrapcomponents-tablesspanel",
-typeid:47,
-uuid:"312D6DD4-36E4-4A57-A96A-FC692C7BBB4F"
-}
-],
-location:"3,3",
+location:"2,2",
 typeid:46,
 uuid:"71F32CFA-5F71-4A3C-8D17-17CEE5920AEB"
 },
