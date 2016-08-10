@@ -24,7 +24,7 @@ specname:\"2columns\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"col-md-3 sidebar-container\"\
+class:\"col-md-2 sidebar-container\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -46,37 +46,30 @@ uuid:"1D065C8A-6E7F-44D3-BFAD-5823992EFB32"
 },
 {
 customProperties:"attributes:{\
-<<<<<<< HEAD
-class:\"col-md-12\"\
-=======
-class:\"col-md-9 content\"\
->>>>>>> ad864bbad0ef66c82c8f1edcbe7a19f17790da34
+class:\"col-md-9 nopadding\"\
 },\
 properties:{\
 packagename:\"12grid\",\
 specname:\"column\"\
 }",
-<<<<<<< HEAD
-location:"2,2",
-typeid:46,
-uuid:"CC2A0A4D-7DEE-47A0-B956-DCEF5F61C861"
-=======
 items:[
 {
-location:"1,1",
+json:{
+containedForm:"A82E2E0E-3793-4F82-B708-BB0915A3B85C"
+},
 name:"tablesspanel",
 typeName:"bootstrapcomponents-tablesspanel",
 typeid:47,
-uuid:"FF74FC1D-53B5-46B4-8A21-651AFAC9C732"
+uuid:"1401EB5C-83BA-4333-BB87-C6F705D5102D"
 }
 ],
 location:"3,3",
 typeid:46,
-uuid:"1E90F6F2-3FB5-4B60-888D-E9366F9B0384"
+uuid:"6DCB3E84-6316-466D-92C1-8D29E0921D77"
 },
 {
 customProperties:"attributes:{\
-class:\"col-md-12 mainheader\"\
+class:\"col-md-12 nopadding\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -84,18 +77,31 @@ specname:\"column\"\
 }",
 items:[
 {
-location:"1,1",
-name:"mainheader_2",
-size:"100,100",
+json:{
+logo:"A6415C75-AD74-4D2F-91B8-9EE91BDA00B7",
+menuItems:[
+{
+itemFaIconName:"fa-user",
+itemText:"settings",
+svyUUID:"B259F6F7-BA4B-4BC3-9A48-6A3019F34467"
+},
+{
+itemFaIconName:"fa-log-out",
+itemText:"logout",
+svyUUID:"FD976272-437B-4C9E-885F-F8DF2FABD565"
+}
+],
+userName:"MyUsername"
+},
+name:"mainheader",
 typeName:"servoysample-mainheader",
 typeid:47,
-uuid:"DEEB470F-8571-4773-8511-1238CE6DA798"
+uuid:"FB231375-69D1-4F5C-B4B8-972B64A34778"
 }
 ],
 location:"1,1",
 typeid:46,
-uuid:"996026FA-A938-4718-8030-F711A7F8F2B9"
->>>>>>> ad864bbad0ef66c82c8f1edcbe7a19f17790da34
+uuid:"CC2A0A4D-7DEE-47A0-B956-DCEF5F61C861"
 }
 ],
 location:"1,1",

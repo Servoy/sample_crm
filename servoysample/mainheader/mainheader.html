@@ -1,39 +1,29 @@
 <nav class="navbar navbar-default no-margin">
     <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header fixed-brand">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  id="menu-toggle">
-                      <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
-                    </button>
-                    <a class="navbar-brand" href="#"><img class="srv-logo" src="https://servoy.com/wp-content/uploads/2016/06/servoy_logo.png"></a>
-                </div><!-- navbar-header-->
- 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-<ul class="nav navbar-nav navbar-user navbar-right">
-
+    <div class="navbar-header fixed-brand">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" id="menu-toggle">
+            <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+        </button>
+        <a class="navbar-brand"><img class="srv-logo" src="{{model.logo}}">
+        </a>
+    </div>
+    <!-- navbar-header-->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-user navbar-right">
             <li class="dropdown">
-						
-						 
-						
-						              <a data-toggle="dropdown" class="dropdown-toggle" href="#">George Asirtakis <b class="caret"></b></a>
-              							
-				<ul class="dropdown-menu">
-           
-                <li><a href="#"><span class="glyphicons glyphicons-user"></span>Profile</a></li>
-                <li><a href="#">Account Settings</a></li>
-                <li class="divider"></li>
-<li><a href="#about"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
-                
-              </ul>
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#">{{model.userName}}<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+					<li ng-repeat="item in model.menuItems">
+						<a href="#"><span class="{{item.itemFaIconName ? 'fa ' + item.itemFaIconName : 'fa'}}"></span> {{item.itemText}}</a>
+                    </li>
+                </ul>
             </li>
-          </ul>
-
-</li>
-            
-                            
-</ul>
-                            <ul class="nav navbar-nav">
-                                <li class="active" ><button class="navbar-toggle collapse in" data-toggle="collapse" id="menu-toggle-2"> <span class="glyphicon glyphicon-tasks" aria-hidden="true"></span></button></li>
-								
-							
-                </div><!-- bs-example-navbar-collapse-1 -->
-    </nav>
+        </ul>
+        <ul class="nav navbar-nav">
+            <li class="active">
+                <button class="navbar-toggle collapse in" data-toggle="collapse" id="menu-toggle-2"> <span class="glyphicon glyphicon-tasks" aria-hidden="true"></span>
+                </button>
+            </li>
+		</ul>
+    </div>
+</nav>

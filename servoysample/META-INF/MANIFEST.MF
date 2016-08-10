@@ -33,18 +33,9 @@ Web-Component: True
 Name: scCardView/scCardView.spec
 Web-Component: True
 
-Name: scNavMainMenu/scNavMainMenu.spec
-Web-Component: True
-
 Name: scTextField/scTextField.spec
 Web-Component: True
 
-Name: scUserHeader/scUserHeader.spec
-Web-Component: True
-
 Name: scImage/scImage.spec
-Web-Component: True
-
-Name: adminLTEbar/adminLTEbar.spec
 Web-Component: True
 
