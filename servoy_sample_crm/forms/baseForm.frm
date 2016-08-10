@@ -24,7 +24,7 @@ specname:\"2columns\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"col-md-12 sidebar-container\"\
+class:\"col-md-3 sidebar-container\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -40,21 +40,62 @@ typeid:47,
 uuid:"89791823-CD0E-4492-BE76-7415E049FB92"
 }
 ],
-location:"1,1",
+location:"2,2",
 typeid:46,
 uuid:"1D065C8A-6E7F-44D3-BFAD-5823992EFB32"
 },
 {
 customProperties:"attributes:{\
+<<<<<<< HEAD
 class:\"col-md-12\"\
+=======
+class:\"col-md-9 content\"\
+>>>>>>> ad864bbad0ef66c82c8f1edcbe7a19f17790da34
 },\
 properties:{\
 packagename:\"12grid\",\
 specname:\"column\"\
 }",
+<<<<<<< HEAD
 location:"2,2",
 typeid:46,
 uuid:"CC2A0A4D-7DEE-47A0-B956-DCEF5F61C861"
+=======
+items:[
+{
+location:"1,1",
+name:"tablesspanel",
+typeName:"bootstrapcomponents-tablesspanel",
+typeid:47,
+uuid:"FF74FC1D-53B5-46B4-8A21-651AFAC9C732"
+}
+],
+location:"3,3",
+typeid:46,
+uuid:"1E90F6F2-3FB5-4B60-888D-E9366F9B0384"
+},
+{
+customProperties:"attributes:{\
+class:\"col-md-12 mainheader\"\
+},\
+properties:{\
+packagename:\"12grid\",\
+specname:\"column\"\
+}",
+items:[
+{
+location:"1,1",
+name:"mainheader_2",
+size:"100,100",
+typeName:"servoysample-mainheader",
+typeid:47,
+uuid:"DEEB470F-8571-4773-8511-1238CE6DA798"
+}
+],
+location:"1,1",
+typeid:46,
+uuid:"996026FA-A938-4718-8030-F711A7F8F2B9"
+>>>>>>> ad864bbad0ef66c82c8f1edcbe7a19f17790da34
 }
 ],
 location:"1,1",

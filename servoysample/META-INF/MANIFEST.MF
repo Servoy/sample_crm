@@ -24,6 +24,9 @@ Web-Component: True
 Name: SidebarNav/SidebarNav.spec
 Web-Component: True
 
+Name: mainheader/mainheader.spec
+Web-Component: True
+
 Name: scTextFieldImage/scTextFieldImage.spec
 Web-Component: True
 
