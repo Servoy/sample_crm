@@ -1,7 +1,7 @@
 /**
  * @private
  *
- * @properties={typeid:24,uuid:"58B18E8F-1FBD-4470-A383-ABA40F1ACE86"}
+ * @properties={typeid:24,uuid:"C5C4394B-3FDC-49C4-8870-5E0EFDEEA2AA"}
  */
 function addContact() {
 	forms.dlg_editContact.showDialog()
@@ -12,7 +12,7 @@ function addContact() {
  *
  * @private
  *
- * @properties={typeid:24,uuid:"35BA98F6-F1C7-4D87-AEDF-F52FCF286BFD"}
+ * @properties={typeid:24,uuid:"D844F861-6CBB-4E18-B516-68086C0765F7"}
  */
 function editContact(event) {
 	forms.dlg_editContact.showDialog(foundset.getSelectedRecord());
@@ -23,7 +23,7 @@ function editContact(event) {
  *
  * @private
  *
- * @properties={typeid:24,uuid:"C58D048C-C6A0-48FE-B1A9-C2CAC96DB858"}
+ * @properties={typeid:24,uuid:"E2181034-134E-4D92-95F5-3325B306D70D"}
  */
 function menuMore(event) {
 	var window = plugins.window.createPopupMenu();
@@ -34,7 +34,7 @@ function menuMore(event) {
 /**
  * @private
  *
- * @properties={typeid:24,uuid:"7FFD8EBC-8498-493D-8E22-AF6A546A6F2A"}
+ * @properties={typeid:24,uuid:"E65824BC-75F7-40F4-9D9F-61B15003941B"}
  */
 function deleteContact() {
 	if (plugins.dialogs.showQuestionDialog('Delete contact person', 'Do you want to delete this contact person', 'Yes', 'No') == 'Yes') {
@@ -48,7 +48,7 @@ function deleteContact() {
  *
  * @private
  *
- * @properties={typeid:24,uuid:"D35C2FB0-DACA-4013-8F90-48741A99036C"}
+ * @properties={typeid:24,uuid:"20AE6E00-7498-42F6-A76E-777F3DA11F55"}
  */
 function goToCardForm(event) {
 	forms.frm_list_tab.elements.tabpanel.tabIndex = 2
@@ -57,18 +57,10 @@ function goToCardForm(event) {
 /**
  * @param {JSFoundSet<db:/svy_sample/contacts>} fs
  *
- * @properties={typeid:24,uuid:"CC7FD2F7-97B6-4A49-AC8A-AB17710EC236"}
+ * @properties={typeid:24,uuid:"05F19916-18A3-4327-A9EC-540345FBD204"}
  */
 function loadFoundset(fs) {
 	if(fs) {
 		controller.loadRecords(fs);
 	}
-}
-/**
- * @param {JSEvent} event the event that triggered the action
- *
- * @properties={typeid:24,uuid:"684F962C-6751-4953-910D-102A71E57FF4"}
- */
-function goToSplitView(event) {
-	forms.frm_list_tab.elements.tabpanel.tabIndex = 3
 }

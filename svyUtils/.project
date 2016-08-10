@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>servoy_sample_crm</name>
+	<name>svyUtils</name>
 	<comment></comment>
 	<projects>
 		<project>resources</project>
-		<project>servoysample</project>
-		<project>svygooglemaps</project>
+		<project>svyGoogleResources</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

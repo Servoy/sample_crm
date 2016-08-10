@@ -24,6 +24,17 @@ uuid:"17DDBE5A-84ED-4027-B1E4-1F3469816D31"
 },
 {
 anchors:3,
+imageMediaID:"1EBD560E-F290-4293-932C-E2F7563C5611",
+location:"861,0",
+onActionMethodID:"684F962C-6751-4953-910D-102A71E57FF4",
+showClick:false,
+showFocus:false,
+size:"30,30",
+typeid:7,
+uuid:"3F946912-90D2-4703-A195-A5F9E42151ED"
+},
+{
+anchors:3,
 imageMediaID:"BCA825ED-0226-415E-AF31-0960DA5E7FA1",
 location:"892,0",
 onActionMethodID:"D35C2FB0-DACA-4013-8F90-48741A99036C",
@@ -43,7 +54,7 @@ uuid:"692F9DB0-95CB-4E2C-BC58-F7BF3093C79F"
 anchors:3,
 enabled:false,
 imageMediaID:"1EBD560E-F290-4293-932C-E2F7563C5611",
-location:"860,0",
+location:"830,0",
 showClick:false,
 showFocus:false,
 size:"30,30",

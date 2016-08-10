@@ -1,3 +1,25 @@
+/* CONTACT - DETAIL SPLIT VIEW*/
+.sc-contact-detail-emailField {
+
+}
+.sc-contact-detail-emailLabel {
+	color: #3498db;
+}
+
+.sc-contact-detail-phoneField {
+
+}
+.sc-contact-detail-phoneLabel {
+	color: #f39c12;
+}
+
+.sc-contact-detail-addressField {
+
+}
+.sc-contact-detail-addressLabel {
+	color: #f39c12;
+}
+
 /* Bootstrap part*/
 @media ( min-width : 768px) {
 	.phoneOnly {
@@ -16,9 +38,6 @@
 	font-weight: bold;
 }
 
-.row {
-	
-}
 .fill {
 	min-height: 100%;
 	height: 100%;

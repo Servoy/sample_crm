@@ -1,0 +1,7 @@
+addEmptyValue:1,
+customValues:"Home|1\
+Office|2\
+Other|3",
+name:"val_addressType",
+typeid:34,
+uuid:"62A12CF5-2EE4-49F2-9DB8-49350CB19A95"
