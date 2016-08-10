@@ -1,4 +1,5 @@
 dataSource:"db:/svy_sample/contacts",
+deprecated:"Replaced by better detail form",
 encapsulation:60,
 initialSort:"c_name_full asc",
 items:[

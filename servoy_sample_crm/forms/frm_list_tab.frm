@@ -5,7 +5,7 @@ anchors:15,
 items:[
 {
 containsFormID:"88D2AF98-F42D-4102-A5DD-8DD3E8A4D10B",
-location:"221,181",
+location:"138,116",
 name:"tabDetail",
 text:"tabDetail",
 typeid:15,
@@ -13,7 +13,7 @@ uuid:"1EAFAF17-02EC-4318-897B-A38DC7384637"
 },
 {
 containsFormID:"7F4252D3-12BF-4459-A518-EC68DDF92737",
-location:"130,113",
+location:"238,185",
 name:"tabList",
 text:"tabList",
 typeid:15,
