@@ -11,6 +11,12 @@ name:"addresse_id"
 },
 {
 allowNull:true,
+creationOrderIndex:7,
+dataType:4,
+name:"address_type"
+},
+{
+allowNull:true,
 creationOrderIndex:1,
 dataType:12,
 length:200,
@@ -44,13 +50,6 @@ creationOrderIndex:6,
 dataType:12,
 length:200,
 name:"line_2"
-},
-{
-allowNull:true,
-creationOrderIndex:7,
-dataType:12,
-length:200,
-name:"line_3"
 },
 {
 allowNull:true,

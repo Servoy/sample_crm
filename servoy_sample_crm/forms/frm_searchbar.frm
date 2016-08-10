@@ -1,3 +1,4 @@
+dataSource:"db:/svy_sample/contacts",
 encapsulation:60,
 items:[
 {
@@ -11,7 +12,13 @@ anchors:15,
 json:{
 anchors:15,
 dataProviderID:"searchValue",
-foundset:{"dataproviders":{"dp0":null},"foundsetSelector":"db:/svy_sample/contacts","loadAllRecords":true},
+foundset:{
+dataproviders:{
+dp0:null
+},
+foundsetSelector:"db:/svy_sample/contacts",
+loadAllRecords:true
+},
 label:"Search or Add contactperson",
 location:{
 x:0,
