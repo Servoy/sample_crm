@@ -35,9 +35,9 @@
 
 .main-content{height:500px;}
 .row{position:relative;}
-.sidebar-container{padding:0px!important;height:1000px;;overflow:hidden;}
+.sidebar-container{padding:0px!important;height:1000px;;overflow:hidden;diplay:none;}
 .sc-mainheader{background-color:blue;border: none;min-height:50px;float:left;}
-.sc-logo-container{}
+.mainheader{padding:0px!important;}
 
 /* Servoy Components */
 /* BASE FORMS */

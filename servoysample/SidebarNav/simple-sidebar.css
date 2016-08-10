@@ -11,7 +11,6 @@
 .srv-logo{
 	position: relative;
     bottom: 20px;
-    
     height: 80px;
     float: left;}
     
@@ -75,6 +74,7 @@
     list-style: none;
     margin-top: 2px;
 }
+.sideheader{width:250px;}
  
 .sidebar-nav li {
     text-indent: 15px;
