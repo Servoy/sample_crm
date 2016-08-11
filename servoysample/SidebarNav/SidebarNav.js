@@ -2,16 +2,26 @@ angular.module('servoysampleSidebarNav',['servoy']).directive('servoysampleSideb
     return {
       restrict: 'E',
       scope: {
-    	  model: '=svyModel'
+    	  model: '=svyModel',
+	      handlers: "=svyHandlers"
       },
       controller: function($scope, $element, $attrs) {
-      	  $scope.getContainerStyle = function() {
-    		  var height = 0;
-    		  if ($scope.model.height)
-    		  {
-    			  height = $scope.model.height
-    		  }
-    		  return {position:"relative", minHeight:height+"px"};
+    	  $scope.activeItem = $scope.model.menuItems[0].itemText
+		  $scope.menuItemOnClick = menuItemOnClick
+		  
+//      	  $scope.getContainerStyle = function() {
+//    		  var height = 0;
+//    		  if ($scope.model.height)
+//    		  {
+//    			  height = $scope.model.height
+//    		  }
+//    		  return {position:"relative", minHeight:height+"px"};
+//    	  }
+      	  
+    	  
+    	  function menuItemOnClick(itemName) {
+    		  $scope.activeItem = itemName
+    		  $scope.handlers.onItemClick(itemName)
     	  }
       },
       templateUrl: 'servoysample/SidebarNav/SidebarNav.html'

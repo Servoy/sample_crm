@@ -9,18 +9,26 @@
 	{
 		"menuItems" : {"type": "item[]"}
 	},
+	"handlers":
+	{
+		"onItemClick": {"parameters":[
+								{
+						          "name":"itemName",
+								  "type":"String"
+								}
+							 ]
+						}
+	},
 	"types":
 	{
 		"item": {
 			"itemText": {"type":"string"},
 			"itemFaIconName" :{"type":"string"},
-			"onAction": { "type": "function"},
 			"subItems": { "type": "subItem[]"}
 		},
 		"subItem": {
 			"itemText": {"type":"string"},
-			"itemFaIconName" :{"type":"string"},
-			"onAction": { "type": "function"}
+			"itemFaIconName" :{"type":"string"}
 		}
 	}
 }

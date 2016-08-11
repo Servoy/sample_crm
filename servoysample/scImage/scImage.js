@@ -6,9 +6,6 @@ angular.module('servoysampleScImage',['servoy']).directive('servoysampleScImage'
 	      handlers: "=svyHandlers"
       },
       controller: function($scope, $element, $attrs) {
-    	  function test(){
-    		  console.log('bla')
-    	  }
       },
       templateUrl: 'servoysample/scImage/scImage.html'
     };

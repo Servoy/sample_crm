@@ -52,6 +52,7 @@ svyUUID:"1F725303-2643-4B38-99FD-8994037C6415"
 {
 itemFaIconName:"fa-users",
 itemText:"Contacts",
+onAction:"2B8A2EBE-E181-4A79-A13E-D9ECE90EFEB4",
 svyUUID:"414F573A-E629-4E22-9A89-53224C56CECD"
 },
 {
@@ -69,7 +70,8 @@ itemFaIconName:"fa-shopping-basket",
 itemText:"Orders",
 svyUUID:"4B2E3615-27A8-4D83-B1E8-E86E5F65E4B6"
 }
-]
+],
+onItemClick:"2B8A2EBE-E181-4A79-A13E-D9ECE90EFEB4"
 },
 location:"1,1",
 name:"navigation",
