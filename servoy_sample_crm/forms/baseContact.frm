@@ -23,7 +23,30 @@ specname:\"row\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"col-sm-12 phoneOnly fill\"\
+class:\"col-md-1 otherScreens nopadding\"\
+},\
+properties:{\
+packagename:\"12grid\",\
+specname:\"column\"\
+}",
+items:[
+{
+json:{
+containedForm:"6E1B0833-576F-4E70-99E9-2D51B24BEB90"
+},
+name:"navigationButtons",
+typeName:"bootstrapcomponents-tablesspanel",
+typeid:47,
+uuid:"F9026E23-5BE8-4271-9178-6AEFABAEEF86"
+}
+],
+location:"2,2",
+typeid:46,
+uuid:"0C502FE8-66B3-45C5-96EF-E4A083841761"
+},
+{
+customProperties:"attributes:{\
+class:\"col-sm-12 phoneOnly nopadding\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -42,7 +65,7 @@ typeid:47,
 uuid:"C0FAB5A4-2A27-4FCD-95A6-5C52C9DF6A7E"
 }
 ],
-location:"4,4",
+location:"5,5",
 typeid:46,
 uuid:"3D1CDA42-1B14-4E1E-91FB-A995C04421DB"
 },
@@ -92,13 +115,13 @@ typeid:47,
 uuid:"9739E483-2A34-4AF1-A53C-0EE92D421ABB"
 }
 ],
-location:"2,2",
+location:"3,3",
 typeid:46,
 uuid:"CE6BD4A3-8B1D-459E-BE0B-533A3DB550AB"
 },
 {
 customProperties:"attributes:{\
-class:\"col-md-12 otherScreens\"\
+class:\"col-md-12 otherScreens nopadding\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -116,7 +139,7 @@ typeid:47,
 uuid:"5F214B26-99A3-4137-B5D9-D328D71E309C"
 }
 ],
-location:"3,3",
+location:"4,4",
 typeid:46,
 uuid:"DC2412DD-1DE8-476B-B28F-730B6A49016D"
 }

@@ -19,10 +19,11 @@ function searchPerson(event) {
 		var fs = datasources.db.svy_sample.contacts.getFoundSet();
 			fs.loadRecords(application.getUUID(searchValue))
 		if(fs.getSize() == 1) {
-			if(forms.frm_list_tab.elements.tabpanel.tabIndex == 3) {
+			if(forms.frm_list_tab.elements.tabpanel.tabIndex == 1) {
 				foundset.setSelectedIndex(foundset.getRecordIndex(fs.getRecord(1)))
 			} else {
-				forms.dlg_editContact.showDialog(fs.getRecord(1))
+				application.output('OHOH This function is not build, try again later!!!')
+				//forms.dlg_editContact.showDialog(fs.getRecord(1))
 			}
 		}
 	}
