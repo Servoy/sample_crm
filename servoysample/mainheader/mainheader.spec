@@ -7,8 +7,13 @@
 	"model":
 	{
 		"logo" : {"type": "media"},
+		"showToggleMenu":{"type": "boolean", "default": true},
 		"userName": {"type":"string", "default": "UserName"},
 		"menuItems": {"type": "item[]"}
+	},
+	"handlers":
+	{
+		"toggleMenuButton": {}
 	},
 	"types":
 	{

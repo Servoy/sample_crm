@@ -132,6 +132,7 @@ itemText:"logout",
 svyUUID:"FD976272-437B-4C9E-885F-F8DF2FABD565"
 }
 ],
+toggleMenuButton:"E05AE2B0-491E-4FB7-8947-270CFEE94300",
 userName:"MyUsername"
 },
 name:"userheader",

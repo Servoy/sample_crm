@@ -7,7 +7,8 @@
 	{"name":"sidebar-menu.js", "version":"1.0.0", "url":"servoysample/SidebarNav/sidebar-menu.js", "mimetype":"text/javascript"}],
 	"model":
 	{
-		"menuItems" : {"type": "item[]"}
+		"menuItems" : {"type": "item[]"},
+		"menuView" : {"type": "string", "default": "full", "values": ["full", "mini"]}
 	},
 	"handlers":
 	{
@@ -18,6 +19,9 @@
 								}
 							 ]
 						}
+	},
+	"api": {
+		"getCurrentMenuView" : {"returns": "string"}
 	},
 	"types":
 	{

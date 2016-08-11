@@ -2,7 +2,8 @@ angular.module('servoysampleMainheader',['servoy']).directive('servoysampleMainh
     return {
       restrict: 'E',
       scope: {
-    	  model: '=svyModel'
+    	  model: '=svyModel',
+		  handlers: "=svyHandlers"
       },
       controller: function($scope, $element, $attrs) {
       },
