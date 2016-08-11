@@ -1,11 +1,5 @@
 Manifest-Version: 1.0
-CSS-ClientLibs: servoysample/lib/material/angular-material.min.css;nam
- e=angular-material.css;version=v1.0.0-rc5-master, servoysample/lib/ma
- terial/angular-material.layouts.css;name=angular-material-layouts-css
- ;version=v1.0.0-rc5-master, servoysample/lib/material/fonts/MaterialI
- cons-Regular/MaterialIcons-Regular.css;name=material-icons-regular.cs
- s;version=v1.0.0-rc5-master, servoysample/lib/font-awsome/font-awsome
- .min.css;name=font-awsome.css;version=v4.6.3
+CSS-ClientLibs: servoysample/lib/material/angular-material.min.css;name=angular-material.css;version=v1.0.0-rc5-master, servoysample/lib/material/angular-material.layouts.css;name=angular-material-layouts-css;version=v1.0.0-rc5-master, servoysample/lib/material/fonts/MaterialIcons-Regular/MaterialIcons-Regular.css;name=material-icons-regular.css;version=v1.0.0-rc5-master, servoysample/lib/font-awesome/font-awesome.min.css;name=font-awesome.css;version=v4.6.3
 Bundle-SymbolicName: servoysample
 Bundle-Name: Servoy Sample Components
 Bundle-Version: 1.0.0

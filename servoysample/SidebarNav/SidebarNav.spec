@@ -14,6 +14,12 @@
 		"item": {
 			"itemText": {"type":"string"},
 			"itemFaIconName" :{"type":"string"},
+			"onAction": { "type": "function"},
+			"subItems": { "type": "subItem[]"}
+		},
+		"subItem": {
+			"itemText": {"type":"string"},
+			"itemFaIconName" :{"type":"string"},
 			"onAction": { "type": "function"}
 		}
 	}

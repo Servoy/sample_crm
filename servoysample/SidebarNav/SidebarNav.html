@@ -36,15 +36,15 @@ $(document).ready(function() {
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
 <!-- Active needs to be dynamic (from servoy), so this part will be removed and build like the other part in ng-repeat -->
-                <li class="active">
-                    <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-dashboard fa-stack-1x "></i></span> Dashboard</a>
-                    <ul class="nav-pills nav-stacked" style="list-style-type:none;">
-                        <li><a href="#">link1</a>
-                        </li>
-                        <li><a href="#">link2</a>
-                        </li>
-                    </ul>
-                </li>
+<!--                 <li class="active"> -->
+<!--                     <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-dashboard fa-stack-1x "></i></span> Dashboard</a> -->
+<!--                     <ul class="nav-pills nav-stacked" style="list-style-type:none;"> -->
+<!--                         <li><a href="#">link1</a> -->
+<!--                         </li> -->
+<!--                         <li><a href="#">link2</a> -->
+<!--                         </li> -->
+<!--                     </ul> -->
+<!--                 </li> -->
                 <li ng-repeat="item in model.menuItems">
 					<a href="#" ng-click="{{item.onAction}}"><span class="fa-stack fa-lg pull-left"><i  class="{{item.itemFaIconName ? 'fa fa-stack-1x ' + item.itemFaIconName : 'fa fa-stack-1x'}}"></i></span>{{item.itemText}}</a>
                 </li>
