@@ -4,6 +4,7 @@ initialSort:"c_name_full asc",
 items:[
 {
 anchors:15,
+borderType:"EmptyBorder,0,0,0,0",
 items:[
 {
 containsFormID:"90289E78-63BA-4AD5-9916-4CD49FC10D61",
@@ -37,6 +38,7 @@ uuid:"DBD6581D-440C-453D-80D8-4A73EABE0162"
 }
 ],
 name:"frm_contactListDetail",
+onShowMethodID:"B7026037-8502-4378-BB14-5AE66E3D858F",
 scrollbars:32,
 showInMenu:true,
 size:"924,140",

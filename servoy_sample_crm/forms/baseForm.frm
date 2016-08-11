@@ -35,6 +35,7 @@ items:[
 json:{
 menuItems:[
 {
+enabled:true,
 itemFaIconName:"fa-dashboard",
 itemText:"Dashboard",
 subItems:[
@@ -50,22 +51,26 @@ svyUUID:"766F8254-D388-49E1-942B-E93D2C3A99A4"
 svyUUID:"1F725303-2643-4B38-99FD-8994037C6415"
 },
 {
+enabled:true,
 itemFaIconName:"fa-users",
 itemText:"Contacts",
 onAction:"2B8A2EBE-E181-4A79-A13E-D9ECE90EFEB4",
 svyUUID:"414F573A-E629-4E22-9A89-53224C56CECD"
 },
 {
+enabled:false,
 itemFaIconName:"fa-building",
 itemText:"Companies",
 svyUUID:"F89FB2B3-B67B-4D77-9C27-53DA688B5F4A"
 },
 {
+enabled:false,
 itemFaIconName:"fa-barcode",
 itemText:"Products",
 svyUUID:"329014B1-C975-469D-B9B5-AEEAAC246529"
 },
 {
+enabled:false,
 itemFaIconName:"fa-shopping-basket",
 itemText:"Orders",
 svyUUID:"4B2E3615-27A8-4D83-B1E8-E86E5F65E4B6"
@@ -87,7 +92,7 @@ uuid:"1D065C8A-6E7F-44D3-BFAD-5823992EFB32"
 },
 {
 customProperties:"attributes:{\
-class:\"col-md-9 nopadding\"\
+class:\"col-md-10 nopadding\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -132,6 +137,7 @@ itemText:"logout",
 svyUUID:"FD976272-437B-4C9E-885F-F8DF2FABD565"
 }
 ],
+showToggleMenu:true,
 toggleMenuButton:"E05AE2B0-491E-4FB7-8947-270CFEE94300",
 userName:"MyUsername"
 },

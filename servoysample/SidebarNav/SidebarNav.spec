@@ -28,11 +28,13 @@
 		"item": {
 			"itemText": {"type":"string"},
 			"itemFaIconName" :{"type":"string"},
-			"subItems": { "type": "subItem[]"}
+			"subItems": { "type": "subItem[]"},
+			"enabled": {"type": "protected", "default": true}
 		},
 		"subItem": {
 			"itemText": {"type":"string"},
-			"itemFaIconName" :{"type":"string"}
+			"itemFaIconName" :{"type":"string"},
+			"enabled": {"type": "protected", "default": true}
 		}
 	}
 }

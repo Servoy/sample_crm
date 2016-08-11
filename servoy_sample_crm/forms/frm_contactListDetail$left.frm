@@ -65,7 +65,7 @@ uuid:"C5670AB6-0636-4005-B5BD-8F1FB0E9B1DE"
 name:"frm_contactListDetail$left",
 scrollbars:32,
 showInMenu:true,
-size:"290,288",
+size:"320,106",
 typeid:3,
 uuid:"960B0CDD-751C-410B-A2CD-31E4D7EFC5CC",
 view:1

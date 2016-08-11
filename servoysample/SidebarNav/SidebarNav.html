@@ -2,7 +2,7 @@
     <div id="wrapper">
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
-                <li ng-repeat="item in model.menuItems" ng-class="{ active: item.itemText == activeItem }" svy-click='menuItemOnClick(item.itemText)'>
+                <li ng-repeat="item in model.menuItems" ng-class="{ active: item.itemText == activeItem }" svy-click='menuItemOnClick(item.itemText)' ng-if="item.enabled">
 					<a href="#">
 						<span class="fa-stack fa-lg pull-left">
 							<i  class="{{item.itemFaIconName ? 'fa fa-stack-1x ' + item.itemFaIconName : 'fa fa-stack-1x'}}"></i>

@@ -7,7 +7,7 @@
 	"model":
 	{
 		"logo" : {"type": "media"},
-		"showToggleMenu":{"type": "boolean", "default": true},
+		"showToggleMenu":{"type": "protected","blockingOn": false, "default": true},
 		"userName": {"type":"string", "default": "UserName"},
 		"menuItems": {"type": "item[]"}
 	},
