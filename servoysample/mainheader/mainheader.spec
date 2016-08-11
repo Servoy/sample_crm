@@ -1,6 +1,6 @@
 {
 	"name": "servoysample-mainheader",
-	"displayName": "mainheader",
+	"displayName": "Nav - User Headerbar",
 	"version": 1,
 	"definition": "servoysample/mainheader/mainheader.js",
 	"libraries": [],
