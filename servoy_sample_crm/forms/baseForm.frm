@@ -96,12 +96,12 @@ specname:\"column\"\
 items:[
 {
 json:{
-containedForm:"A82E2E0E-3793-4F82-B708-BB0915A3B85C"
+containedForm:"2AAAC968-4D7B-4914-AD03-2C2B9A15535B"
 },
-name:"content",
+name:"tab_content",
 typeName:"bootstrapcomponents-tablesspanel",
 typeid:47,
-uuid:"1401EB5C-83BA-4333-BB87-C6F705D5102D"
+uuid:"04D06934-1788-4FBA-9C57-9EF1E4DEF0B3"
 }
 ],
 location:"3,3",

@@ -1,0 +1,22 @@
+customProperties:"referenceForm:false",
+encapsulation:60,
+items:[
+{
+location:"15,10",
+size:"255,20",
+text:"Dashboard view",
+transparent:true,
+typeid:7,
+uuid:"77FA4AC0-BFAF-4526-B64E-6F716A084D7D"
+},
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"EF0EED3B-59FA-4C7C-8A29-078A0A9E9435"
+}
+],
+name:"baseDashboard",
+showInMenu:true,
+typeid:3,
+uuid:"2AAAC968-4D7B-4914-AD03-2C2B9A15535B"
