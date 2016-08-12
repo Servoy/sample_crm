@@ -18,15 +18,6 @@ function showDialog(record, newName) {
 
 	if (record) {
 		foundset.setSelectedIndex(foundset.getRecordIndex(record));
-	} else {
-		record = foundset.getRecord(foundset.newRecord());
-		if (newName) {
-			var obj = scopes.contactUtils.splitContactFullName(newName)
-			record.name_first = obj.firstName;
-			record.name_last = obj.lastName;
-			record.name_middle = obj.middleName;
-		}
-		foundset.setSelectedIndex(foundset.getRecordIndex(record));
 	}
 
 	var window = application.createWindow('editContact', JSWindow.MODAL_DIALOG);

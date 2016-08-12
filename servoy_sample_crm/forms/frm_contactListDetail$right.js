@@ -1,29 +1,4 @@
 /**
- * @properties={typeid:35,uuid:"E7D32F4D-4DBC-44E7-89EF-277B382E34A5",variableType:-4}
- */
-var formInEditMode = false;
-
-/**
- * @private
- * @param {Boolean} edit
- *
- * @properties={typeid:24,uuid:"2A87D0B9-A1C5-4E40-8B43-EC31B817DBD5"}
- */
-function setFieldEitable(edit) {
-	elements.fldName.editable = edit;
-	elements.fldEmail1.editable = edit;
-	elements.fldEmail2.editable = edit;
-	elements.fldPhone1.editable = edit;
-	elements.fldPhone2.editable = edit;
-	elements.fldPhone3.editable = edit;
-	elements.fldAddress1Line1.editable = edit;
-	elements.fldAddress1Zipcode.editable = edit;
-	elements.fldAddress1City.editable = edit;
-	elements.fldAddress2Line1.editable = edit;
-	elements.fldAddress2Zipcode.editable = edit;
-	elements.fldAddress2City.editable = edit;
-}
-/**
  * @param {JSEvent} event the event that triggered the action
  *
  *
@@ -32,49 +7,9 @@ function setFieldEitable(edit) {
 function editContact(event) {
 	//Set form in edit mode
 	databaseManager.setAutoSave(false);
-	setFieldEitable(true);
-
-	//setFormStatus && set correct button group
-	formInEditMode = true;
-	elements.grpEdit.visible = true;
-	elements.grpNormal.visible = false;
+	forms.dlg_editContact.showDialog(foundset.getSelectedRecord())
 }
 
-/**
- * @param {JSEvent} event the event that triggered the action
- * @private 
- * @properties={typeid:24,uuid:"638DBACA-9D4C-4601-9E3F-1D833B5FD174"}
- */
-function saveContact(event) {
-	//Save changed data
-	databaseManager.setAutoSave(true)
-	databaseManager.saveData();
-	setFieldEitable(false);
-
-	//setFormStatus && set correct button group
-	formInEditMode = false;
-	elements.grpEdit.visible = false;
-	elements.grpNormal.visible = true;
-
-}
-
-/**
- * @param {JSEvent} event the event that triggered the action
- * @private 
- * @properties={typeid:24,uuid:"EFF521D4-B96A-4513-8484-2FAEDC841526"}
- */
-function cancelContact(event) {
-	//Revert changes
-	databaseManager.revertEditedRecords();
-	databaseManager.saveData();
-	setFieldEitable(false);
-
-	//setFormStatus && set correct button group
-	formInEditMode = false;
-	elements.grpEdit.visible = false;
-	elements.grpNormal.visible = true;
-
-}
 /**
  * @private
  *
