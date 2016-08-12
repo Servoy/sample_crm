@@ -26,7 +26,6 @@ function setFieldEitable(edit) {
 /**
  * @param {JSEvent} event the event that triggered the action
  *
- * @private
  *
  * @properties={typeid:24,uuid:"2C6D15E3-1962-41D3-9FB9-9D89036F6A05"}
  */
@@ -43,7 +42,7 @@ function editContact(event) {
 
 /**
  * @param {JSEvent} event the event that triggered the action
- *
+ * @private 
  * @properties={typeid:24,uuid:"638DBACA-9D4C-4601-9E3F-1D833B5FD174"}
  */
 function saveContact(event) {
@@ -61,7 +60,7 @@ function saveContact(event) {
 
 /**
  * @param {JSEvent} event the event that triggered the action
- *
+ * @private 
  * @properties={typeid:24,uuid:"EFF521D4-B96A-4513-8484-2FAEDC841526"}
  */
 function cancelContact(event) {

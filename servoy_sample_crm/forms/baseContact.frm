@@ -5,15 +5,6 @@ encapsulation:60,
 items:[
 {
 customProperties:"attributes:{\
-class:\"container-fluid\"\
-},\
-properties:{\
-packagename:\"12grid\",\
-specname:\"container\"\
-}",
-items:[
-{
-customProperties:"attributes:{\
 class:\"row\"\
 },\
 properties:{\
@@ -23,7 +14,7 @@ specname:\"row\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"col-md-1 otherScreens nopadding\"\
+class:\"col-md-1 otherScreens\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -46,7 +37,7 @@ uuid:"0C502FE8-66B3-45C5-96EF-E4A083841761"
 },
 {
 customProperties:"attributes:{\
-class:\"col-sm-12 phoneOnly nopadding\"\
+class:\"col-sm-12 phoneOnly\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -121,7 +112,7 @@ uuid:"CE6BD4A3-8B1D-459E-BE0B-533A3DB550AB"
 },
 {
 customProperties:"attributes:{\
-class:\"col-md-12 otherScreens nopadding\"\
+class:\"col-md-12 otherScreens\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -144,14 +135,9 @@ typeid:46,
 uuid:"DC2412DD-1DE8-476B-B28F-730B6A49016D"
 }
 ],
-location:"2,2",
-typeid:46,
-uuid:"D96C285D-8367-43D1-8DF2-2336D0AC3F58"
-}
-],
 location:"1,1",
 typeid:46,
-uuid:"CAF6695C-FF11-4C5B-A551-E97F245CD777"
+uuid:"D96C285D-8367-43D1-8DF2-2336D0AC3F58"
 }
 ],
 name:"baseContact",

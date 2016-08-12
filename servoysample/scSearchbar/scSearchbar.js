@@ -18,7 +18,6 @@ angular.module('servoysampleScSearchbar', ['servoy', 'ngMaterial']).directive('s
 				$scope.selectedItem = getDisplayValue($scope.model.dataProviderID); // fix for editable grid
 				$scope.selectedItemChange = selectedItemChange;
 				$scope.searchTextChange = searchTextChange;
-
 				$scope.dpChanged = false;
 
 				// use timeout to attach onFocusLost/focusGained event to input field in autocomplete

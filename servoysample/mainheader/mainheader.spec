@@ -20,7 +20,8 @@
 		"item": {
 			"itemText": {"type":"string"},
 			"itemFaIconName" :{"type":"string"},
-			"onAction": { "type": "function"}
+			"onAction": { "type": "function"},
+			"enabled": {"type":"enabled"}
 		}
 	}
 }
