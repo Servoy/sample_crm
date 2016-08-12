@@ -1,4 +1,4 @@
-angular.module('servoysampleSidebarNav',['servoy']).directive('servoysampleSidebarNav', function() {  
+angular.module('servoysampleSidebarNav',['servoy']).directive('servoysampleSidebarNav', function($sabloApplication) {  
     return {
       restrict: 'E',
       scope: {
@@ -9,13 +9,15 @@ angular.module('servoysampleSidebarNav',['servoy']).directive('servoysampleSideb
       controller: function($scope, $element, $attrs) {
     	  
     	  //FUNCTIONS
-    	  $scope.init = init;
+    	  $scope.init = init();
     	  $scope.activeItem = $scope.model.menuItems[0].itemText;
 		  $scope.menuItemOnClick = menuItemOnClick;
 		  $scope.initMenu = initMenu;
 
     	 function init() {
     	 		initMenu();
+    	 		//Init set menu open (so toggle it once)
+    	 		$("#wrapper").toggleClass("toggled-2");
     		};
     		
     	  function menuItemOnClick(itemName) {
@@ -27,6 +29,15 @@ angular.module('servoysampleSidebarNav',['servoy']).directive('servoysampleSideb
     		    $('#menu ul').hide();
     		    $('#menu ul').children('.current').parent().show();
     		}
+    	  
+      	  $scope.getContainerStyle = function() {
+    		  var height = 0;
+    		  if ($scope.model.height)
+    		  {
+    			  height = $scope.model.height
+    		  }
+    		  return {position:"relative", minHeight:height+"px"};
+    	  }
     	  
     		//API
     		$scope.api.getCurrentMenuView = function() {

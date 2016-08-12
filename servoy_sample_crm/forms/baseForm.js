@@ -34,3 +34,18 @@ function toggleMenuButton() {
 	}
 
 }
+
+/**
+ * Callback method when form is resized.
+ *
+ * @param {JSEvent} event the event that triggered the action
+ *
+ * @protected
+ *
+ * @properties={typeid:24,uuid:"828383CC-7211-40E2-BF83-57F9432C725F"}
+ */
+function formOnResize(event) {
+	var height = application.getWindow().getHeight() - 58;
+	elements.navigation.height = height;
+	elements.tab_content.height = height;
+}
