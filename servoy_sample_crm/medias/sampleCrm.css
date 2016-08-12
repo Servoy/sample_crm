@@ -19,6 +19,29 @@
 .sc-contact-detail-addressLabel {
 	color: #f39c12;
 }
+.sc-contact-detail-name {
+	
+}
+.sc-contact-detail-company {
+	
+}
+
+.sc-contact-list-name {
+
+}
+.sc-contact-list-company {
+	
+}
+
+.sc-contact-listForm {
+
+}
+
+
+
+.sc-field-no-border {
+	box-shadow: 0px 0px 0px 0px;
+}
 
 /* Bootstrap part*/
 @media ( min-width : 768px) {
@@ -54,7 +77,7 @@
 
 .main-content{height:500px;}
 .row{position:relative;}
-.sidebar-container{padding:0px!important;overflow:hidden;diplay:none;}
+.sidebar-container{padding:0px!important;overflow:hidden;}
 .sc-mainheader{background-color:blue;border: none;min-height:50px;float:left;}
 .mainheader{padding:0px!important;}
 
