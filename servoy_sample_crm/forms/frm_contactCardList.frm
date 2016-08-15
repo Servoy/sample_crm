@@ -37,6 +37,7 @@ location:{
 x:0,
 y:0
 },
+onCardClick:"345B89FB-37C4-4F34-85B1-6583DBB70B29",
 onHeaderClick:"941F5DCE-9868-4B1F-8E7F-9FD421F88F91",
 size:{
 height:50,
