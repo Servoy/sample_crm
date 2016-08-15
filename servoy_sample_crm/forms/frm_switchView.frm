@@ -2,6 +2,7 @@ dataSource:"db:/svy_sample/contacts",
 encapsulation:60,
 items:[
 {
+anchors:3,
 imageMediaID:"BCA825ED-0226-415E-AF31-0960DA5E7FA1",
 location:"34,0",
 onActionMethodID:"958CC25E-BAAB-4034-81E9-ADC3CA6219AA",
@@ -15,6 +16,7 @@ typeid:7,
 uuid:"758DFC1B-57A2-46DE-BF44-906AAF2D6327"
 },
 {
+anchors:3,
 imageMediaID:"1EBD560E-F290-4293-932C-E2F7563C5611",
 location:"1,0",
 onActionMethodID:"FE9A449C-F895-4ECD-A3B4-DBA107A1C6E4",

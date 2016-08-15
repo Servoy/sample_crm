@@ -3,6 +3,7 @@ dataSource:"db:/svy_sample/contacts",
 encapsulation:60,
 items:[
 {
+anchors:3,
 imageMediaID:"8B556B36-212F-4362-8388-24964EFAF33A",
 location:"0,0",
 onActionMethodID:"F4F36015-D0B4-448E-A9A8-A05F33881320",
