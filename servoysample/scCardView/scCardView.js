@@ -1,4 +1,4 @@
-angular.module('servoysampleScCardView',['servoy']).directive('servoysampleScCardView', function() {  
+angular.module('servoysampleScCardView',['servoy', 'ngMaterial']).directive('servoysampleScCardView', function() {  
     return {
       restrict: 'E',
       scope: {

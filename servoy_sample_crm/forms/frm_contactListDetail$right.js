@@ -71,7 +71,8 @@ function editContactName(oldValue, newValue, event) {
  *
  * @properties={typeid:24,uuid:"C979D2A6-4E8E-4457-8C6F-DD9FEEFF0E68"}
  */
-function sendEmail(event) { }
+function sendEmail(event) { 
+}
 
 /**
  * Perform the element default action.
