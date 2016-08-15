@@ -12,14 +12,6 @@ typeid:15,
 uuid:"1EAFAF17-02EC-4318-897B-A38DC7384637"
 },
 {
-containsFormID:"7F4252D3-12BF-4459-A518-EC68DDF92737",
-location:"238,185",
-name:"tabList",
-text:"tabList",
-typeid:15,
-uuid:"7E1D090E-6601-45BB-916F-58868C663F34"
-},
-{
 containsFormID:"F0A2F93A-8BA2-40B8-A5C0-88273A411F54",
 location:"185,148",
 name:"tabCards",

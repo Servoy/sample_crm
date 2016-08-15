@@ -8,6 +8,6 @@
  * @properties={typeid:24,uuid:"4317A045-F1CD-42F4-98BB-2091D39772BF"}
  */
 function onResize(event) {
-	var height = forms.baseForm.elements.tab_content.height;
-	elements.tab_frm_list.height = height - 58;
+	//var height = forms.baseForm.elements.tab_content.height;
+	//elements.tab_frm_list.height = height - 58;
 }
