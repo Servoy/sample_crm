@@ -3,8 +3,9 @@ encapsulation:60,
 items:[
 {
 imageMediaID:"BCA825ED-0226-415E-AF31-0960DA5E7FA1",
-location:"38,5",
+location:"34,0",
 onActionMethodID:"958CC25E-BAAB-4034-81E9-ADC3CA6219AA",
+rolloverCursor:12,
 showClick:false,
 showFocus:false,
 size:"32,32",
@@ -15,8 +16,9 @@ uuid:"758DFC1B-57A2-46DE-BF44-906AAF2D6327"
 },
 {
 imageMediaID:"1EBD560E-F290-4293-932C-E2F7563C5611",
-location:"5,5",
+location:"1,0",
 onActionMethodID:"FE9A449C-F895-4ECD-A3B4-DBA107A1C6E4",
+rolloverCursor:12,
 showClick:false,
 showFocus:false,
 size:"32,32",
@@ -26,7 +28,7 @@ typeid:7,
 uuid:"8AE6DB78-FFF9-43A2-9566-F254D07623F8"
 },
 {
-height:40,
+height:32,
 partType:5,
 typeid:19,
 uuid:"C9C3F395-D801-4085-8976-CA34C6C2F605"
@@ -35,6 +37,6 @@ uuid:"C9C3F395-D801-4085-8976-CA34C6C2F605"
 name:"frm_switchView",
 scrollbars:36,
 showInMenu:true,
-size:"79,40",
+size:"64,32",
 typeid:3,
 uuid:"6E1B0833-576F-4E70-99E9-2D51B24BEB90"

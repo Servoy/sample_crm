@@ -1,13 +1,4 @@
 /**
- * @private
- *
- * @properties={typeid:24,uuid:"D7FCF4E0-4E73-434E-99F4-4D812F8A5580"}
- */
-function addContact() {
-	forms.dlg_editContact.showDialog()
-}
-
-/**
  * @param {JSEvent} event the event that triggered the action
  *
  * @private
@@ -16,19 +7,6 @@ function addContact() {
  */
 function editContact(event) {
 	forms.dlg_editContact.showDialog(foundset.getSelectedRecord());
-}
-
-/**
- * @param {JSEvent} event the event that triggered the action
- *
- * @private
- *
- * @properties={typeid:24,uuid:"35553ED0-AE56-4566-9437-DDBB969ACF9A"}
- */
-function menuMore(event) {
-	var window = plugins.window.createPopupMenu();
-	window.addMenuItem("Delete contactperson", deleteContact)
-	window.show(elements.btn_showOptions)
 }
 
 /**
@@ -41,17 +19,6 @@ function deleteContact() {
 		var rec = foundset.getSelectedRecord();
 		foundset.deleteRecord(rec);
 	}
-}
-
-/**
- * @param {JSEvent} event the event that triggered the action
- *
- * @private
- *
- * @properties={typeid:24,uuid:"F63E5735-0DC4-4C69-AC71-3C900918A103"}
- */
-function goToCardForm(event) {
-	forms.frm_list_tab.elements.tabpanel.tabIndex = 2
 }
 
 /**

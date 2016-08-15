@@ -1,3 +1,4 @@
+deprecated:"Replaced by tabless on contactBase",
 encapsulation:28,
 items:[
 {

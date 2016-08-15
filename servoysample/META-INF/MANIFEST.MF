@@ -1,19 +1,19 @@
 Manifest-Version: 1.0
 CSS-ClientLibs: servoysample/lib/material/angular-material.min.css;nam
- e=angular-material.css;version=v1.0.0-rc5-master, servoysample/lib/ma
- terial/angular-material.layouts.css;name=angular-material-layouts-css
- ;version=v1.0.0-rc5-master, servoysample/lib/font-awesome/font-awesom
- e.min.css;name=font-awesome.css;version=v4.6.3
+ e=angular-material.min.css;version=v1.0.0-rc5-master, servoysample/li
+ b/material/angular-material.layouts.css;name=angular-material-layouts
+ -css;version=v1.0.0-rc5-master, servoysample/lib/font-awesome/font-aw
+ esome.min.css;name=font-awesome.css;version=v4.6.3
 Bundle-SymbolicName: servoysample
 Bundle-Name: Servoy Sample Components
 Bundle-Version: 1.0.0
 Package-Type: Web-Component
 JS-ClientLibs: servoysample/lib/material/angular-material.min.js;name=
- angular-material.js;version=v1.0.0-rc5-master, servoysample/lib/mater
- ial/angular-animate.min.js;name=angular-animate.js;version=1.4.3, ser
- voysample/lib/material/angular-aria.min.js;name=angular-aria.js;versi
- on=v1.5.0, servoysample/lib/hammer/hammer.min.js;name=hammer.js;versi
- on=v2.0.4
+ angular-material.min.js;version=v1.0.0-rc5-master, servoysample/lib/m
+ aterial/angular-animate.min.js;name=angular-animate.min.js;version=1.
+ 4.3, servoysample/lib/material/angular-aria.min.js;name=angular-aria.
+ min.js;version=v1.5.0, servoysample/lib/hammer/hammer.min.js;name=ham
+ mer.min.js;version=v2.0.4
 
 Name: scSearchbar/scSearchbar.spec
 Web-Component: True
@@ -35,4 +35,3 @@ Web-Component: True
 
 Name: scImage/scImage.spec
 Web-Component: True
-

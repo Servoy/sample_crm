@@ -2,6 +2,13 @@
 {
 encapsulation:0,
 mimeType:"image/png",
+name:"contact/Add-User.png",
+typeid:37,
+uuid:"8B556B36-212F-4362-8388-24964EFAF33A"
+},
+{
+encapsulation:0,
+mimeType:"image/png",
 name:"contact/Address-1.png",
 typeid:37,
 uuid:"0919E912-01E1-47BB-9F39-B0FC32507D2A"
