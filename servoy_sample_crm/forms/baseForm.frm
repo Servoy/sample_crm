@@ -33,10 +33,12 @@ specname:\"column\"\
 items:[
 {
 json:{
-containedForm:"2AAAC968-4D7B-4914-AD03-2C2B9A15535B"
+containedForm:"2AAAC968-4D7B-4914-AD03-2C2B9A15535B",
+styleClass:"#content.toggle"
 },
 location:"2,2",
 name:"tab_content",
+styleClass:"#content.toggle",
 typeName:"bootstrapcomponents-tablesspanel",
 typeid:47,
 uuid:"04D06934-1788-4FBA-9C57-9EF1E4DEF0B3"
