@@ -1,6 +1,6 @@
 <md-content class="flex-container wrap" layout-xs="column" layout="row" ng-if='model.visible' id="{{::model.svyMarkupId}}">
     <div flex-xs flex-gt-xs="50" class="flex-item" ng-repeat="row in model.foundset.viewPort.rows" layout="column">
-      <md-card md-theme="'default'" md-theme-watch class="sc-card" svy-click="cardClicked(model.foundset.viewPort.rows.indexOf(row))">
+      <md-card md-theme='default' md-theme-watch class="sc-card" svy-click="cardClicked(model.foundset.viewPort.rows.indexOf(row))">
         <md-card-title>
           <md-card-title-text>
             <span class="sc-name">{{getData(model.columns[1],row)}}</span>
