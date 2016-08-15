@@ -19,7 +19,7 @@ dp0:null
 foundsetSelector:"db:/svy_sample/contacts",
 loadAllRecords:true
 },
-label:"Search or Add contactperson",
+label:"Search contactperson",
 location:{
 x:0,
 y:0

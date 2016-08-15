@@ -54,6 +54,14 @@ name:"email_2"
 },
 {
 allowNull:true,
+autoEnterType:3,
+creationOrderIndex:16,
+dataType:4,
+defaultValue:"0",
+name:"fav_chk"
+},
+{
+allowNull:true,
 compatibleColumnTypes:"[[-2,2147483647,0]]",
 creationOrderIndex:7,
 dataType:-4,

@@ -72,3 +72,20 @@ function editContactName(oldValue, newValue, event) {
  * @properties={typeid:24,uuid:"C979D2A6-4E8E-4457-8C6F-DD9FEEFF0E68"}
  */
 function sendEmail(event) { }
+
+/**
+ * Perform the element default action.
+ *
+ * @param {JSEvent} event the event that triggered the action
+ *
+ * @protected
+ *
+ * @properties={typeid:24,uuid:"C6B1C67D-94A5-4526-B982-1F3F6B71DEB3"}
+ */
+function markFav(event) {
+	if(fav_chk == 1) {
+		fav_chk = 0;
+	} else {
+		fav_chk = 1;
+	}
+}
