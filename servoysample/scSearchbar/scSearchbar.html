@@ -23,13 +23,7 @@
 		<span md-highlight-text="searchText" md-highlight-flags="^i">{{item.displayValue}}</span>
 	<md-not-found>
 		<span class='noResultName'>
-			{{searchText}}
-		</span>
-		<span >
-			<md-button 
-				class='noResultButtonAdd'
-				svy-click="handlers.noResultonActionMethodID(searchText)" >Add
-			</md-button>
+			{{model.noResultText}}
 		</span>
 	</md-not-found>
 </md-autocomplete>

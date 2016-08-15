@@ -26,6 +26,7 @@ y:0
 },
 noResult OnActionMethodID:"FE556F81-FE1E-4047-808B-908C98FFB4FA",
 noResultOnActionMethodID:"FE556F81-FE1E-4047-808B-908C98FFB4FA",
+noResultText:"No Result found",
 noResultonActionMethodID:"AEC08934-6826-43C0-98AD-8D05F7988E6A",
 onActionMethodID:"FBAC0E03-E6CE-49F2-835E-25B33790B6BE",
 size:{
