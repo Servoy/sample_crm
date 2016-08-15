@@ -1,15 +1,16 @@
-<body>
-    <div id="wrapper" ng-style='getContainerStyle()'>
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
-                <li ng-repeat="item in model.menuItems" ng-class="{ active: item.itemText == activeItem }" svy-click='menuItemOnClick(item.itemText)' ng-if="item.enabled">
-					<a href="#">
-						<span class="fa-stack fa-lg pull-left">
-							<i  class="{{item.itemFaIconName ? 'fa fa-stack-1x ' + item.itemFaIconName : 'fa fa-stack-1x'}}"></i>
-						</span>{{item.itemText}}
-					</a>               
-				</li>
-            </ul>
-        </div>
-    </div>
-</body>
+
+<div ng-class={{model.styleclass}}
+   <div id="wrapper" ng-style='getContainerStyle()'>
+       <div id="sidebar-wrapper">
+           <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
+               <li ng-repeat="item in model.menuItems" ng-class="{ active: item.itemText == activeItem }" svy-click='menuItemOnClick(item.itemText)' ng-if="item.enabled">
+				<a href="#">
+					<span class="fa-stack fa-lg pull-left">
+						<i  class="{{item.itemFaIconName ? 'fa fa-stack-1x ' + item.itemFaIconName : 'fa fa-stack-1x'}}"></i>
+					</span>{{item.itemText}}
+				</a>               
+			</li>
+           </ul>
+       </div>
+   </div>
+</div>

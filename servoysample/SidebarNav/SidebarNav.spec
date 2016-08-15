@@ -7,9 +7,10 @@
 	{"name":"sidebar-menu.js", "version":"1.0.0", "url":"servoysample/SidebarNav/sidebar-menu.js", "mimetype":"text/javascript"}],
 	"model":
 	{
-		"height" : {"type":"int", "default":0},
-		"menuItems" : {"type": "item[]"},
-		"menuView" : {"type": "string", "default": "full", "values": ["full", "mini"]}
+		"height"     : {"type":"int", "default":0},
+		"menuItems"  : {"type": "item[]"},
+		"menuView"   : {"type": "string", "default": "full", "values": ["full", "mini"]},
+		"styleclass" : {"type": "styleclass"}
 	},
 	"handlers":
 	{

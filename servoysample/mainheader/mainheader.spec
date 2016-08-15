@@ -6,10 +6,11 @@
 	"libraries": [],
 	"model":
 	{
-		"logo" : {"type": "media"},
+		"logo"          : {"type": "media"},
 		"showToggleMenu":{"type": "protected","blockingOn": false, "default": true},
-		"userName": {"type":"string", "default": "UserName"},
-		"menuItems": {"type": "item[]"}
+		"userName"      : {"type":"string", "default": "UserName"},
+		"menuItems"     : {"type": "item[]"},
+		"styleclass"    : {"type": "styleclass"}
 	},
 	"handlers":
 	{
