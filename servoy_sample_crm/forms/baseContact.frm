@@ -14,7 +14,7 @@ specname:\"row\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"col-md-1 otherScreens\"\
+class:\"col-md-4 otherScreens\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -23,7 +23,8 @@ specname:\"column\"\
 items:[
 {
 json:{
-containedForm:"6E1B0833-576F-4E70-99E9-2D51B24BEB90"
+containedForm:"6E1B0833-576F-4E70-99E9-2D51B24BEB90",
+styleClass:"sc-nav-buttons"
 },
 name:"navigationButtons",
 typeName:"bootstrapcomponents-tablesspanel",
@@ -37,7 +38,7 @@ uuid:"0C502FE8-66B3-45C5-96EF-E4A083841761"
 },
 {
 customProperties:"attributes:{\
-class:\"col-md-1 otherScreens\"\
+class:\"col-md-4 otherScreens\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -48,6 +49,7 @@ items:[
 json:{
 containedForm:"6B074B42-C235-4D43-A96E-588A0F2C6E23"
 },
+location:"1,1",
 name:"tablesspanel_1",
 typeName:"bootstrapcomponents-tablesspanel",
 typeid:47,
@@ -110,7 +112,7 @@ uuid:"BA5E1C83-6276-4E25-AF7E-528394CCBB50"
 },
 {
 customProperties:"attributes:{\
-class:\"col-md-4 col-md-offset-4 otherScreens\"\
+class:\"col-md-4 otherScreens\"\
 },\
 properties:{\
 packagename:\"12grid\",\

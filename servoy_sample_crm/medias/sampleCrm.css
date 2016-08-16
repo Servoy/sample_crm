@@ -1,9 +1,10 @@
 /* CONTACT - DETAIL SPLIT VIEW*/
 .sc-contact-detail-emailField {
+	
 
 }
 .sc-contact-detail-emailLabel {
-	color: #3498db;
+	color: black;;
 }
 
 .sc-contact-detail-phoneField {
@@ -22,24 +23,36 @@
 .sc-contact-detail-name {
 	
 }
-.sc-contact-detail-company {
-	
-}
+/* INPUT FIELDS STYLING */
+.sc-contact-detail-email::-webkit-input-placeholder{text-align:left;}
+.sc-contact-detail-company-email::-webkit-input-placeholder{text-align:left;}
+.sc-contact-detail-website::-webkit-input-placeholder{text-align:left;}
+.sc-contact-detail-company-website::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-linkedin::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-company-linkedin::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-city::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-company-city::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-phone::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-company-phone::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-address::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-company-address::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-zipcode::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-company-zipcode::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-company-country::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-mobile::-webkit-input-placeholder {text-align:left;}
 
-.sc-contact-list-name {
-
-}
-.sc-contact-list-company {
-	
-}
+/* END OF INPUT FIELDS STYLING */
 
 .sc-contact-listForm {
 
 }
-.test {
-	color: tomato;
+.sc-contact-envelope-icons {
+	color: #E48449;
 }
 
+.name-company-labels{font-size:18px;color:black;}
+.infotitle{font-size:25px;}
+.
 #content.toggle {
 	margin-left: 200px;
 }
@@ -84,6 +97,7 @@
 .sidebar-container{padding:0px!important;overflow:hidden;}
 .sc-mainheader{background-color:blue;border: none;min-height:50px;float:left;}
 .mainheader{padding:0px!important;}
+.sc-nav-buttons{}
 
 /* Servoy Components */
 /* BASE FORMS */
@@ -101,7 +115,9 @@
 
 .BS-formList {
 	height: 100%;
+	background-color:#e7e7e7;
 }
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {background-color:white;}
 
 .BS-formSearch {
 	
