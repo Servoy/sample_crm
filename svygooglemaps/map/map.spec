@@ -6,6 +6,7 @@
 	"libraries": [],
 	"model":
 	{
-		"ApiKey" : {"type": "string", "default":"YOUR_API_KEY"}
+		"apiKey" : {"type": "string", "default":"YOUR_API_KEY"},
+		"mapObject" : {"type": "object"}
 	}
 }

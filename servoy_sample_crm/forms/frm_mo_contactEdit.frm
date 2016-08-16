@@ -6,7 +6,7 @@ items:[
 anchors:11,
 json:{
 anchors:11,
-dataProviderID:"phone",
+dataProviderID:"phone_1",
 fieldimage:"03944A56-19E6-4AD7-A8B1-0840148149A9",
 label:"Phone",
 location:{
@@ -108,7 +108,7 @@ uuid:"F6082C0F-5375-4E28-AF2D-9AFA9AB74BB7"
 anchors:11,
 json:{
 anchors:11,
-dataProviderID:"email",
+dataProviderID:"email_1",
 fieldimage:"73EC7B6E-E451-4B46-91BE-1C7C2113B178",
 label:"E-mail",
 location:{

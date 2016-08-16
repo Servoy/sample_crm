@@ -2,13 +2,21 @@ angular.module('svygooglemapsMap',['servoy']).directive('svygooglemapsMap', ['$s
     return {
       restrict: 'E',
       scope: {
-    	  model: '=svyModel'
+    	  model: '=svyModel',
+    	  api: "=svyApi"
       },
       controller: function($scope, $element, $attrs) {
+    	  $scope.init = init();
+    	  
+    	  function init() {
+				if(!$scope.model.mapObject) {
+					$scope.model.mapObject = {zoom: 8, center: {lat: -34.397, lng: 150.644}}
+				}
+			}
       },
       templateUrl: 'svygooglemaps/map/map.html'
     };
-  }]).directive('vygooglemapsMapTemplate', ["$compile", function($compile) {
+  }]).directive('svygooglemapsMapTemplate', ["$compile", function($compile) {
 		return { 
 			restrict: 'E',
 			link: function($scope, $element, attrs, ctrl, transclude) {
@@ -37,12 +45,12 @@ angular.module('svygooglemapsMap',['servoy']).directive('svygooglemapsMap', ['$s
 										      var map; \
 										      function initMap() { \
 										        map = new google.maps.Map(document.getElementById(\'map\'), { \
-										          center: {lat: -34.397, lng: 150.644}, \
-										          zoom: 8 \
+										          center: {lat: 52.3409950, lng: 4.8636360}, \
+										          zoom: 16 \
 										        }); \
 										      } \
 										    </script> \
-										    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" \
+										    <script src="https://maps.googleapis.com/maps/api/js?key='+ $scope.model.apiKey +'&callback=initMap" \
 										    async defer></script> \
 										  </body> \
 										</html>'

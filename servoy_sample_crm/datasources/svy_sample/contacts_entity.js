@@ -52,13 +52,13 @@ function updateSearchData(record)
 		rec = contacts_to_searchbardata$phone.getRecord(contacts_to_searchbardata$phone.newRecord());
 	}
 	
-	if(rec && record.phone) {
+	if(rec && record.phone_1) {
 		displayValue = [];
 		if(record.c_name_full) {
 			displayValue.push(record.c_name_full);
 		}
-		if(record.phone) {
-			displayValue.push(record.phone);
+		if(record.phone_1) {
+			displayValue.push(record.phone_1);
 		}
 		
 		rec.returnvalue = record.contact_id;
@@ -74,13 +74,13 @@ function updateSearchData(record)
 		rec = contacts_to_searchbardata$email.getRecord(contacts_to_searchbardata$email.newRecord());
 	}
 	
-	if(rec && record.email) {
+	if(rec && record.email_1) {
 		displayValue = [];
 		if(record.c_name_full) {
 			displayValue.push(record.c_name_full);
 		}
-		if(record.email) {
-			displayValue.push(record.email);
+		if(record.email_1) {
+			displayValue.push(record.email_1);
 		}
 		
 		rec.returnvalue = record.contact_id;

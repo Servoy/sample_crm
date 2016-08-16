@@ -11,10 +11,16 @@
 	}],
 	"model":
 	{
-		"dataProviderID": { "type":"dataprovider",  "pushToServer": "allow", "tags": { }, "ondatachange": { "onchange":"onDataChangeMethodID"}}
-	},	
-	"handlers": 
+		"foundset": { "type": "foundset", "pushToServer": "allow" },
+		"columns":  { "type":"column[]", "droppable": true, "pushToServer": "shallow", "elementConfig" : {"pushToServer": "shallow"}},
+		"styleClass" : { "type": "styleclass", "tags": { "scope": "design" }},
+		"visible" : "visible"
+	},
+	"types":
 	{
-        "onDataChangeMethodID" 	: "function"
+		"column":
+		{
+			"dataprovider": {	"type": "dataprovider",	"forFoundset": "foundset" }
+		}
 	}
 }

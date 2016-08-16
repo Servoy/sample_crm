@@ -8,6 +8,7 @@
 		<project>svygooglemaps</project>
 		<project>svyUtils</project>
 		<project>svyfontawesome</project>
+		<project>bootstrapcomponents</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

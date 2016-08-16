@@ -4,8 +4,8 @@
  * @properties={typeid:35,uuid:"C4B6EDE6-1D1D-4973-8688-A6D34695C8FD",variableType:-4}
  */
 var contactViewForm = {
-	DETAIL: 'frm_contactListDetail',
-	CARD: 'frm_contactCardList'
+	DETAIL: 'frm_contact$listDetail',
+	CARD: 'frm_contact$cardBoard'
 }
 /**
  * @param {JSImage} file

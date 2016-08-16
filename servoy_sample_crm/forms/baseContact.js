@@ -9,5 +9,5 @@
  */
 function onResize(event) {
 	var height = forms.baseForm.elements.tab_content.height;
-	elements.tab_dataContent.height = height - 58;
+	elements.tab_dataContent.height = height// - 58;
 }

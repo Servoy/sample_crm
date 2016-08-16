@@ -2,7 +2,7 @@
  * @properties={typeid:24,uuid:"433DE9C1-2819-45A1-A180-34F5656F481C"}
  */
 function loadUsers() {
-	var userCount = 10//plugins.dialogs.showInputDialog('', 'Number of users to add')
+	var userCount = 75//plugins.dialogs.showInputDialog('', 'Number of users to add')
 	var userDelete = 'Yes'//plugins.dialogs.showQuestionDialog('', 'Delete all the data', 'Yes', 'No')
 	var fs = datasources.db.svy_sample.contacts.getFoundSet();
 
@@ -29,7 +29,9 @@ function loadUsers() {
 
 		//Job part
 		//rec.job_title = ;
-		rec.company = JSON.parse(plugins.http.getPageData("http://faker.hook.io/?property=company.companyName"))
+		rec.company = scopes.randomCompany.data[i].company;
+		rec.job_title = scopes.randomCompany.data[i].job_title;
+		rec.website = scopes.randomCompany.data[i].website;
 		
 		//Address part
 		recAddress = rec.contacts_to_addresses.getRecord(rec.contacts_to_addresses.newRecord())
@@ -54,12 +56,13 @@ function loadCountries() {
 		fs.deleteAllRecords();
 	}
 	
-	var countries = JSON.parse(plugins.http.getPageData('https://restcountries.eu/rest/v1/all'))
+	var countries = JSON.parse(plugins.http.getPageData('http://restcountries.eu/rest/v1/all'))
 	for(var i in countries) {
 		var rec = fs.getRecord(fs.newRecord());
 		rec.name = countries[i].name;
 		rec.alt_name = countries[i].altSpellings[0];
 		rec.region = countries[i].region
 	}
+	databaseManager.saveData()
 	
 }

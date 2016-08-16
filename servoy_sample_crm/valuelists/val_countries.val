@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"name",
+dataProviderID2:"countrie_id",
+dataSource:"db:/svy_sample/countries",
+name:"val_countries",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"FE094231-B296-4C9E-89F0-72FE8ACBB5D9",
+valueListType:1
