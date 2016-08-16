@@ -2,6 +2,12 @@
 	position: relative;
 	box-shadow: none;
 }
+md-chips.md-default-theme .md-chips, md-chips .md-chips {
+	box-shadow: none;
+}
+md-chips.md-default-theme .md-chips.md-focused, md-chips .md-chips.md-focused {
+	box-shadow: none;
+}
 
 .custom-chips md-chip ._md-chip-remove-container {
 	position: absolute;
