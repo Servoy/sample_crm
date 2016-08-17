@@ -1,7 +1,9 @@
 md-autocomplete.amd-autocomplete {
 	min-width: 0px;
 }
-
+md-autocomplete input:not(.md-input) {
+	height: 32px;
+}
 ::-webkit-input-placeholder {
    text-align: center;
 }
@@ -16,10 +18,4 @@ md-autocomplete.amd-autocomplete {
 
 :-ms-input-placeholder {  
    text-align: center; 
-}
-
-.noResultButtonAdd {
-	float: right;
-	margin-right: -10px;
-	z-index:99999;
 }

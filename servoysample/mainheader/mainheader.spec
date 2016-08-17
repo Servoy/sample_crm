@@ -3,7 +3,7 @@
 	"displayName": "Nav - User Headerbar",
 	"version": 1,
 	"definition": "servoysample/mainheader/mainheader.js",
-	"libraries": [],
+	"libraries": [{"name":"mainheader.css", "version":"1.0.0", "url":"servoysample/mainheader/mainheader.css", "mimetype":"text/css"}],
 	"model":
 	{
 		"logo"          : {"type": "media"},

@@ -1,0 +1,25 @@
+.srv-logo {
+	position: relative;
+	bottom: 20px;
+	height: 80px;
+	float: left;
+}
+
+.fixed-brand {
+	width: auto;
+}
+
+.sidebar-nav>.sidebar-brand {
+	height: 65px;
+	font-size: 18px;
+	line-height: 60px;
+}
+
+.sidebar-nav>.sidebar-brand a {
+	color: #999999;
+}
+
+.sidebar-nav>.sidebar-brand a:hover {
+	color: #fff;
+	background: none;
+}

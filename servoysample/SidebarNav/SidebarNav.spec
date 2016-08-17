@@ -3,8 +3,7 @@
 	"displayName": "Nav - Menubar",
 	"version": 1,
 	"definition": "servoysample/SidebarNav/SidebarNav.js",
-	"libraries": [{"name":"simple-sidebar.css", "version":"1.0.0", "url":"servoysample/SidebarNav/simple-sidebar.css", "mimetype":"text/css"},
-	{"name":"sidebar-menu.js", "version":"1.0.0", "url":"servoysample/SidebarNav/sidebar-menu.js", "mimetype":"text/javascript"}],
+	"libraries": [{"name":"simple-sidebar.css", "version":"1.0.0", "url":"servoysample/SidebarNav/simple-sidebar.css", "mimetype":"text/css"}],
 	"model":
 	{
 		"height"       : {"type":"int", "default":0},

@@ -1,5 +1,5 @@
 /* Toggle Styles */
-.fa-scsidebar {
+.faScsidebar {
 	display: inline-block;
 	font: normal normal normal 14px/1 FontAwesome;
 	font-size: inherit;
@@ -7,18 +7,6 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	top: 10px;
-}
-
-.srv-logo {
-	position: relative;
-	bottom: 20px;
-	height: 80px;
-	float: left;
-}
-
-.sc-user-not {
-	float: right;
-	position: relative;
 }
 
 #wrapper {
@@ -52,7 +40,7 @@
 }
 
 #wrapper.toggled #sidebar-wrapper {
-	width: 250px;
+	width: 100%;
 }
 
 #page-content-wrapper {
@@ -62,18 +50,11 @@
 	overflow-x: hidden;
 }
 
-.xyz {
-	min-width: 360px;
-}
-
 #wrapper.toggled #page-content-wrapper {
 	position: relative;
 	margin-right: 0px;
 }
 
-.fixed-brand {
-	width: auto;
-}
 /* Sidebar Styles */
 .sidebar-nav {
 	position: absolute;
@@ -83,10 +64,6 @@
 	padding: 0;
 	list-style: none;
 	margin-top: 2px;
-}
-
-.sideheader {
-	width: 250px;
 }
 
 .sidebar-nav li {
@@ -114,21 +91,6 @@
 .nav-pills>li.active>a,.nav-pills>li.active>a:hover,.nav-pills>li.active>a:focus
 	{
 	background-color: #E48445 !important;
-}
-
-.sidebar-nav>.sidebar-brand {
-	height: 65px;
-	font-size: 18px;
-	line-height: 60px;
-}
-
-.sidebar-nav>.sidebar-brand a {
-	color: #999999;
-}
-
-.sidebar-nav>.sidebar-brand a:hover {
-	color: #fff;
-	background: none;
 }
 
 .no-margin {
