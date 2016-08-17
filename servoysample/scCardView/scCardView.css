@@ -1,6 +1,6 @@
 .flex-container {
-  padding: 0;
-  margin: 0;
+  padding: 10px;
+  margin-left: 5px;
   list-style: none;
   border: none;
   -ms-box-orient: horizontal;
@@ -11,6 +11,7 @@
   display: -webkit-flex;
   display: flex;
   width: 100%;
+  background-color:#E7E7E7;
 }
 
 .wrap    { 
@@ -19,16 +20,16 @@
 }  
 
 .flex-item {
-  //background: tomato;
-  padding: 5px;
-  width: 400px;
-  height: 190px;
-  margin: 10px;
+
   
 }
+
 .sc-card{
-	height: 180px;
-	width: 375px;
+	height: 168px;
+	width: 354px;
+	-webkit-box-shadow: 7px 10px 21px -5px rgba(0,0,0,0.64);
+-moz-box-shadow: 7px 10px 21px -5px rgba(0,0,0,0.64);
+box-shadow: 7px 10px 21px -5px rgba(0,0,0,0.64);
 }
 .sc-name {
 	font-size: 18px;
