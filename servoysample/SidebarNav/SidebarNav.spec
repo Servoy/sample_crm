@@ -10,8 +10,7 @@
 		"height"       : {"type":"int", "default":0},
 		"menuItems"    : {"type": "item[]"},
 		"menuView"     : {"type": "string", "default": "full", "values": ["full", "mini"]},
-		"styleclass"   : {"type": "styleclass"},
-		"ExtraToggleId": {"type": "string"}
+		"styleclass"   : {"type": "styleclass"}
 	},
 	"handlers":
 	{

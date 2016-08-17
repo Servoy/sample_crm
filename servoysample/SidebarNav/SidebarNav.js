@@ -53,12 +53,6 @@ angular.module('servoysampleSidebarNav', ['servoy']).directive('servoysampleSide
 				$scope.$watch('model.menuView', function() {
 						if ($scope.model.menuView) {
 							$("#wrapper").toggleClass("toggled-2");
-							if ($scope.model.ExtraToggleId) {
-								var split = $scope.model.ExtraToggleId.split(".")
-								if (split && split[0] && split[1]) {
-									$(split[0]).toggleClass(split[1])
-								}
-							}
 						}
 					})
 			},
