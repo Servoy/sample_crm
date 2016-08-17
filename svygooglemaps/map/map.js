@@ -10,7 +10,7 @@ angular.module('svygooglemapsMap',['servoy']).directive('svygooglemapsMap', ['$s
     	  
     	  function init() {
 				if(!$scope.model.mapObject) {
-					$scope.model.mapObject = {zoom: 8, center: {lat: -34.397, lng: 150.644}}
+					$scope.model.mapObject = {zoom: 16, center: {lat: 52.3409950, lng: 4.8636360}}
 				}
 			}
       },
@@ -44,10 +44,7 @@ angular.module('svygooglemapsMap',['servoy']).directive('svygooglemapsMap', ['$s
 										    <script> \
 										      var map; \
 										      function initMap() { \
-										        map = new google.maps.Map(document.getElementById(\'map\'), { \
-										          center: {lat: 52.3409950, lng: 4.8636360}, \
-										          zoom: 16 \
-										        }); \
+										        map = new google.maps.Map(document.getElementById(\'map\'), ' + JSON.stringify($scope.model.mapObject) + '); \
 										      } \
 										    </script> \
 										    <script src="https://maps.googleapis.com/maps/api/js?key='+ $scope.model.apiKey +'&callback=initMap" \
