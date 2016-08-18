@@ -24,10 +24,6 @@
 	
 }
 
-.col-centered {
-  	float: none;
-	margin: 0 auto;
-}
 
 /* INPUT FIELDS STYLING */
 .sc-contact-detail-email::-webkit-input-placeholder{text-align:left;}
@@ -46,6 +42,7 @@
 .sc-contact-detail-company-zipcode::-webkit-input-placeholder {text-align:left;}
 .sc-contact-detail-company-country::-webkit-input-placeholder {text-align:left;}
 .sc-contact-detail-mobile::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-search::-webkit-input-placeholder {text-align:left;}
 
 /* END OF INPUT FIELDS STYLING */
 .sc-contact-envelope-icons {
@@ -99,7 +96,10 @@
 .sidebar-container{padding:0px!important;overflow:hidden;}
 .sc-mainheader{background-color:blue;border: none;min-height:50px;float:left;}
 .mainheader{padding:0px!important;}
-.sc-nav-buttons{}
+.sc-test-content{margin:0px;}
+.sc-listview{padding-right:0px!important;}
+.sc-user-detailed-view{padding-left:0px;}
+.col-centered {padding-left: 200px;padding-right: 200px;}
 
 /* Servoy Components */
 /* BASE FORMS */

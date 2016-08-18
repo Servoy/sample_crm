@@ -139,7 +139,7 @@ uuid:"2B546AE9-0770-4BF2-A3DE-3E673DD4B11A"
 {
 dataProviderID:"contacts_to_addresses$type1.line_1",
 editable:false,
-location:"63,418",
+location:"61,418",
 placeholderText:"Street Name",
 size:"323,20",
 styleClass:"sc-contact-detail-address",
@@ -312,10 +312,10 @@ uuid:"79117C51-96A8-4E75-9F10-F345694BB88E"
 dataProviderID:"contacts_to_addresses$type2.line_1",
 editable:false,
 location:"521,418",
+name:"filed",
 placeholderText:"Street Name",
-selectOnEnter:true,
 size:"315,20",
-styleClass:"sc-contact-company-address",
+styleClass:"sc-contact-detail-company-address",
 typeid:4,
 uuid:"86403CF6-DCB3-414E-AA1A-285D5B32012F"
 },

@@ -16,7 +16,7 @@ specname:\"2columns\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"col-md-3\"\
+class:\"col-md-3 sc-listview\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -26,7 +26,8 @@ items:[
 {
 json:{
 containedForm:"960B0CDD-751C-410B-A2CD-31E4D7EFC5CC",
-height:500
+height:500,
+styleClass:"sc-listview"
 },
 name:"tab_listForm",
 typeName:"bootstrapcomponents-tablesspanel",
@@ -40,7 +41,7 @@ uuid:"577650DF-85AE-408A-AEBC-770FAC08812D"
 },
 {
 customProperties:"attributes:{\
-class:\"col-md-9\"\
+class:\"col-md-9 sc-user-detailed-view\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -58,9 +59,11 @@ specname:\"responsivetable\"\
 items:[
 {
 json:{
-containedForm:"BD4AECA2-241E-45BC-863F-ABED0EFE834E"
+containedForm:"BD4AECA2-241E-45BC-863F-ABED0EFE834E",
+styleClass:"sc-user-main-container"
 },
 name:"tab_content",
+styleClass:"sc-user-main-container",
 typeName:"bootstrapcomponents-tablesspanel",
 typeid:47,
 uuid:"F196ABD1-226F-4323-80F5-3FF2B08072D5"
