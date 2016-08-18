@@ -19,18 +19,12 @@ angular.module('svygooglemapsMap',['servoy']).directive('svygooglemapsMap', ['$s
 											center: {lat: parseFloat($scope.model.Latitude), lng: parseFloat($scope.model.Longitude)}}
 				}
 			}
-    	  function convertAddres($address) {
-    		  console.log(arguments)
-    		  if($address && $scope.model.apiKey) {
-    			  $http.get("https://maps.googleapis.com/maps/api/geocode/json?address=" + encodeURI($address) + "&key=" + $scope.model.apiKey)
-				  console.info("https://maps.googleapis.com/maps/api/geocode/json?address=" + encodeURI($address) + "&key=" + $scope.model.apiKey)
-    		  }
-    		 
-    	  }
-    	  //API
-			$scope.api.setMapByAddress = function($address) {
-				if ($address) {
-					convertAddres($address)
+
+			$scope.api.setNewLocation = function($lat, $lng) {
+				if($lat && $lng) {
+					$scope.model.mapObject.center.lat = parseFloat($lat)
+					$scope.model.mapObject.center.lng = parseFloat($lng)
+					init()
 				}
 			};
       },

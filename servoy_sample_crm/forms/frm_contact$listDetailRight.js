@@ -3,7 +3,7 @@
  *
  * @param {JSEvent} event the event that triggered the action
  *
- * @protected 
+ * @protected
  *
  * @properties={typeid:24,uuid:"10D679FD-34C2-4484-ACF5-3602C3F57A49"}
  */
@@ -39,10 +39,17 @@ function deleteContact(event) {
  * @properties={typeid:24,uuid:"7ABBDAE3-EECF-49D7-A4DE-344E0FFEF590"}
  */
 function markFavorite(event) {
-	elements.googleMaps.setMapByAddress("ravelplantsoen 6")
-//	if(fav_chk == 1) {
-//		fav_chk = 0;
-//	} else {
-//		fav_chk = 1;
-//	}
+	var apiKey = "AIzaSyCBdY4vrndAD52OwBg1OpfReqe8xumQaTs"
+	var address = 'Ravelplantsoen 6, Amersfoort, Nederland'
+		/**@type {{results: Array<{geometry: {location: {lat: Number, lng: Number}}}>}} */
+	var result = JSON.parse(plugins.http.getPageData("https://maps.googleapis.com/maps/api/geocode/json?address=" + encodeURI(address) + "&key=" + apiKey))
+	if (result && result.results[0]) {
+		elements.googleMaps.setNewLocation(result.results[0].geometry.location.lat,result.results[0].geometry.location.lng)
+	}
+	//elements.googleMaps.setMapByAddress("ravelplantsoen 6")
+	//	if(fav_chk == 1) {
+	//		fav_chk = 0;
+	//	} else {
+	//		fav_chk = 1;
+	//	}
 }

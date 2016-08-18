@@ -18,11 +18,15 @@
 	},
 	"api":
 	{
-		"setMapByAddress": {"parameters":[
+		"setNewLocation": {"parameters":[
 								{                                                                 
- 								"name":"address",
-								"type":"string"
-			                	}             
+ 								"name":"lat",
+								"type":"Number"
+			                	}, 
+			                	{                                                                 
+ 								"name":"lng",
+								"type":"Number"
+			                	}              
 							 ]}
 	}
 }

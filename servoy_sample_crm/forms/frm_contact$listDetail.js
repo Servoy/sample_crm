@@ -54,10 +54,9 @@ function deleteContact(event) {
  * @properties={typeid:24,uuid:"2E5B13DC-C293-48EF-A91C-EB353A6481BB"}
  */
 function markFavorite(event) {
-	elements.formcomponent_1$containedForm$googleMaps.setMapByAddress("ravelplantsoen 6")
-//	if(fav_chk == 1) {
-//		fav_chk = 0;
-//	} else {
-//		fav_chk = 1;
-//	}
+	if(fav_chk == 1) {
+		fav_chk = 0;
+	} else {
+		fav_chk = 1;
+	}
 }
