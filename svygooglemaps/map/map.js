@@ -5,14 +5,34 @@ angular.module('svygooglemapsMap',['servoy']).directive('svygooglemapsMap', ['$s
     	  model: '=svyModel',
     	  api: "=svyApi"
       },
-      controller: function($scope, $element, $attrs) {
+      controller: function($scope, $element, $attrs, $http) {
     	  $scope.init = init();
     	  
+    	  //FUNCTIONS
     	  function init() {
 				if(!$scope.model.mapObject) {
-					$scope.model.mapObject = {zoom: 16, center: {lat: 52.3409950, lng: 4.8636360}}
+					$scope.model.mapObject = {zoom: $scope.model.zoom, 
+											disableDoubleClickZoom: $scope.model.disableDoubleClickZoom,
+											draggable: $scope.model.draggable,
+											keyboardShortcuts: $scope.model.keyboardShortcuts,
+											scrollwheel: $scope.model.scrollwheel,
+											center: {lat: parseFloat($scope.model.Latitude), lng: parseFloat($scope.model.Longitude)}}
 				}
 			}
+    	  function convertAddres($address) {
+    		  console.log(arguments)
+    		  if($address && $scope.model.apiKey) {
+    			  $http.get("https://maps.googleapis.com/maps/api/geocode/json?address=" + encodeURI($address) + "&key=" + $scope.model.apiKey)
+				  console.info("https://maps.googleapis.com/maps/api/geocode/json?address=" + encodeURI($address) + "&key=" + $scope.model.apiKey)
+    		  }
+    		 
+    	  }
+    	  //API
+			$scope.api.setMapByAddress = function($address) {
+				if ($address) {
+					convertAddres($address)
+				}
+			};
       },
       templateUrl: 'svygooglemaps/map/map.html'
     };
