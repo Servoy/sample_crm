@@ -19,6 +19,7 @@ location:{
 x:423,
 y:174
 },
+onActionMethodID:"10D679FD-34C2-4484-ACF5-3602C3F57A49",
 size:{
 height:28,
 width:29
@@ -282,6 +283,7 @@ location:{
 x:457,
 y:173
 },
+onActionMethodID:"7F3C6F55-C3F9-4560-AB74-42C45D2EAB33",
 size:{
 height:26,
 width:23

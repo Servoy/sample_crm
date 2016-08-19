@@ -76,6 +76,9 @@
 	margin: 0 !important;
 }
 
+.no-scrollbar {
+	 overflow:hidden;
+}
 
 /* LAYOUT part*/
 

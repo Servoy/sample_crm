@@ -33,7 +33,7 @@ specname:\"column\"\
 items:[
 {
 json:{
-containedForm:"2AAAC968-4D7B-4914-AD03-2C2B9A15535B",
+containedForm:"7594FE1C-88F2-414C-87CC-6394F228DE8D",
 styleClass:"srv_content"
 },
 location:"2,2",
@@ -131,7 +131,7 @@ specname:\"2columns\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"col-md-12 nopadding\"\
+class:\"col-md-12 nopadding no-scrollbar\"\
 },\
 properties:{\
 packagename:\"12grid\",\

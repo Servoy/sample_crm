@@ -82,9 +82,9 @@ function renderMapImageLeft() {
 	var reca
 	var allowLoad = false
 
-	if (utils.hasRecords(rec.contacts_to_addresses$type1)) {
+	if (utils.hasRecords(rec, 'contacts_to_addresses$type1')) {
 		reca = rec.contacts_to_addresses$type1.getRecord(1)
-		if (utils.hasRecords(reca.addresses_to_countries)) {
+		if (utils.hasRecords(reca, 'addresses_to_countries')) {
 			if (reca.line_1 && reca.city && reca.addresses_to_countries.name) {
 				correctData.street = reca.line_1
 				correctData.city = reca.city
@@ -114,9 +114,9 @@ function renderMapImageRight() {
 	var reca
 	var allowLoad = false
 
-	if (utils.hasRecords(rec.contacts_to_addresses$type2)) {
+	if (utils.hasRecords(rec, 'contacts_to_addresses$type2')) {
 		reca = rec.contacts_to_addresses$type2.getRecord(1)
-		if (utils.hasRecords(reca.addresses_to_countries)) {
+		if (utils.hasRecords(reca, 'addresses_to_countries')) {
 			if (reca.line_1 && reca.city && reca.addresses_to_countries.name) {
 				correctData.street = reca.line_1
 				correctData.city = reca.city

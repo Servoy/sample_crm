@@ -22,10 +22,9 @@ angular.module('servoysampleSidebarNav', ['servoy']).directive('servoysampleSide
 				;
 
 				function menuItemOnClick(itemName) {
-					$scope.activeItem = itemName;
+					$scope.activeItem = itemName;	
 					$scope.handlers.onItemClick(itemName);
-				}
-				;
+				};
 
 				function initMenu() {
 					$('#menu ul').hide();
@@ -35,7 +34,7 @@ angular.module('servoysampleSidebarNav', ['servoy']).directive('servoysampleSide
 				$scope.getContainerStyle = function() {
 					var height = 0;
 					if ($scope.model.height) {
-						height = $scope.model.height
+						height = $scope.model.height;
 					}
 					return { position: "relative", minHeight: height + "px" };
 				}
