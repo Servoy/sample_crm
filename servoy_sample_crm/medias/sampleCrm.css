@@ -46,6 +46,9 @@
 .sc-contact-detail-mobile::-webkit-input-placeholder {text-align:left;}
 .sc-contact-detail-search::-webkit-input-placeholder {text-align:left;}
 
+.srv_content {
+	height: 100% !important;
+}
 /* END OF INPUT FIELDS STYLING */
 .sc-contact-envelope-icons {
 	color: #E48449;
@@ -92,7 +95,7 @@
 .sc-mainheader{background-color:blue;border: none;min-height:50px;float:left;}
 .mainheader{padding:0px!important;}
 .sc-test-content{margin:0px;}
-.sc-listview{padding-right:0px!important;}
+.sc-listview{padding-right:0px!important; height: 100%}
 .sc-user-detailed-view{padding-left:0px;}
 .col-centered {padding-left: 10px;padding-right:0px;}
 

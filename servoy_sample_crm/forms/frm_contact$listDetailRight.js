@@ -61,8 +61,6 @@ function markFavorite(event) {
  *
  * @param {JSEvent} event the event that triggered the action
  *
- * @protected
- *
  * @properties={typeid:24,uuid:"A8950A36-0AEF-4A04-A282-0743F7931673"}
  */
 function onRecordSelection(event) {

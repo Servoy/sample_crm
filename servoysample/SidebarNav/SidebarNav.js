@@ -35,6 +35,10 @@ angular.module('servoysampleSidebarNav', ['servoy']).directive('servoysampleSide
 					var height = 0;
 					if ($scope.model.height) {
 						height = $scope.model.height;
+					} 
+					
+					if(height == 1) {
+						return { height: "100%" };
 					}
 					return { position: "relative", minHeight: height + "px" };
 				}

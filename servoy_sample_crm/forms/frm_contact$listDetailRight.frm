@@ -44,9 +44,11 @@ uuid:"0E7A7891-5573-4DC1-AD03-C1451CB47A45"
 {
 dataProviderID:"c_name_full",
 editable:false,
+fontType:"Helvetica Neue,0,16",
+horizontalAlignment:0,
 location:"266,213",
 placeholderText:"Full name",
-size:"366,26",
+size:"366,30",
 styleClass:"sc-contact-detail-field",
 typeid:4,
 uuid:"115F225A-4A7B-4641-BE41-B13EC04C5285"
@@ -184,6 +186,8 @@ uuid:"3EBDAC90-B02F-4956-B4B2-36D4044164F8"
 {
 dataProviderID:"c_job_company",
 editable:false,
+fontType:"Helvetica Neue,0,16",
+horizontalAlignment:0,
 location:"265,251",
 placeholderText:"Company",
 selectOnEnter:true,
@@ -562,7 +566,7 @@ onRecordSelectionMethodID:"A8950A36-0AEF-4A04-A282-0743F7931673",
 scrollbars:36,
 showInMenu:true,
 size:"886,822",
-styleClass:"sc-contact-details-mobile",
+styleClass:"sc-contact-details-mobile full-height",
 titleText:"titleText\tDEFAULT",
 typeid:3,
 uuid:"BD4AECA2-241E-45BC-863F-ABED0EFE834E"

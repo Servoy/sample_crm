@@ -5,7 +5,7 @@ encapsulation:28,
 items:[
 {
 customProperties:"attributes:{\
-class:\"row\"\
+class:\"row full-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -64,7 +64,7 @@ uuid:"BA5E1C83-6276-4E25-AF7E-528394CCBB50"
 },
 {
 customProperties:"attributes:{\
-class:\"col-md-12 otherScreens\"\
+class:\"col-md-12 otherScreens full-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -74,7 +74,7 @@ items:[
 {
 json:{
 containedForm:"498E5B9E-AAFE-4665-AEE2-F37524065E43",
-styleClass:"BS-formList"
+styleClass:"BS-formList full-height"
 },
 name:"tab_dataContent",
 typeName:"bootstrapcomponents-tablesspanel",
@@ -95,9 +95,9 @@ uuid:"D96C285D-8367-43D1-8DF2-2336D0AC3F58"
 name:"baseContact",
 navigatorID:"-1",
 onLoadMethodID:"-1",
-onResizeMethodID:"4317A045-F1CD-42F4-98BB-2091D39772BF",
 scrollbars:33,
 showInMenu:true,
 size:"300,0",
+styleClass:"full-height",
 typeid:3,
 uuid:"A82E2E0E-3793-4F82-B708-BB0915A3B85C"

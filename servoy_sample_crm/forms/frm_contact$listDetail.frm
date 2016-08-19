@@ -7,16 +7,16 @@ encapsulation:60,
 items:[
 {
 customProperties:"attributes:{\
-class:\"row\"\
+class:\"row full-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
-specname:\"2columns\"\
+specname:\"row\"\
 }",
 items:[
 {
 customProperties:"attributes:{\
-class:\"col-md-3 sc-listview\"\
+class:\"col-md-3 sc-listview full-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -26,8 +26,8 @@ items:[
 {
 json:{
 containedForm:"960B0CDD-751C-410B-A2CD-31E4D7EFC5CC",
-height:500,
-styleClass:"sc-listview"
+height:0,
+styleClass:"sc-listview full-height"
 },
 name:"tab_listForm",
 typeName:"bootstrapcomponents-tablesspanel",
@@ -41,7 +41,7 @@ uuid:"577650DF-85AE-408A-AEBC-770FAC08812D"
 },
 {
 customProperties:"attributes:{\
-class:\"col-md-9 sc-user-detailed-view\"\
+class:\"col-md-9 sc-user-detailed-view full-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -50,7 +50,7 @@ specname:\"column\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"col-centered\"\
+class:\"col-centered full-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -60,10 +60,9 @@ items:[
 {
 json:{
 containedForm:"BD4AECA2-241E-45BC-863F-ABED0EFE834E",
-styleClass:"sc-user-main-container"
+styleClass:"sc-user-main-container full-height"
 },
 name:"tab_content",
-styleClass:"sc-user-main-container",
 typeName:"bootstrapcomponents-tablesspanel",
 typeid:47,
 uuid:"F196ABD1-226F-4323-80F5-3FF2B08072D5"
@@ -79,14 +78,14 @@ typeid:46,
 uuid:"CC71E61C-2A86-47BB-9F85-36D610FEE076"
 }
 ],
-location:"1,1",
+location:"2,2",
 typeid:46,
-uuid:"FD7EE12C-E4F6-4FDF-8FF2-73A5F8144383"
+uuid:"74CFDCC6-AA7B-4AC4-8A99-C3C391064C8E"
 }
 ],
 name:"frm_contact$listDetail",
-onResizeMethodID:"FC97CE68-BC00-4693-935D-262BD35BF83E",
 scrollbars:36,
 showInMenu:true,
+styleClass:"full-height",
 typeid:3,
 uuid:"498E5B9E-AAFE-4665-AEE2-F37524065E43"

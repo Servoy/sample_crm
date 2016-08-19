@@ -33,7 +33,8 @@ uuid:"0BDE55FF-B2E0-4C7E-86EE-E0F60104ACAD"
 {
 dataProviderID:"job_title",
 editable:false,
-location:"265,152",
+fontType:"Helvetica Neue,0,18",
+location:"265,114",
 name:"fldCompanyc",
 placeholderText:"Job Title",
 selectOnEnter:true,
@@ -50,11 +51,12 @@ uuid:"14BB1831-863D-4A2F-8894-509FEDCC1FD9"
 },
 {
 dataProviderID:"c_name_full",
-location:"266,79",
+fontType:"Helvetica Neue,0,18",
+location:"266,45",
 name:"fldfullname",
 onDataChangeMethodID:"06FF149D-05D3-4547-96CD-5DFE5124317D",
 placeholderText:"Full name",
-size:"366,26",
+size:"366,30",
 styleClass:"sc-contact-detail-field",
 typeid:4,
 uuid:"1F4D7C80-0A56-4884-8377-D01357509C4B"
@@ -73,6 +75,26 @@ size:"32,32",
 transparent:true,
 typeid:7,
 uuid:"274899D8-A6CB-4CB5-8E8A-73D1C4A2526C"
+},
+{
+json:{
+faclass:"fa-briefcase fa-2x",
+location:{
+x:230,
+y:115
+},
+size:{
+height:23,
+width:28
+},
+styleclass:"sc-contact-envelope-icons"
+},
+location:"230,115",
+name:"icon_envelope_home_copy399c",
+size:"28,23",
+typeName:"svyfontawesome-fa-Icon",
+typeid:47,
+uuid:"28278F78-E776-42DD-92FF-24C24CFD93FE"
 },
 {
 json:{
@@ -132,20 +154,41 @@ json:{
 faclass:"fa-building fa-2x",
 location:{
 x:230,
-y:119
+y:81
 },
 size:{
 height:23,
-width:42
+width:28
 },
 styleclass:"sc-contact-envelope-icons"
 },
-location:"230,119",
+location:"230,81",
 name:"icon_envelope_home_copy399",
-size:"42,23",
+size:"28,23",
 typeName:"svyfontawesome-fa-Icon",
 typeid:47,
 uuid:"3F67E5F7-58B7-4627-AEF1-CC77CF20DF1B"
+},
+{
+json:{
+faclass:"fa-pencil fa-2x",
+location:{
+x:130,
+y:150
+},
+onActionMethodID:"C6579050-9255-4BE6-8F4D-2A30DEE634A7",
+size:{
+height:23,
+width:28
+},
+styleclass:"sc-contact-envelope-icons"
+},
+location:"130,150",
+name:"icon_envelope_home_copy399cc",
+size:"28,23",
+typeName:"svyfontawesome-fa-Icon",
+typeid:47,
+uuid:"4719FD1D-BA76-4DA3-AB97-11A873079170"
 },
 {
 location:"59,193",
@@ -249,18 +292,6 @@ size:"23,23",
 typeName:"svyfontawesome-fa-Icon",
 typeid:47,
 uuid:"8D7101CF-F040-457B-A708-046B4EF4EB38"
-},
-{
-imageMediaID:"66BF16DE-39F2-4F82-948E-2E3F90376697",
-location:"133,155",
-onActionMethodID:"C6579050-9255-4BE6-8F4D-2A30DEE634A7",
-showClick:false,
-showFocus:false,
-size:"31,25",
-text:"",
-transparent:true,
-typeid:7,
-uuid:"8EC450AF-EE1E-4FC5-928C-FB3731133B75"
 },
 {
 dataProviderID:"phone_2",
@@ -396,7 +427,7 @@ json:{
 faclass:"fa-user fa-2x",
 location:{
 x:231,
-y:79
+y:45
 },
 size:{
 height:23,
@@ -404,7 +435,7 @@ width:42
 },
 styleclass:"sc-contact-envelope-icons"
 },
-location:"231,79",
+location:"231,45",
 name:"icon_envelope_home_copy399_copy146",
 size:"42,23",
 typeName:"svyfontawesome-fa-Icon",
@@ -433,7 +464,8 @@ uuid:"D39823AE-977B-4A52-88D5-C206B1949905"
 {
 dataProviderID:"company",
 editable:false,
-location:"265,117",
+fontType:"Helvetica Neue,0,18",
+location:"265,79",
 name:"fldCompany",
 placeholderText:"Company",
 selectOnEnter:true,

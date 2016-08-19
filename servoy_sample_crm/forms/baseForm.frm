@@ -6,7 +6,7 @@ encapsulation:28,
 items:[
 {
 customProperties:"attributes:{\
-class:\"container-fluid\"\
+class:\"container-fluid full-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -34,10 +34,12 @@ items:[
 {
 json:{
 containedForm:"7594FE1C-88F2-414C-87CC-6394F228DE8D",
-styleClass:"srv_content"
+height:0,
+styleClass:"full-height"
 },
 location:"2,2",
 name:"tab_content",
+styleClass:"full-height",
 typeName:"bootstrapcomponents-tablesspanel",
 typeid:47,
 uuid:"04D06934-1788-4FBA-9C57-9EF1E4DEF0B3"
@@ -45,7 +47,7 @@ uuid:"04D06934-1788-4FBA-9C57-9EF1E4DEF0B3"
 {
 json:{
 ExtraToggleId:"content.toggle",
-height:480,
+height:1,
 menuItems:[
 {
 enabled:true,
