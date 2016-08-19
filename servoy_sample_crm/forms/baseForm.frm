@@ -15,7 +15,7 @@ specname:\"container\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"row\"\
+class:\"row full-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -24,7 +24,7 @@ specname:\"row\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"col-md-12 sidebar-container\"\
+class:\"col-md-12 sidebar-container full-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -184,5 +184,6 @@ uuid:"4BB0BA3D-8B4D-4E5B-8E5A-775E5841EA87"
 name:"baseForm",
 navigatorID:"-1",
 onResizeMethodID:"828383CC-7211-40E2-BF83-57F9432C725F",
+styleClass:"full-height",
 typeid:3,
 uuid:"E9159A77-356D-4AA2-9EEE-B23680611D9C"
