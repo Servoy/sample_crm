@@ -1,5 +1,6 @@
 /**
  * @properties={typeid:24,uuid:"433DE9C1-2819-45A1-A180-34F5656F481C"}
+ * @AllowToRunInFind
  */
 function loadUsers() {
 	var userCount = 75//plugins.dialogs.showInputDialog('', 'Number of users to add')
@@ -14,6 +15,7 @@ function loadUsers() {
 	var rec, recAddress
 	/**@type {{results: Array}}*/
 	var randomUser = JSON.parse(plugins.http.getPageData('https://randomuser.me/api/?nat=nl,us&results=' + userCount.toString()))
+	var fsCountry = datasources.db.svy_sample.countries.getFoundSet()
 	for (var i = 0; i < userCount; i++) {
 		rec = fs.getRecord(fs.newRecord());
 		var obj = scopes.contactUtils.splitContactFullName(randomUser.results[i].name.first + ' ' + randomUser.results[i].name.last)
@@ -22,22 +24,31 @@ function loadUsers() {
 		rec.name_last = obj.lastName;
 		rec.phone_1 = randomUser.results[i].phone;
 		rec.phone_3 = randomUser.results[i].cell;
-
 			
 		rec.email_1 = randomUser.results[i].email
 		rec.image = plugins.http.getMediaData(randomUser.results[i].picture.large)
 
 		//Job part
-		//rec.job_title = ;
 		rec.company = scopes.randomCompany.data[i].company;
 		rec.job_title = scopes.randomCompany.data[i].job_title;
 		rec.website = scopes.randomCompany.data[i].website;
 		
+		
 		//Address part
-		recAddress = rec.contacts_to_addresses.getRecord(rec.contacts_to_addresses.newRecord())
+		recAddress = rec.contacts_to_addresses$type1.getRecord(rec.contacts_to_addresses$type1.newRecord())
 		recAddress.city = randomUser.results[i].location.city
 		recAddress.zipcode = randomUser.results[i].location.postcode
 		recAddress.line_1 = randomUser.results[i].location.street
+		
+		if(fsCountry.find()) {
+			fsCountry.alt_name = randomUser.results[i].nat
+			var result = fsCountry.search();
+			if(result == 1) {
+				recAddress.countrie_id = fsCountry.getRecord(1).countrie_id
+			}
+			
+		}
+		
 		databaseManager.saveData(rec)
 		databaseManager.saveData(recAddress)
 		application.output("Loading data: " + i + ' of ' + (userCount -1))

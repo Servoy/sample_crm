@@ -2,7 +2,8 @@ angular.module('svyfontawesomeFaIcon',['servoy']).directive('svyfontawesomeFaIco
     return {
       restrict: 'E',
       scope: {
-    	  model: '=svyModel'
+    	  model: '=svyModel',
+    	  handlers : "=svyHandlers"
       },
       controller: function($scope, $element, $attrs) {
       },

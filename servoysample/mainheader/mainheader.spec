@@ -7,8 +7,9 @@
 	"model":
 	{
 		"logo"          : {"type": "media"},
-		"showToggleMenu":{"type": "protected","blockingOn": false, "default": true},
-		"userName"      : {"type":"string", "default": "UserName"},
+		"showToggleMenu": {"type": "protected","blockingOn": false, "default": true},
+		"userName"      : {"type": "string", "default": "UserName"},
+		"userImage"		: {"type": "media"},
 		"menuItems"     : {"type": "item[]"},
 		"styleclass"    : {"type": "styleclass"}
 	},

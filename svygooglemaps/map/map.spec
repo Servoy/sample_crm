@@ -13,8 +13,8 @@
 		"draggable": { "type" : "boolean", "default" : true},
 		"keyboardShortcuts" : { "type" : "boolean", "default" : true},
 		"scrollwheel" : { "type" : "boolean", "default" : true},
-		"Latitude" : { "type" : "string", "default": "52.3409950" },
-		"Longitude" : { "type" : "string", "default": "4.8636360" }
+		"latitude" : { "type" : "string", "default": "52.3409950" },
+		"longitude" : { "type" : "string", "default": "4.8636360" }
 	},
 	"api":
 	{

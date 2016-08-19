@@ -19,7 +19,10 @@
 <!-- ADD USERNAME DROPDOWN -->
         <ul class="nav navbar-nav navbar-user navbar-right">
             <li class="dropdown">
-                <a data-toggle="dropdown" class="dropdown-toggle" href="#">{{model.userName}}<b class="caret"></b></a>
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+					<img class='sidebar-user-img bts-media' ng-src='{{model.userImage}}' />
+					<div class='username'>{{model.userName}}<b class="caret"></b> </div>
+				</a>
                 <ul class="dropdown-menu">
 					<li ng-repeat="item in model.menuItems" ng-if="item.enabled">
 						<a href="#"><span class="{{item.itemFaIconName ? 'fa ' + item.itemFaIconName : 'fa'}}"></span> {{item.itemText}}</a>

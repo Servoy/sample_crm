@@ -72,16 +72,6 @@
 	}
 }
 
-.label_navHeader {
-	font-size: 48px;
-	font-weight: bold;
-}
-
-.fill {
-	min-height: 100%;
-	height: 100%;
-}
-
 .nopadding {
 	padding: 0 !important;
 	margin: 0 !important;

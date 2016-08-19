@@ -8,5 +8,13 @@
 	{
 		"faclass"      : {"type":"string"},
 		"styleclass"   : {"type": "styleclass"}
+	}, "handlers":
+	{
+		"onActionMethodID": {"parameters":[
+								{
+						          "name":"event",
+								  "type":"JSEvent"
+								} 
+							 ]}
 	}
 }

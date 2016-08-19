@@ -38,7 +38,6 @@ styleClass:"srv_content"
 },
 location:"2,2",
 name:"tab_content",
-styleClass:"srv_content",
 typeName:"bootstrapcomponents-tablesspanel",
 typeid:47,
 uuid:"04D06934-1788-4FBA-9C57-9EF1E4DEF0B3"
@@ -158,7 +157,8 @@ svyUUID:"FD976272-437B-4C9E-885F-F8DF2FABD565"
 ],
 showToggleMenu:true,
 toggleMenuButton:"E05AE2B0-491E-4FB7-8947-270CFEE94300",
-userName:"MyUsername"
+userImage:"742DF789-275F-4EB5-8F68-0B66DE18181C",
+userName:"John Doe"
 },
 name:"userheader",
 typeName:"servoysample-mainheader",

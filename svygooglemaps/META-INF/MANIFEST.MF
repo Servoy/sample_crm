@@ -3,8 +3,6 @@ Bundle-SymbolicName: svygooglemaps
 Bundle-Name: Servoy Google Maps
 Bundle-Version: 1.0.0
 Package-Type: Web-Component
-JS-ClientLibs: svygooglemaps/lib/angular-google-maps.js;name=angular-g
- oogle-maps.js, svygooglemaps/lib/lodash.min.js;name=lodash.js
 
 Name: map/map.spec
 Web-Component: True
