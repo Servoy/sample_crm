@@ -13,6 +13,26 @@ typeid:7,
 uuid:"05751AA9-B416-4456-AFDC-8182D8ED9EB8"
 },
 {
+json:{
+faclass:"fa-pencil fa-2x",
+location:{
+x:423,
+y:174
+},
+size:{
+height:28,
+width:29
+},
+styleclass:"sc-contact-envelope-icons"
+},
+location:"423,174",
+name:"editButton",
+size:"29,28",
+typeName:"svyfontawesome-fa-Icon",
+typeid:47,
+uuid:"075E211D-5E02-4371-A869-4487A221D0EC"
+},
+{
 foreground:"#808080",
 lineSize:1,
 location:"468,359",
@@ -23,7 +43,7 @@ uuid:"0E7A7891-5573-4DC1-AD03-C1451CB47A45"
 {
 dataProviderID:"c_name_full",
 editable:false,
-location:"266,201",
+location:"266,213",
 placeholderText:"Full name",
 size:"366,26",
 styleClass:"sc-contact-detail-field",
@@ -31,12 +51,12 @@ typeid:4,
 uuid:"115F225A-4A7B-4641-BE41-B13EC04C5285"
 },
 {
-anchors:3,
+anchors:9,
 borderType:"EmptyBorder,0,0,0,0",
 dataProviderID:"c_favorite_icon",
 displayType:9,
 editable:false,
-location:"806,38",
+location:"379,171",
 name:"favicon",
 onActionMethodID:"7ABBDAE3-EECF-49D7-A4DE-344E0FFEF590",
 size:"32,32",
@@ -163,7 +183,7 @@ uuid:"3EBDAC90-B02F-4956-B4B2-36D4044164F8"
 {
 dataProviderID:"c_job_company",
 editable:false,
-location:"265,239",
+location:"265,251",
 placeholderText:"Company",
 selectOnEnter:true,
 size:"369,30",
@@ -241,7 +261,7 @@ json:{
 faclass:"fa-user fa-2x",
 location:{
 x:231,
-y:201
+y:213
 },
 size:{
 height:23,
@@ -249,11 +269,31 @@ width:23
 },
 styleclass:"sc-contact-envelope-icons"
 },
-location:"231,201",
+location:"231,213",
 size:"23,23",
 typeName:"svyfontawesome-fa-Icon",
 typeid:47,
 uuid:"6F4B8259-EE3B-48B2-BB23-B68D4A0D97DF"
+},
+{
+json:{
+faclass:"fa-trash-o fa-2x",
+location:{
+x:457,
+y:173
+},
+size:{
+height:26,
+width:23
+},
+styleclass:"sc-contact-envelope-icons"
+},
+location:"457,173",
+name:"DeleteButton",
+size:"23,26",
+typeName:"svyfontawesome-fa-Icon",
+typeid:47,
+uuid:"7864B527-1F70-4FAF-9067-662991C8FFDE"
 },
 {
 json:{
@@ -408,7 +448,7 @@ json:{
 faclass:"fa-building fa-2x",
 location:{
 x:230,
-y:241
+y:253
 },
 size:{
 height:23,
@@ -416,7 +456,7 @@ width:23
 },
 styleclass:"sc-contact-envelope-icons"
 },
-location:"230,241",
+location:"230,253",
 size:"23,23",
 typeName:"svyfontawesome-fa-Icon",
 typeid:47,
@@ -440,7 +480,7 @@ alternateImage:"A568EE86-91F1-4BDE-BEA2-6444E262D4E9",
 dataProviderID:"image",
 location:{
 x:376,
-y:51
+y:39
 },
 size:{
 height:118,
@@ -448,7 +488,7 @@ width:117
 },
 styleClass:"imgCircleDisplayEditPopup"
 },
-location:"376,51",
+location:"376,39",
 size:"117,118",
 typeName:"servoysample-sc-Image",
 typeid:47,

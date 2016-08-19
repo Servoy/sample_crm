@@ -1,6 +1,5 @@
 /* CONTACT - DETAIL SPLIT VIEW*/
 .sc-contact-detail-emailField {
-	
 
 }
 .sc-contact-detail-emailLabel {
@@ -89,7 +88,7 @@
 .sc-test-content{margin:0px;}
 .sc-listview{padding-right:0px!important;}
 .sc-user-detailed-view{padding-left:0px;}
-.col-centered {padding-left: 200px;padding-right: 200px;}
+.col-centered {padding-left: 10px;padding-right:0px;}
 
 /* Servoy Components */
 /* BASE FORMS */
