@@ -40,7 +40,7 @@ function saveRecord(event) {
 	databaseManager.saveData();
 	databaseManager.setAutoSave(true);
 
-	forms.frm_contact$listDetailRight.onRecordSelection(event)
+	forms.frm_contact$listDetail.onRecordSelection(event)
 	var window = application.getWindow('editContact');
 	window.destroy();
 }

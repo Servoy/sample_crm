@@ -121,6 +121,7 @@ uuid:"33238606-9038-421D-8901-67B6DA6CEE6F"
 dataProviderID:"contacts_to_addresses$type2.countrie_id",
 displayType:2,
 editable:false,
+horizontalAlignment:2,
 location:"509,341",
 placeholderText:"Country",
 selectOnEnter:true,
