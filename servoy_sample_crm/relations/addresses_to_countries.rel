@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/svy_sample/countries",
+items:[
+{foreignColumnName:"countrie_id",primaryDataProviderID:"countrie_id",typeid:23,uuid:"8A7D831C-3514-41DB-8092-214F6E56896C"}
+],
+joinType:1,
+name:"addresses_to_countries",
+primaryDataSource:"db:/svy_sample/addresses",
+typeid:22,
+uuid:"A394347A-B38C-421B-B4E6-FC1B0CC9C65B"

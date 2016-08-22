@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/svy_sample/addresses",
+items:[
+{foreignColumnName:"contact_id",primaryDataProviderID:"contact_id",typeid:23,uuid:"0F97793E-03F0-4346-A1AE-88FEA7F7C058"}
+],
+joinType:1,
+name:"contacts_to_addresses",
+primaryDataSource:"db:/svy_sample/contacts",
+typeid:22,
+uuid:"40D23FA0-8036-469E-84F5-625F3EB67F3F"

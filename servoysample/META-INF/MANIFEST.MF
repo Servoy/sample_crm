@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+CSS-ClientLibs: servoysample/lib/material/angular-material.css;name=an
+ gular-material.css;version=v1.0.0-rc5-master, servoysample/lib/materi
+ al/angular-material.layouts.css;name=angular-material-layouts-css;ver
+ sion=v1.0.0-rc5-master
+Bundle-SymbolicName: servoysample
+Bundle-Name: Servoy Sample Components
+Bundle-Version: 1.0.0
+Package-Type: Web-Component
+JS-ClientLibs: servoysample/lib/material/angular-material.js;name=angu
+ lar-material.js;version=v1.0.0-rc5-master, servoysample/lib/material/
+ angular-animate.js;name=angular-animate.js;version=1.4.3, servoysampl
+ e/lib/material/angular-aria.js;name=angular-aria.js;version=v1.5.0, s
+ ervoysample/lib/hammer/hammer.min.js;name=hammer.min.js;version=v2.0.
+ 4
+
+Name: scSearchbar/scSearchbar.spec
+Web-Component: True
+
+Name: SidebarNav/SidebarNav.spec
+Web-Component: True
+
+Name: mainheader/mainheader.spec
+Web-Component: True
+
+Name: scTextFieldImage/scTextFieldImage.spec
+Web-Component: True
+
+Name: scCardView/scCardView.spec
+Web-Component: True
+
+Name: scTextField/scTextField.spec
+Web-Component: True
+
+Name: scImage/scImage.spec
+Web-Component: True
+

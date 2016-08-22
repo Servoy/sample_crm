@@ -1,0 +1,65 @@
+.flex-container {
+	padding: 10px;
+	margin-left: 5px;
+	list-style: none;
+	border: none;
+	-ms-box-orient: horizontal;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	background-color: #E7E7E7;
+}
+
+.wrap {
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.flex-item {
+	
+}
+
+.sc-card {
+	height: 168px;
+	width: 354px;
+	-webkit-box-shadow: 7px 10px 21px -5px rgba(0, 0, 0, 0.64);
+	-moz-box-shadow: 7px 10px 21px -5px rgba(0, 0, 0, 0.64);
+	box-shadow: 7px 10px 21px -5px rgba(0, 0, 0, 0.64);
+}
+
+.sc-card:hover {
+	cursor: pointer;
+}
+.sc-name {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.sc-jobInfo {
+	font-size: 14px;
+}
+
+.sc-image-circle {
+	width: 100px;
+	height: 100px;
+	margin-top: 15px;
+	border-radius: 50%;
+}
+
+.sc-phone {
+	margin-left: 20px;
+	margin-top: -17px;
+	font-size: 13px;
+	position: absolute;
+}
+
+.sc-email {
+	margin-left: 20px;
+	margin-top: -17px;
+	font-size: 13px;
+	position: absolute;
+}

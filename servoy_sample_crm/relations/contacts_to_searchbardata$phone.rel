@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+deleteRelatedRecords:true,
+foreignDataSource:"db:/svy_sample/searchbardata",
+items:[
+{foreignColumnName:"contact_id",primaryDataProviderID:"contact_id",typeid:23,uuid:"09F90C7B-E9BB-49C1-8349-EF697B9FD6B3"},
+{foreignColumnName:"datatype",primaryDataProviderID:"scopes.searchbar.searchbarContactDataType.phoneNumber",typeid:23,uuid:"B721D5B9-E9A5-4899-9347-C66115A33683"}
+],
+joinType:1,
+name:"contacts_to_searchbardata$phone",
+primaryDataSource:"db:/svy_sample/contacts",
+typeid:22,
+uuid:"4D49D4D5-4CF2-492D-ADFD-0C4B7D26D85D"

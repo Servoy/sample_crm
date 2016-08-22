@@ -1,0 +1,23 @@
+<md-content class="flex-container wrap" layout-xs="column" layout="row" ng-if='model.visible' id="{{::model.svyMarkupId}}">
+    <div flex-xs flex-gt-xs="50" class="flex-item" ng-repeat="row in model.foundset.viewPort.rows" layout="column">
+      <md-card md-theme='default' md-theme-watch class="sc-card" svy-click="cardClicked(model.foundset.viewPort.rows.indexOf(row))">
+        <md-card-title>
+          <md-card-title-text>
+            <span class="sc-name">{{getData(model.columns[1],row)}}</span>
+            <span class="sc-jobInfo">{{getData(model.columns[2],row)}}</span>
+			<span>
+				<div class="fa fa-phone"></div>
+				<div class="sc-phone">{{getData(model.columns[3],row)}}</div>
+			</span>
+			<span>
+				<div class="fa fa-envelope-o"></div>
+				<div class="sc-email">{{getData(model.columns[4],row)}}</div>
+			</span>
+          </md-card-title-text>
+          <md-card-title-media>
+			<img class="sc-image-circle" ng-src="{{getUrl(model.columns[0],row) ? getUrl(model.columns[0],row) : model.columns[0].image}}"></img>
+          </md-card-title-media>
+        </md-card-title>
+      </md-card>
+    </div>
+  </md-content>
