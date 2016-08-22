@@ -35,6 +35,3 @@ Web-Component: True
 Name: scImage/scImage.spec
 Web-Component: True
 
-Name: scTags/scTags.spec
-Web-Component: True
-

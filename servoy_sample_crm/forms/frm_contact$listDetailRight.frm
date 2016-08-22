@@ -202,7 +202,6 @@ typeid:19,
 uuid:"44F0FDEF-A2CF-4756-8B4C-4AA54696484F"
 },
 {
-dataProviderID:"mapImage2",
 displayType:9,
 editable:false,
 location:"480,639",
@@ -519,7 +518,6 @@ typeid:47,
 uuid:"CAAC5B13-911A-434C-8025-CA0135326B81"
 },
 {
-dataProviderID:"mapImage",
 displayType:9,
 editable:false,
 location:"27,639",

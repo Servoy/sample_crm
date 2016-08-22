@@ -1,6 +1,6 @@
 {
 	"name": "servoysample-sc-Searchbar",
-	"displayName": "Search Bar",
+	"displayName": "Elem - Search Bar",
 	"version": 1,
 	"definition": "servoysample/scSearchbar/scSearchbar.js",
 	"libraries": [

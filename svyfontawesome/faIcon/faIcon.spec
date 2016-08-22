@@ -1,6 +1,6 @@
 {
 	"name": "svyfontawesome-fa-Icon",
-	"displayName": "faIcon",
+	"displayName": "Icon",
 	"version": 1,
 	"definition": "svyfontawesome/faIcon/faIcon.js",
 	"libraries": [],

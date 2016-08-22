@@ -1,6 +1,6 @@
 {
 	"name": "servoysample-sc-Text-Field",
-	"displayName": "Text field",
+	"displayName": "Elem - Text field",
 	"version": 1,
 	"definition": "servoysample/scTextField/scTextField.js",
 	"libraries": [{

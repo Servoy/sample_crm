@@ -1,6 +1,6 @@
 {
 	"name": "servoysample-sc-Text-Field-Image",
-	"displayName": "Text field (With Image)",
+	"displayName": "Elem - Text field (With Image)",
 	"version": 1,
 	"definition": "servoysample/scTextFieldImage/scTextFieldImage.js",
 	"libraries": [{

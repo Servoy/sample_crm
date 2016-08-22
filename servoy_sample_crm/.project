@@ -5,10 +5,9 @@
 	<projects>
 		<project>resources</project>
 		<project>servoysample</project>
-		<project>svygooglemaps</project>
 		<project>svyUtils</project>
 		<project>svyfontawesome</project>
-		<project>bootstrapcomponents</project>
+		<project>randomData</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
