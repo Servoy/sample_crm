@@ -112,5 +112,6 @@ uuid:"7B971D4C-84BD-40E7-A276-2B08A7EE7857"
 name:"baseLogin",
 navigatorID:"-1",
 showInMenu:true,
+titleText:"-none-",
 typeid:3,
 uuid:"0EBCA6D1-5C32-4DF9-8BAB-B385F56A888B"

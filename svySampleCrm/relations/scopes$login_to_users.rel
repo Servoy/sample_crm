@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/svy_sample/users",
+items:[
+{foreignColumnName:"user_id",primaryDataProviderID:"scopes.login.user_uuid",typeid:23,uuid:"795BDA33-F741-436E-85B6-ED796B3EBE1B"}
+],
+joinType:1,
+name:"scopes$login_to_users",
+primaryDataSource:"db:/svy_sample/users",
+typeid:22,
+uuid:"95353C3B-9A54-4D59-9FCC-1DAB484B800C"

@@ -33,6 +33,13 @@ name:"name_last"
 },
 {
 allowNull:true,
+creationOrderIndex:7,
+dataType:12,
+length:50,
+name:"name_middle"
+},
+{
+allowNull:true,
 compatibleColumnTypes:"[[-2,2147483647,0]]",
 creationOrderIndex:4,
 dataType:-4,

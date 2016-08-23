@@ -54,6 +54,16 @@ name:"line_2"
 },
 {
 allowNull:true,
+autoEnterType:5,
+creationOrderIndex:8,
+dataType:12,
+flags:4,
+length:36,
+lookupValue:"scopes.login.user_uuid",
+name:"user_id"
+},
+{
+allowNull:true,
 creationOrderIndex:2,
 dataType:12,
 length:20,

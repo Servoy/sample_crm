@@ -140,6 +140,16 @@ name:"phone_3"
 },
 {
 allowNull:true,
+autoEnterType:5,
+creationOrderIndex:20,
+dataType:12,
+flags:4,
+length:50,
+lookupValue:"scopes.login.user_uuid",
+name:"user_id"
+},
+{
+allowNull:true,
 creationOrderIndex:17,
 dataType:12,
 length:254,

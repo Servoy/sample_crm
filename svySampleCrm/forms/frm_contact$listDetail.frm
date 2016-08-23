@@ -78,7 +78,7 @@ dataProviderID:"mapImage2"
 svy_form:"BD4AECA2-241E-45BC-863F-ABED0EFE834E"
 }
 },
-name:"formcomponent_1",
+name:"formcomponent",
 typeName:"bootstrapcomponents-formcomponent",
 typeid:47,
 uuid:"A55AD540-5714-4D57-9699-30FB171A4A9E"

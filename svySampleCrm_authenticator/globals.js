@@ -10,7 +10,9 @@ function authenticate_user(username, password) {
 			users.user_password = password;
 			var result = users.search();
 			if (result == 1) {
-				return security.login(username, users.user_id, ['Administrators']);
+				if(security.login(username, users.user_id, ['Administrators'])) {
+					return users.user_id
+				};
 			} else if (application.isInDeveloper()) {
 				users.loadAllRecords();
 				if (users.getSize() == 0) {
@@ -18,10 +20,12 @@ function authenticate_user(username, password) {
 					rec.username = username;
 					rec.user_password = password;
 					databaseManager.saveData(rec)
-					return security.login(users.username, users.user_id, ['Administrators']);
+					if(security.login(users.username, users.user_id, ['Administrators'])) {
+						return users.user_id
+					};
 				}
 			}
 		}
 	}
-	return false
+	return null
 }

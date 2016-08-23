@@ -46,7 +46,8 @@ function userMenuItemClick(menuItem) {
 		break;
 	
 	case 'settings':
-		application.output('This feature needs to be build :)')
+		var window = application.createWindow('userSettings', JSWindow.MODAL_DIALOG);
+		window.show('userProfile');
 	break;
 	default:
 		if(application.isInDeveloper()) {
@@ -66,6 +67,5 @@ function userMenuItemClick(menuItem) {
  * @properties={typeid:24,uuid:"FCDBF997-2832-4C76-AB3E-52FDD3A8F4E8"}
  */
 function onLoad(event) {
-	//Please set the username and user image
-	elements.userheader.userName = 'John Doe'
+	elements.userheader.userName = scopes$login_to_users.name_full;
 }

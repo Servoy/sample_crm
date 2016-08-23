@@ -188,5 +188,6 @@ name:"baseForm",
 navigatorID:"-1",
 onLoadMethodID:"FCDBF997-2832-4C76-AB3E-52FDD3A8F4E8",
 styleClass:"full-height",
+titleText:"-none-",
 typeid:3,
 uuid:"E9159A77-356D-4AA2-9EEE-B23680611D9C"
