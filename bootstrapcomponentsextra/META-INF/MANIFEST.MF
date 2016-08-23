@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: bootstrapcomponentsextra
+Bundle-Name: Bootstrap Components Extra
+Bundle-Version: 1.0.0
+Package-Type: Web-Component
+
+Name: textboxgroup/textboxgroup.spec
+Web-Component: True
+

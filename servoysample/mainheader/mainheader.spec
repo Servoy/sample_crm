@@ -15,7 +15,8 @@
 	},
 	"handlers":
 	{
-		"toggleMenuButton": {}
+		"toggleMenuButton": {},
+		"menuItemClick": {}
 	},
 	"types":
 	{

@@ -25,7 +25,7 @@
 				</a>
                 <ul class="dropdown-menu">
 					<li ng-repeat="item in model.menuItems" ng-if="item.enabled">
-						<a href="#"><span class="{{item.itemFaIconName ? 'fa ' + item.itemFaIconName : 'fa'}}"></span> {{item.itemText}}</a>
+						<a href="#" svy-click="handlers.menuItemClick(item.itemText)"><span class="{{item.itemFaIconName ? 'fa ' + item.itemFaIconName : 'fa'}}"></span> {{item.itemText}}</a>
                     </li>
                 </ul>
             </li>

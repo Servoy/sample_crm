@@ -1,0 +1,231 @@
+/* CONTACT - DETAIL SPLIT VIEW*/
+.sc-contact-detail-emailField {
+
+}
+.sc-contact-detail-emailLabel {
+	color: black;;
+}
+
+.sc-contact-detail-phoneField {
+
+}
+.sc-contact-detail-phoneLabel {
+	color: #f39c12;
+}
+
+.sc-contact-detail-addressField {
+
+}
+.sc-contact-detail-addressLabel {
+	color: #f39c12;
+}
+.sc-contact-detail-name {
+	
+}
+
+.full-height {
+	height: 100%;
+}
+.full-height-min-nav {
+	height: 95%;
+}
+
+/* INPUT FIELDS STYLING */
+.sc-contact-detail-email::-webkit-input-placeholder{text-align:left;}
+.sc-contact-detail-company-email::-webkit-input-placeholder{text-align:left;}
+.sc-contact-detail-website::-webkit-input-placeholder{text-align:left;}
+.sc-contact-detail-company-website::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-linkedin::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-company-linkedin::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-city::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-company-city::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-phone::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-company-phone::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-address::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-company-address::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-zipcode::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-company-zipcode::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-company-country::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-mobile::-webkit-input-placeholder {text-align:left;}
+.sc-contact-detail-search::-webkit-input-placeholder {text-align:left;}
+
+.srv_content {
+	height: 100% !important;
+}
+/* END OF INPUT FIELDS STYLING */
+.sc-contact-envelope-icons {
+	color: #E48449;
+}
+
+.name-company-labels{font-size:18px;color:black;}
+.infotitle{font-size:25px;}
+.
+.content.toggle {
+	margin-left: 200px;
+}
+.sc-field-no-border {
+	box-shadow: 0px 0px 0px 0px !important;
+}
+
+/* Bootstrap part*/
+@media ( min-width : 768px) {
+	.phoneOnly {
+		display: none;
+	}
+}
+
+@media ( max-width : 768px) {
+	.otherScreens {
+		display: none;
+	}
+}
+
+.nopadding {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.no-scrollbar {
+	 overflow:hidden;
+}
+
+/* LAYOUT part*/
+
+
+.main-content{height:500px;}
+.row{position:relative;}
+.sidebar-container{padding:0px!important;overflow:hidden;}
+.sc-mainheader{background-color:blue;border: none;min-height:50px;float:left;}
+.mainheader{padding:0px!important;}
+.sc-test-content{margin:0px;}
+.sc-listview{padding-right:0px!important; height: 100%}
+.sc-user-detailed-view{padding-left:0px;}
+.col-centered { position: relative; margin-left: 10%;}
+
+/* Servoy Components */
+/* BASE FORMS */
+.BS-form {
+	
+}
+
+.BS-formMobileList {
+	height: 100%;
+}
+
+.BS-formMobileSearch {
+	
+}
+
+.BS-formList {
+	height: 100%;
+	background-color:#e7e7e7;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {background-color:white;}
+
+.BS-formSearch {
+	
+}
+
+.BS-formLogo {
+	
+}
+/* NON-MOBILE FORMS */
+.formContactCardLeft {
+	
+}
+
+.formContactCardMiddle {
+	
+}
+
+.formContactCardRight {
+	
+}
+
+.formEditDialog {
+	
+}
+
+.form_navigationHeader {
+	
+}
+
+.contactSearchbar {
+	
+}
+
+.contactSearchbarImage {
+	border: none;
+}
+
+.formContactCard {
+	border: none;
+}
+
+.imgHover {
+	opacity: 0.5;
+}
+
+.imgCircleDisplayEditPopup {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	vertical-align: middle;
+}
+
+.imgCircleDisplayCard {
+	border-radius: 50%;
+	width: 95px;
+	height: 95px;
+	vertical-align: middle;
+}
+
+.fieldNameDisplayCard {
+	border: none;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.fieldTitleDisplayCard {
+	border: none;
+}
+
+.fieldPhoneDisplayCard {
+	border: none;
+	text-indent: 2px;
+}
+
+.fieldEmailDisplayCard {
+	border: none;
+	text-indent: 2px;
+}
+
+/* MOBILE FORMS */
+.MO-fieldNameDisplay {
+	border: none;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.MO-fieldTitleDisplay {
+	border: none;
+}
+
+.MO-fieldPhoneDisplay {
+	
+}
+
+.MO-fieldEmailDisplay {
+	
+}
+
+.MO-imgCircleDisplay {
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+	vertical-align: middle;
+}
+
+.MO-formContactList {
+	
+}

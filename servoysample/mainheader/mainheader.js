@@ -6,6 +6,7 @@ angular.module('servoysampleMainheader',['servoy']).directive('servoysampleMainh
 		  handlers: "=svyHandlers"
       },
       controller: function($scope, $element, $attrs) {
+
       },
       templateUrl: 'servoysample/mainheader/mainheader.html'
     };
