@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: svyoauth2
+Bundle-Name: oAuth2
+Bundle-Version: 1.0.0
+Package-Type: Web-Component
+JS-ClientLibs: svyoauth2/lib/satellizer.min.js;name=satellizer.js;vers
+ ion=0.15.4
+
+Name: signinLinkedin/signinLinkedin.spec
+Web-Component: True
+

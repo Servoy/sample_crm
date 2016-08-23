@@ -9,7 +9,9 @@
 		<project>svyfontawesome</project>
 		<project>randomData</project>
 		<project>bootstrapcomponentsextra</project>
-		<project>svysimplenavigation</project>
+		<project>svySampleCrm_authenticator</project>
+		<project>svySampleCrm_login</project>
+		<project>svyoauth2</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

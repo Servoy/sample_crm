@@ -6,7 +6,7 @@ encapsulation:60,
 items:[
 {
 customProperties:"attributes:{\
-class:\"container-fluid bs-full-height\"\
+class:\"container-fluid full-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -15,7 +15,7 @@ specname:\"container\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"row bs-full-height\"\
+class:\"row full-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -42,12 +42,19 @@ specname:\"div\"\
 items:[
 {
 json:{
+text:"Remember me"
+},
+location:"3,3",
+name:"chk_rememberMe",
+typeName:"bootstrapcomponents-checkbox",
+typeid:47,
+uuid:"0B43E929-42D3-4753-AF90-781AAEFC227C"
+},
+{
+json:{
 dataProviderID:"username",
-glyphicon:"fa fa-envelope-o fa-fw",
-inputType:"text",
-inputValidation:"none",
-placeholderText:"Username",
-readOnly:false
+glyphicon:"glyphicon-user",
+placeholderText:"Username"
 },
 location:"1,1",
 name:"fld_username",
@@ -56,104 +63,20 @@ typeid:47,
 uuid:"431F2954-C803-4F71-B946-64AEE132CADE"
 },
 {
-customProperties:"attributes:{\
-class:\"customDiv\"\
-},\
-properties:{\
-packagename:\"12grid\",\
-specname:\"div\"\
-}",
-items:[
-{
-customProperties:"attributes:{\
-class:\"col-md-6 col-forgotPassword\"\
-},\
-properties:{\
-packagename:\"12grid\",\
-specname:\"div\"\
-}",
-items:[
-{
 json:{
-onActionMethodID:"CB7D8EBA-EFE7-431A-9AE6-1964665212D1",
-styleClass:"label-forgotPassword",
-text:"Forgot password?",
-visible:true
+cliendId:"78zvij188dntsk",
+tokenProviderID:"linkedinToken"
 },
-name:"lbl_forgotPassword",
-typeName:"bootstrapcomponents-label",
+name:"signin_Linkedin",
+typeName:"svyoauth2-signin-Linkedin",
 typeid:47,
-uuid:"B65DDA75-8E45-405F-862C-419DCFA0F2DC"
-}
-],
-location:"2,2",
-typeid:46,
-uuid:"4900F4CE-A3EB-4A71-9D73-0BD8A0AA6BC3"
-},
-{
-customProperties:"attributes:{\
-class:\"col-md-12 col-alreadyAccount\"\
-},\
-properties:{\
-packagename:\"12grid\",\
-specname:\"div\"\
-}",
-items:[
-{
-json:{
-onActionMethodID:"FB069709-FEE8-48B9-B9C5-D70366EE4E08",
-styleClass:"label-alreadyAccount",
-text:"Already have a account?",
-visible:false
-},
-name:"lbl_alreadyAccount",
-typeName:"bootstrapcomponents-label",
-typeid:47,
-uuid:"3546095E-2F1E-4C9A-9EB0-D94B38D821FC",
-visible:false
-}
-],
-location:"3,3",
-typeid:46,
-uuid:"558F66D8-6512-4A50-9DBD-3DC1CF6AF038"
-},
-{
-customProperties:"attributes:{\
-class:\"col-md-6 col-createAccount\"\
-},\
-properties:{\
-packagename:\"12grid\",\
-specname:\"div\"\
-}",
-items:[
-{
-json:{
-onActionMethodID:"A2D4049B-59DD-4E65-8D73-C18C63E2F8C0",
-styleClass:"label-createAccount",
-text:"Create account",
-visible:true
-},
-name:"lbl_createAccount",
-typeName:"bootstrapcomponents-label",
-typeid:47,
-uuid:"E8E4AE95-D5BB-4AF6-8177-FE4FDE0CCE50"
-}
-],
-location:"1,1",
-typeid:46,
-uuid:"726C7EC6-A596-47F7-9861-A9D52BB10BAE"
-}
-],
-location:"6,6",
-typeid:46,
-uuid:"87C41B2F-4155-40E0-8A5D-96B71690996D"
+uuid:"9275497B-CF7D-444F-92EA-5CB7EA0BBBBA"
 },
 {
 json:{
 dataProviderID:"password",
-glyphicon:"fa fa-key fa-fw",
+glyphicon:"glyphicon-lock",
 inputType:"password",
-onActionMethodID:"291D8FA5-F7FF-47F5-8478-C9C41A7A6E19",
 placeholderText:"Password"
 },
 location:"2,2",
@@ -167,9 +90,9 @@ json:{
 enabled:true,
 onActionMethodID:"291D8FA5-F7FF-47F5-8478-C9C41A7A6E19",
 styleClass:"btn btn-login",
-text:"Sign In"
+text:"Sign in with Servoy"
 },
-location:"5,5",
+location:"4,4",
 name:"btn_login",
 typeName:"bootstrapcomponents-button",
 typeid:47,
@@ -199,6 +122,5 @@ uuid:"7B971D4C-84BD-40E7-A276-2B08A7EE7857"
 name:"baseLogin",
 navigatorID:"-1",
 showInMenu:true,
-titleText:"-none-",
 typeid:3,
 uuid:"0EBCA6D1-5C32-4DF9-8BAB-B385F56A888B"
