@@ -64,8 +64,7 @@ uuid:"431F2954-C803-4F71-B946-64AEE132CADE"
 },
 {
 json:{
-cliendId:"78zvij188dntsk",
-tokenProviderID:"linkedinToken"
+cliendId:"78zvij188dntsk"
 },
 name:"signin_Linkedin",
 typeName:"svyoauth2-signin-Linkedin",

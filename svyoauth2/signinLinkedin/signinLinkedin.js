@@ -1,6 +1,7 @@
 angular.module('svyoauth2SigninLinkedin',['servoy','satellizer']).config(function($authProvider) {
     $authProvider.linkedin({
-        clientId: '78zvij188dntsk'
+        clientId: '78zvij188dntsk',
+        redirectUri: 'http://localhost:8080/solutions/svySampleCrm/index.html?a='
       });
    }).directive('svyoauth2SigninLinkedin', function($auth) {  
     return {
