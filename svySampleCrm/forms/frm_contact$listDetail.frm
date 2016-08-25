@@ -61,10 +61,12 @@ items:[
 json:{
 containedForm:{
 DeleteButton:{
-onActionMethodID:"7F3C6F55-C3F9-4560-AB74-42C45D2EAB33"
+onActionMethodID:"7F3C6F55-C3F9-4560-AB74-42C45D2EAB33",
+visible:true
 },
 editButton:{
-onActionMethodID:"10D679FD-34C2-4484-ACF5-3602C3F57A49"
+onActionMethodID:"10D679FD-34C2-4484-ACF5-3602C3F57A49",
+visible:true
 },
 favicon:{
 onActionMethodID:"7ABBDAE3-EECF-49D7-A4DE-344E0FFEF590"

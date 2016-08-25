@@ -1,5 +1,9 @@
 <div ng-class="model.styleclass" 
-	 svy-click='handlers.onActionMethodID($event)' 
+	 ng-disabled="!model.enabled"
+	 ng-if='model.visible'
+	 svy-click='handlers.onActionMethodID($event)'
+     svy-dblclick='handlers.onDoubleClickMethodID($event)'
+ 	 svy-rightclick='handlers.onRightClickMethodID($event)'
  	 id="{{::model.svyMarkupId}}">
 	<i class="{{'fa ' + model.faclass}}" aria-hidden="true"></i>
 </div>
