@@ -1,9 +1,9 @@
 {
-	"name": "servoysample-mainheader",
-	"displayName": "Nav - User Headerbar",
+	"name": "svysimplenavigation-svyuserbar",
+	"displayName": "User Headerbar",
 	"version": 1,
-	"definition": "servoysample/mainheader/mainheader.js",
-	"libraries": [{"name":"mainheader.css", "version":"1.0.0", "url":"servoysample/mainheader/mainheader.css", "mimetype":"text/css"}],
+	"definition": "svysimplenavigation/svyuserbar/svyuserbar.js",
+	"libraries": [{"name":"svyuserbar.css", "version":"1.0.0", "url":"svysimplenavigation/svyuserbar/svyuserbar.css", "mimetype":"text/css"}],
 	"model":
 	{
 		"logo"          : {"type": "media"},
@@ -23,7 +23,6 @@
 		"item": {
 			"itemText": {"type":"string"},
 			"itemFaIconName" :{"type":"string"},
-			"onAction": { "type": "function"},
 			"enabled": {"type":"enabled"}
 		}
 	}

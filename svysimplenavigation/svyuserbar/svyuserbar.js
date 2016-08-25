@@ -1,4 +1,4 @@
-angular.module('servoysampleMainheader',['servoy']).directive('servoysampleMainheader', function() {  
+angular.module('svysimplenavigationSvyuserbar',['servoy']).directive('svysimplenavigationSvyuserbar', function() {  
     return {
       restrict: 'E',
       scope: {
@@ -6,8 +6,7 @@ angular.module('servoysampleMainheader',['servoy']).directive('servoysampleMainh
 		  handlers: "=svyHandlers"
       },
       controller: function($scope, $element, $attrs) {
-
       },
-      templateUrl: 'servoysample/mainheader/mainheader.html'
+      templateUrl: 'svysimplenavigation/svyuserbar/svyuserbar.html'
     };
   })

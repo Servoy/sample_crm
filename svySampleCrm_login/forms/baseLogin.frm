@@ -6,7 +6,7 @@ encapsulation:60,
 items:[
 {
 customProperties:"attributes:{\
-class:\"container-fluid full-height\"\
+class:\"container-fluid bs-full-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -15,7 +15,7 @@ specname:\"container\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"row full-height\"\
+class:\"row bs-full-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -42,21 +42,12 @@ specname:\"div\"\
 items:[
 {
 json:{
-text:"Remember me"
-},
-location:"3,3",
-name:"checkbox",
-typeName:"bootstrapcomponents-checkbox",
-typeid:47,
-uuid:"0B43E929-42D3-4753-AF90-781AAEFC227C"
-},
-{
-json:{
 dataProviderID:"username",
-glyphicon:"glyphicon-user",
-placeholderText:"Username"
+glyphicon:"fa fa-envelope-o fa-fw",
+placeholderText:"Username",
+readOnly:false
 },
-location:"1,1",
+location:"2,2",
 name:"fld_username",
 typeName:"bootstrapcomponentsextra-textboxgroup",
 typeid:47,
@@ -65,11 +56,11 @@ uuid:"431F2954-C803-4F71-B946-64AEE132CADE"
 {
 json:{
 dataProviderID:"password",
-glyphicon:"glyphicon-lock",
+glyphicon:"fa fa-key fa-fw",
 inputType:"password",
 placeholderText:"Password"
 },
-location:"2,2",
+location:"3,3",
 name:"fld_password",
 typeName:"bootstrapcomponentsextra-textboxgroup",
 typeid:47,
@@ -80,10 +71,10 @@ json:{
 enabled:true,
 onActionMethodID:"291D8FA5-F7FF-47F5-8478-C9C41A7A6E19",
 styleClass:"btn btn-login",
-text:"Login"
+text:"Sign In"
 },
 location:"4,4",
-name:"button",
+name:"btn_login",
 typeName:"bootstrapcomponents-button",
 typeid:47,
 uuid:"E8549C5C-1A7F-4997-8D1E-35BD9ED7BAC8"

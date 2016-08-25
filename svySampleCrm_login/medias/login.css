@@ -20,5 +20,7 @@
 }
 .btn-login {
 	width: 100%;
-	background-color: grey;
+	background-color: #EB7932;
+	color: white;
+	font-size: 17px;
 }

@@ -7,7 +7,7 @@ encapsulation:60,
 items:[
 {
 customProperties:"attributes:{\
-class:\"row full-height\"\
+class:\"row bs-full-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -16,7 +16,7 @@ specname:\"row\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"col-md-3 sc-listview full-height\"\
+class:\"col-md-3 bs-listview bs-full-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -27,7 +27,7 @@ items:[
 json:{
 containedForm:"960B0CDD-751C-410B-A2CD-31E4D7EFC5CC",
 height:0,
-styleClass:"sc-listview full-height"
+styleClass:"bs-listview bs-full-height"
 },
 name:"tab_listForm",
 typeName:"bootstrapcomponents-tablesspanel",
@@ -41,7 +41,7 @@ uuid:"577650DF-85AE-408A-AEBC-770FAC08812D"
 },
 {
 customProperties:"attributes:{\
-class:\"col-md-9 sc-user-detailed-view full-height\"\
+class:\"col-md-9 bs-detailed-view bs-full-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -50,7 +50,7 @@ specname:\"column\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"col-centered full-height\"\
+class:\"bs-col-centered bs-full-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -105,6 +105,6 @@ name:"frm_contact$listDetail",
 onRecordSelectionMethodID:"A8950A36-0AEF-4A04-A282-0743F7931673",
 scrollbars:36,
 showInMenu:true,
-styleClass:"full-height",
+styleClass:"bs-full-height",
 typeid:3,
 uuid:"498E5B9E-AAFE-4665-AEE2-F37524065E43"

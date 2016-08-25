@@ -8,7 +8,7 @@ dataProviderID:"c_job_company",
 editable:false,
 location:"91,60",
 size:"189,20",
-styleClass:"sc-contact-list-company sc-field-no-border",
+styleClass:"field-no-border",
 transparent:true,
 typeid:4,
 uuid:"0AE7876F-B3FF-4538-97C3-25BA54E31554"
@@ -67,7 +67,7 @@ dataProviderID:"c_name_full",
 editable:false,
 location:"80,39",
 size:"200,20",
-styleClass:"sc-contact-list-name sc-field-no-border",
+styleClass:"field-no-border",
 transparent:true,
 typeid:4,
 uuid:"497E3892-7EFF-43D3-9776-E7B7FF0A46FE"
@@ -85,7 +85,7 @@ size:{
 height:28,
 width:28
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"6,3",
 name:"fa_Icon_2",
@@ -106,11 +106,12 @@ size:{
 height:65,
 width:65
 },
-styleClass:"imgCircleDisplayEditPopup sc-field-no-border"
+styleClass:"imgCircleDisplayEditPopup field-no-border"
 },
 location:"5,35",
 name:"fldImage",
 size:"65,65",
+styleClass:"imgCircleDisplayEditPopup field-no-border",
 typeName:"servoysample-sc-Image",
 typeid:47,
 uuid:"6B606AF8-E9AE-48EC-AB93-5FBE8C5BCB53"
@@ -120,12 +121,6 @@ height:106,
 partType:5,
 typeid:19,
 uuid:"6B7DEA5C-ACA0-458B-BB0A-B21BCADDA5E3"
-},
-{
-height:130,
-partType:8,
-typeid:19,
-uuid:"972BAD7D-8299-4937-8F57-739DEEFBF920"
 },
 {
 anchors:3,
@@ -142,7 +137,7 @@ size:{
 height:28,
 width:28
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"290,4",
 name:"fa_Icon_1",
@@ -162,7 +157,7 @@ name:"frm_contact$listDetailLeft",
 scrollbars:34,
 showInMenu:true,
 size:"320,106",
-styleClass:"sc-contact-listForm full-height",
+styleClass:"sc-contact-listForm bs-full-height",
 transparent:true,
 typeid:3,
 uuid:"960B0CDD-751C-410B-A2CD-31E4D7EFC5CC",

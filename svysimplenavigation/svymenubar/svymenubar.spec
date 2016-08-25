@@ -1,9 +1,9 @@
 {
-	"name": "servoysample-Sidebar-Nav",
-	"displayName": "Nav - Menubar",
+	"name": "svysimplenavigation-svymenubar",
+	"displayName": "Nav Sidebar",
 	"version": 1,
-	"definition": "servoysample/SidebarNav/SidebarNav.js",
-	"libraries": [{"name":"simple-sidebar.css", "version":"1.0.0", "url":"servoysample/SidebarNav/simple-sidebar.css", "mimetype":"text/css"}],
+	"definition": "svysimplenavigation/svymenubar/svymenubar.js",
+	"libraries": [{"name":"svymenubar.css", "version":"1.0.0", "url":"svysimplenavigation/svymenubar/svymenubar.css", "mimetype":"text/css"}],
 	"model":
 	{
 		"height"       : {"type":"int", "default":0},

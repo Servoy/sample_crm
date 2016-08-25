@@ -5,7 +5,7 @@ encapsulation:28,
 items:[
 {
 customProperties:"attributes:{\
-class:\"row full-height\"\
+class:\"row bs-full-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -14,57 +14,7 @@ specname:\"row\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"col-sm-12 phoneOnly\"\
-},\
-properties:{\
-packagename:\"12grid\",\
-specname:\"column\"\
-}",
-items:[
-{
-json:{
-containedForm:"23497057-1274-4A3F-A8D7-B91D748C15D0",
-height:400,
-styleClass:"BS-formMobileList"
-},
-name:"tab_sm_list",
-typeName:"bootstrapcomponents-tablesspanel",
-typeid:47,
-uuid:"C0FAB5A4-2A27-4FCD-95A6-5C52C9DF6A7E"
-}
-],
-location:"6,6",
-typeid:46,
-uuid:"3D1CDA42-1B14-4E1E-91FB-A995C04421DB"
-},
-{
-customProperties:"attributes:{\
-class:\"col-sm-4 col-sm-offset-4 phoneOnly\"\
-},\
-properties:{\
-packagename:\"12grid\",\
-specname:\"column\"\
-}",
-items:[
-{
-json:{
-containedForm:"4185CEA5-C117-44D8-B46C-F94040D0EA19",
-height:45,
-styleClass:"BS-formMobileSearch"
-},
-name:"tablesspanel",
-typeName:"bootstrapcomponents-tablesspanel",
-typeid:47,
-uuid:"BFA08C07-DE5F-4460-85CB-A365313F8EC5"
-}
-],
-location:"1,1",
-typeid:46,
-uuid:"BA5E1C83-6276-4E25-AF7E-528394CCBB50"
-},
-{
-customProperties:"attributes:{\
-class:\"col-md-12 otherScreens full-height\"\
+class:\"col-md-12 bs-full-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -74,9 +24,10 @@ items:[
 {
 json:{
 containedForm:"498E5B9E-AAFE-4665-AEE2-F37524065E43",
-styleClass:"BS-formList full-height"
+styleClass:"bs-full-height form-bgColor"
 },
 name:"tab_dataContent",
+styleClass:"bs-full-height form-bgColor",
 typeName:"bootstrapcomponents-tablesspanel",
 typeid:47,
 uuid:"5F214B26-99A3-4137-B5D9-D328D71E309C"
@@ -98,6 +49,6 @@ onLoadMethodID:"-1",
 scrollbars:33,
 showInMenu:true,
 size:"300,0",
-styleClass:"full-height",
+styleClass:"bs-full-height",
 typeid:3,
 uuid:"A82E2E0E-3793-4F82-B708-BB0915A3B85C"

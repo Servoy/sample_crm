@@ -22,3 +22,15 @@ function onChangeNameFull(oldValue, newValue, event) {
 	}
 	return true
 }
+
+/**
+ *
+ * @param {JSEvent} event
+ *
+ * @protected
+ *
+ * @properties={typeid:24,uuid:"F14EA076-8EED-45A2-96F1-D6FFF1610DC7"}
+ */
+function closeDialog(event) {
+	application.getWindow('userSettings').hide();
+}

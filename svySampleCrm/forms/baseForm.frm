@@ -6,7 +6,7 @@ encapsulation:28,
 items:[
 {
 customProperties:"attributes:{\
-class:\"container-fluid full-height\"\
+class:\"container-fluid bs-full-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -15,7 +15,7 @@ specname:\"container\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"row full-height-min-nav\"\
+class:\"row bs-full-height-min-nav\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -24,7 +24,7 @@ specname:\"row\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"col-md-12 sidebar-container full-height\"\
+class:\"col-md-12 bs-sidebar-container bs-full-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -35,7 +35,7 @@ items:[
 json:{
 containedForm:"7594FE1C-88F2-414C-87CC-6394F228DE8D",
 height:0,
-styleClass:"full-height"
+styleClass:"bs-full-height"
 },
 location:"2,2",
 name:"tab_content",
@@ -45,71 +45,26 @@ uuid:"04D06934-1788-4FBA-9C57-9EF1E4DEF0B3"
 },
 {
 json:{
-ExtraToggleId:"content.toggle",
 height:1,
 menuItems:[
 {
-enabled:true,
 itemFaIconName:"fa-dashboard",
 itemText:"Dashboard",
-subItems:[
-{
-itemText:"SubItem1",
-svyUUID:"64551FB6-3F99-40AC-B286-6FBE7BF2404B"
+svyUUID:"847B39FC-3673-47CD-B514-B0371F62559C"
 },
 {
-itemText:"Subitem2",
-svyUUID:"766F8254-D388-49E1-942B-E93D2C3A99A4"
-}
-],
-svyUUID:"1F725303-2643-4B38-99FD-8994037C6415"
-},
-{
-enabled:true,
 itemFaIconName:"fa-users",
 itemText:"Contacts",
-onAction:"2B8A2EBE-E181-4A79-A13E-D9ECE90EFEB4",
-subItems:[
-{
-itemFaIconName:"fa-tag",
-itemText:"Basic",
-svyUUID:"C6973B18-A49A-4D75-B7F6-27E863C58B67"
-},
-{
-itemFaIconName:"fa-tag",
-itemText:"Pro",
-svyUUID:"F2016EDB-9E96-41E8-8342-BC62394A96CF"
-}
-],
-svyUUID:"414F573A-E629-4E22-9A89-53224C56CECD"
-},
-{
-enabled:false,
-itemFaIconName:"fa-building",
-itemText:"Companies",
-svyUUID:"F89FB2B3-B67B-4D77-9C27-53DA688B5F4A"
-},
-{
-enabled:false,
-itemFaIconName:"fa-barcode",
-itemText:"Products",
-svyUUID:"329014B1-C975-469D-B9B5-AEEAAC246529"
-},
-{
-enabled:false,
-itemFaIconName:"fa-shopping-basket",
-itemText:"Orders",
-svyUUID:"4B2E3615-27A8-4D83-B1E8-E86E5F65E4B6"
+svyUUID:"1F8423EC-0B74-4509-B94E-CB885A3E5354"
 }
 ],
 onItemClick:"2B8A2EBE-E181-4A79-A13E-D9ECE90EFEB4"
 },
 location:"1,1",
-name:"navigation",
-size:"100,100",
-typeName:"servoysample-Sidebar-Nav",
+name:"svymenubar",
+typeName:"svysimplenavigation-svymenubar",
 typeid:47,
-uuid:"89791823-CD0E-4492-BE76-7415E049FB92"
+uuid:"CFAEF95F-A0D6-4E9E-BDE2-A8C6A8C06757"
 }
 ],
 location:"1,1",
@@ -132,7 +87,7 @@ specname:\"2columns\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"col-md-12 nopadding no-scrollbar\"\
+class:\"col-md-12 bs-nopadding\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -147,26 +102,26 @@ menuItems:[
 {
 enabled:true,
 itemFaIconName:"fa-user",
-itemText:"settings",
-svyUUID:"B259F6F7-BA4B-4BC3-9A48-6A3019F34467"
+itemText:"Settings",
+svyUUID:"8AD7015C-2620-4897-B26F-032317E20BF4",
+visable:true
 },
 {
 enabled:true,
 itemFaIconName:"fa-sign-out",
-itemText:"logout",
-onAction:"5F97DDA6-3A40-460C-9D00-27DFCAE0C9B3",
-svyUUID:"FD976272-437B-4C9E-885F-F8DF2FABD565"
+itemText:"Logout",
+svyUUID:"50AE479D-A130-4726-8946-7B729875FCD8",
+visable:true
 }
 ],
-showToggleMenu:true,
 toggleMenuButton:"E05AE2B0-491E-4FB7-8947-270CFEE94300",
 userImage:"742DF789-275F-4EB5-8F68-0B66DE18181C",
 userName:"John Doe"
 },
-name:"userheader",
-typeName:"servoysample-mainheader",
+name:"svyuserbar",
+typeName:"svysimplenavigation-svyuserbar",
 typeid:47,
-uuid:"FB231375-69D1-4F5C-B4B8-972B64A34778"
+uuid:"3E17A749-311E-44DD-B90A-949CAE6F2E84"
 }
 ],
 location:"1,1",
@@ -187,7 +142,7 @@ uuid:"4BB0BA3D-8B4D-4E5B-8E5A-775E5841EA87"
 name:"baseForm",
 navigatorID:"-1",
 onLoadMethodID:"FCDBF997-2832-4C76-AB3E-52FDD3A8F4E8",
-styleClass:"full-height",
+styleClass:"bs-full-height",
 titleText:"-none-",
 typeid:3,
 uuid:"E9159A77-356D-4AA2-9EEE-B23680611D9C"

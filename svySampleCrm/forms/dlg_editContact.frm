@@ -12,7 +12,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"20,390",
 size:"23,23",
@@ -21,9 +21,9 @@ typeid:47,
 uuid:"0B8B05D9-B80E-45C1-AEEA-888D978C7230"
 },
 {
-location:"512,186",
+location:"468,193",
 name:"CompanyInfo",
-size:"329,33",
+size:"378,30",
 styleClass:"infotitle",
 tabSeq:-2,
 text:"Company information",
@@ -33,14 +33,12 @@ uuid:"0BDE55FF-B2E0-4C7E-86EE-E0F60104ACAD"
 },
 {
 dataProviderID:"job_title",
-editable:false,
 fontType:"Helvetica Neue,0,18",
 location:"265,114",
 name:"fldCompanyc",
 placeholderText:"Job Title",
-selectOnEnter:true,
 size:"369,30",
-styleClass:"sc-contact-detail-field",
+styleClass:"field-placeholder-left",
 tabSeq:6,
 typeid:4,
 uuid:"119A3F36-7E68-4673-ABA3-1C1202CFC8AC"
@@ -59,7 +57,7 @@ name:"fldfullname",
 onDataChangeMethodID:"06FF149D-05D3-4547-96CD-5DFE5124317D",
 placeholderText:"Full name",
 size:"366,30",
-styleClass:"sc-contact-detail-field",
+styleClass:"field-placeholder-left",
 tabSeq:4,
 typeid:4,
 uuid:"1F4D7C80-0A56-4884-8377-D01357509C4B"
@@ -75,7 +73,7 @@ size:{
 height:23,
 width:28
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"230,115",
 name:"icon_envelope_home_copy399c",
@@ -96,7 +94,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"809,2",
 name:"btn_save",
@@ -136,7 +134,7 @@ location:"509,341",
 placeholderText:"Country",
 selectOnEnter:true,
 size:"320,20",
-styleClass:"sc-contact-detail-company-country",
+styleClass:"field-placeholder-left",
 tabSeq:16,
 typeid:4,
 uuid:"33AB90EE-B2CB-45ED-9E36-E31B04B38091",
@@ -146,9 +144,8 @@ valuelistID:"FE094231-B296-4C9E-89F0-72FE8ACBB5D9"
 dataProviderID:"contacts_to_addresses$type2.line_1",
 location:"509,290",
 placeholderText:"Street Name",
-selectOnEnter:true,
 size:"320,20",
-styleClass:"sc-contact-detail-company-address",
+styleClass:"field-placeholder-left",
 tabSeq:13,
 typeid:4,
 uuid:"369FFCA3-BF6F-4B8D-9695-1389545E699A"
@@ -158,7 +155,7 @@ dataProviderID:"linkedin_2",
 location:"509,464",
 placeholderText:"Linkedin Profile",
 size:"320,20",
-styleClass:"sc-contact-detail-company-linkedin",
+styleClass:"field-placeholder-left",
 tabSeq:22,
 typeid:4,
 uuid:"3B963B32-B040-4F86-B5EA-62697A63E203"
@@ -174,7 +171,7 @@ size:{
 height:23,
 width:28
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"230,81",
 name:"icon_envelope_home_copy399",
@@ -195,7 +192,7 @@ size:{
 height:23,
 width:28
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"130,150",
 name:"icon_envelope_home_copy399cc",
@@ -205,9 +202,9 @@ typeid:47,
 uuid:"4719FD1D-BA76-4DA3-AB97-11A873079170"
 },
 {
-location:"59,193",
+location:"15,193",
 name:"PersonalInformation",
-size:"317,20",
+size:"378,30",
 styleClass:"infotitle",
 tabSeq:-2,
 text:"Personal Information",
@@ -226,7 +223,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"473,460",
 size:"23,23",
@@ -239,7 +236,7 @@ dataProviderID:"contacts_to_addresses$type1.city",
 location:"176,316",
 placeholderText:"City",
 size:"198,20",
-styleClass:"sc-contact-detail-city",
+styleClass:"field-placeholder-left",
 tabSeq:11,
 typeid:4,
 uuid:"5A645EF4-5618-4FBE-8AD1-2E76FD28CDCE"
@@ -249,7 +246,7 @@ dataProviderID:"contacts_to_addresses$type1.zipcode",
 location:"54,316",
 placeholderText:"Zip Code",
 size:"117,20",
-styleClass:"sc-contact-detail-zipcode",
+styleClass:"field-placeholder-left",
 tabSeq:10,
 typeid:4,
 uuid:"6016E48A-FE57-4406-BEAA-08040407058F"
@@ -266,7 +263,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"838,2",
 name:"btn_cancel",
@@ -280,7 +277,7 @@ dataProviderID:"website",
 location:"509,392",
 placeholderText:"Website",
 size:"320,20",
-styleClass:"sc-contact-detail-company-website",
+styleClass:"field-placeholder-left",
 tabSeq:18,
 typeid:4,
 uuid:"85AB5073-EFBD-46F6-AA1C-A1FEBAFD8F2A"
@@ -290,7 +287,7 @@ dataProviderID:"linkedin_1",
 location:"54,464",
 placeholderText:"Linkedin Profile",
 size:"320,20",
-styleClass:"sc-contact-detail-linkedin",
+styleClass:"field-placeholder-left",
 tabSeq:21,
 typeid:4,
 uuid:"8C50C168-EF5C-4FCC-B8CC-17D064206B61"
@@ -306,7 +303,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"473,427",
 size:"23,23",
@@ -325,7 +322,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"473,297",
 size:"23,23",
@@ -338,7 +335,7 @@ dataProviderID:"phone_2",
 location:"509,431",
 placeholderText:"Phone Number",
 size:"320,20",
-styleClass:"sc-contact-detail-company-phone",
+styleClass:"field-placeholder-left",
 tabSeq:20,
 typeid:4,
 uuid:"8FFF3F3F-D17D-44A1-A3C8-F2C6DD326F0E"
@@ -354,7 +351,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"20,246",
 size:"23,23",
@@ -367,9 +364,8 @@ dataProviderID:"email_1",
 horizontalAlignment:2,
 location:"54,252",
 placeholderText:"Email",
-selectOnEnter:true,
 size:"321,20",
-styleClass:"sc-contact-detail-email",
+styleClass:"field-placeholder-left",
 tabSeq:7,
 typeid:4,
 uuid:"9212C4FD-F36A-4251-8FFC-712B44B84376"
@@ -379,7 +375,7 @@ dataProviderID:"contacts_to_addresses$type2.city",
 location:"624,316",
 placeholderText:"CIty",
 size:"205,20",
-styleClass:"sc-contact-detail-company-city",
+styleClass:"field-placeholder-left",
 tabSeq:15,
 typeid:4,
 uuid:"9FBD579A-F35A-4B0E-B1D8-4F943367C45D"
@@ -395,7 +391,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"473,247",
 size:"23,23",
@@ -408,7 +404,7 @@ dataProviderID:"phone_3",
 location:"54,429",
 placeholderText:"Mobile Number",
 size:"320,20",
-styleClass:"sc-contact-detail-mobile",
+styleClass:"field-placeholder-left",
 tabSeq:19,
 typeid:4,
 uuid:"B684C38F-8444-47D2-BF73-4A272CE6C609"
@@ -418,7 +414,7 @@ dataProviderID:"phone_1",
 location:"54,392",
 placeholderText:"Phone Number",
 size:"320,20",
-styleClass:"sc-contact-detail-phone",
+styleClass:"field-placeholder-left",
 tabSeq:17,
 typeid:4,
 uuid:"BED065DD-D3B0-481D-AB72-08CD96137043"
@@ -427,9 +423,8 @@ uuid:"BED065DD-D3B0-481D-AB72-08CD96137043"
 dataProviderID:"contacts_to_addresses$type2.zipcode",
 location:"509,316",
 placeholderText:"Zip Code",
-selectOnEnter:true,
 size:"111,20",
-styleClass:"sc-contact-detail-company-zipcode",
+styleClass:"field-placeholder-left",
 tabSeq:14,
 typeid:4,
 uuid:"C39346F3-CE36-4855-A9CE-B7ABA53B2B7A"
@@ -445,7 +440,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"20,297",
 size:"23,23",
@@ -464,7 +459,7 @@ size:{
 height:23,
 width:42
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"231,45",
 name:"icon_envelope_home_copy399_copy146",
@@ -484,7 +479,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"20,457",
 size:"23,23",
@@ -494,14 +489,12 @@ uuid:"D39823AE-977B-4A52-88D5-C206B1949905"
 },
 {
 dataProviderID:"company",
-editable:false,
 fontType:"Helvetica Neue,0,18",
 location:"265,79",
 name:"fldCompany",
 placeholderText:"Company",
-selectOnEnter:true,
 size:"369,30",
-styleClass:"sc-contact-detail-field",
+styleClass:"field-placeholder-left",
 tabSeq:5,
 typeid:4,
 uuid:"D7C03445-488E-457D-9EBD-DE0E9854A384"
@@ -511,7 +504,7 @@ dataProviderID:"email_2",
 location:"509,252",
 placeholderText:"Email",
 size:"320,20",
-styleClass:"sc-contact-detail-company-email",
+styleClass:"field-placeholder-left",
 tabSeq:8,
 typeid:4,
 uuid:"D9C70D91-BF08-4A0F-9122-716E72C30B53"
@@ -521,7 +514,7 @@ dataProviderID:"contacts_to_addresses$type1.line_1",
 location:"54,290",
 placeholderText:"Street Name",
 size:"320,20",
-styleClass:"sc-contact-detail-address",
+styleClass:"field-placeholder-left",
 tabSeq:9,
 typeid:4,
 uuid:"E54FD46B-50DB-4569-9302-9113749C90A2"
@@ -550,7 +543,7 @@ location:"54,341",
 placeholderText:"Country",
 selectOnEnter:true,
 size:"320,20",
-styleClass:"sc-contact-detail-company-country",
+styleClass:"field-placeholder-left",
 tabSeq:12,
 typeid:4,
 uuid:"EE841B42-B056-47FF-922F-CFA791C08881",
@@ -567,7 +560,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"20,425",
 size:"23,23",
@@ -586,7 +579,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"473,389",
 size:"23,23",

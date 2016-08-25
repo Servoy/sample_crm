@@ -23,7 +23,7 @@ size:{
 height:28,
 width:29
 },
-styleclass:"sc-contact-envelope-icons",
+styleclass:"fa-icon-orange",
 visible:true
 },
 location:"423,174",
@@ -49,7 +49,7 @@ horizontalAlignment:0,
 location:"266,213",
 placeholderText:"Full name",
 size:"366,30",
-styleClass:"sc-contact-detail-field",
+styleClass:"field-placeholder-left field-no-border",
 typeid:4,
 uuid:"115F225A-4A7B-4641-BE41-B13EC04C5285"
 },
@@ -77,7 +77,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"480,588",
 size:"23,23",
@@ -91,7 +91,7 @@ editable:false,
 location:"61,418",
 placeholderText:"Street Name",
 size:"320,20",
-styleClass:"sc-contact-detail-address",
+styleClass:"field-placeholder-left field-no-border",
 typeid:4,
 uuid:"271CDE5B-D7EE-4900-A3F2-5BFE0E29C380"
 },
@@ -106,7 +106,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"480,375",
 size:"23,23",
@@ -121,7 +121,7 @@ location:"516,444",
 placeholderText:"Zip Code",
 selectOnEnter:true,
 size:"111,20",
-styleClass:"sc-contact-detail-company-zipcode",
+styleClass:"field-placeholder-left field-no-border",
 typeid:4,
 uuid:"293622AF-FC3B-493C-BA5E-C3504977CD5B"
 },
@@ -136,7 +136,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"480,517",
 size:"23,23",
@@ -155,7 +155,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"27,374",
 size:"23,23",
@@ -174,7 +174,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"27,585",
 size:"23,23",
@@ -191,7 +191,7 @@ location:"265,251",
 placeholderText:"Company",
 selectOnEnter:true,
 size:"369,30",
-styleClass:"sc-contact-detail-field",
+styleClass:"field-placeholder-left field-no-border",
 typeid:4,
 uuid:"435C0812-9BF5-4314-9D45-2DE74764645D"
 },
@@ -217,7 +217,7 @@ location:"61,469",
 placeholderText:"Country",
 selectOnEnter:true,
 size:"320,20",
-styleClass:"sc-contact-detail-company-country",
+styleClass:"field-placeholder-left field-no-border",
 typeid:4,
 uuid:"4E83FDEF-92F7-4651-92CD-A4AD60BAEAAD",
 valuelistID:"FE094231-B296-4C9E-89F0-72FE8ACBB5D9"
@@ -233,7 +233,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"480,555",
 size:"23,23",
@@ -255,7 +255,7 @@ editable:false,
 location:"61,444",
 placeholderText:"Zip Code",
 size:"117,20",
-styleClass:"sc-contact-detail-zipcode",
+styleClass:"field-placeholder-left field-no-border",
 typeid:4,
 uuid:"6EF900C0-C685-489A-9589-FC831F7759C0"
 },
@@ -270,7 +270,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"231,213",
 size:"23,23",
@@ -289,7 +289,7 @@ size:{
 height:26,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"457,173",
 name:"DeleteButton",
@@ -309,7 +309,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"27,425",
 size:"23,23",
@@ -323,7 +323,7 @@ editable:false,
 location:"632,444",
 placeholderText:"CIty",
 size:"205,20",
-styleClass:"sc-contact-detail-company-city",
+styleClass:"field-placeholder-left field-no-border",
 typeid:4,
 uuid:"7A892B70-7346-4092-A992-ACB22D813544"
 },
@@ -333,7 +333,7 @@ editable:false,
 location:"516,595",
 placeholderText:"Linkedin Profile",
 size:"320,20",
-styleClass:"sc-contact-detail-company-linkedin",
+styleClass:"field-placeholder-left field-no-border",
 typeid:4,
 uuid:"847DE87A-6128-4E8D-805E-FF89C36CD3D3"
 },
@@ -348,7 +348,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"27,518",
 size:"23,23",
@@ -362,7 +362,7 @@ editable:false,
 location:"61,520",
 placeholderText:"Phone Number",
 size:"320,20",
-styleClass:"sc-contact-detail-phone",
+styleClass:"field-placeholder-left field-no-border",
 typeid:4,
 uuid:"8A952145-3F2E-4A1F-AF46-AC4445D41BF8"
 },
@@ -373,7 +373,7 @@ location:"516,469",
 placeholderText:"Country",
 selectOnEnter:true,
 size:"320,20",
-styleClass:"sc-contact-detail-company-country",
+styleClass:"field-placeholder-left field-no-border",
 typeid:4,
 uuid:"981DD0F1-7AEC-44B0-9623-9065C5A67C02",
 valuelistID:"FE094231-B296-4C9E-89F0-72FE8ACBB5D9"
@@ -384,7 +384,7 @@ editable:false,
 location:"61,557",
 placeholderText:"Mobile Number",
 size:"320,20",
-styleClass:"sc-contact-detail-mobile",
+styleClass:"field-placeholder-left field-no-border",
 typeid:4,
 uuid:"A1DCB46E-8D6D-4091-9407-268B6F9D90D0"
 },
@@ -399,7 +399,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"27,553",
 size:"23,23",
@@ -413,7 +413,7 @@ editable:false,
 location:"516,559",
 placeholderText:"Phone Number",
 size:"320,20",
-styleClass:"sc-contact-detail-company-phone",
+styleClass:"field-placeholder-left field-no-border",
 typeid:4,
 uuid:"B2F7A471-AA6F-4574-A486-1A707A3F4156"
 },
@@ -423,7 +423,7 @@ editable:false,
 location:"516,380",
 placeholderText:"Email",
 size:"320,20",
-styleClass:"sc-contact-detail-company-email",
+styleClass:"field-placeholder-left field-no-border",
 typeid:4,
 uuid:"B4B39DD4-F52C-45AF-9C32-91EACAEAED2D"
 },
@@ -442,7 +442,7 @@ editable:false,
 location:"516,520",
 placeholderText:"Website",
 size:"320,20",
-styleClass:"sc-contact-detail-company-website",
+styleClass:"field-placeholder-left field-no-border",
 typeid:4,
 uuid:"B8A16866-595B-4AD2-871A-280684AB248D"
 },
@@ -457,7 +457,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"230,253",
 size:"23,23",
@@ -473,7 +473,7 @@ location:"61,380",
 placeholderText:"Email",
 selectOnEnter:true,
 size:"321,20",
-styleClass:"sc-contact-detail-email",
+styleClass:"field-placeholder-left field-no-border",
 typeid:4,
 uuid:"C9D705E1-6A20-42FF-9064-00E7B696B971"
 },
@@ -508,7 +508,7 @@ size:{
 height:23,
 width:23
 },
-styleclass:"sc-contact-envelope-icons"
+styleclass:"fa-icon-orange"
 },
 location:"480,425",
 size:"23,23",
@@ -531,7 +531,7 @@ editable:false,
 location:"61,592",
 placeholderText:"Linkedin Profile",
 size:"320,20",
-styleClass:"sc-contact-detail-linkedin",
+styleClass:"field-placeholder-left field-no-border",
 typeid:4,
 uuid:"D1F8E6DB-0461-4BD2-B65F-EA199CE00730"
 },
@@ -542,7 +542,7 @@ location:"516,418",
 placeholderText:"Street Name",
 selectOnEnter:true,
 size:"320,20",
-styleClass:"sc-contact-detail-company-address",
+styleClass:"field-placeholder-left field-no-border",
 typeid:4,
 uuid:"D2FCFC99-6137-4B78-94CB-2467557D312B"
 },
@@ -552,7 +552,7 @@ editable:false,
 location:"183,444",
 placeholderText:"City",
 size:"198,20",
-styleClass:"sc-contact-detail-city",
+styleClass:"field-placeholder-left field-no-border",
 typeid:4,
 uuid:"FBBF70E9-CB53-4EB7-ADE0-9606A10D03C5"
 }
@@ -560,8 +560,8 @@ uuid:"FBBF70E9-CB53-4EB7-ADE0-9606A10D03C5"
 name:"frm_contact$listDetailRight",
 scrollbars:36,
 showInMenu:true,
-size:"886,822",
-styleClass:"sc-contact-details-mobile full-height",
+size:"865,822",
+styleClass:"sc-contact-details-mobile bs-full-height",
 titleText:"titleText\tDEFAULT",
 typeid:3,
 uuid:"BD4AECA2-241E-45BC-863F-ABED0EFE834E"

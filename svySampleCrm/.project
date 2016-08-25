@@ -9,6 +9,7 @@
 		<project>svyfontawesome</project>
 		<project>randomData</project>
 		<project>bootstrapcomponentsextra</project>
+		<project>svysimplenavigation</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

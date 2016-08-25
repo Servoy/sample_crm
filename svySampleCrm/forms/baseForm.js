@@ -25,10 +25,10 @@ function menuNavigationClick(menuItem) {
  * @properties={typeid:24,uuid:"E05AE2B0-491E-4FB7-8947-270CFEE94300"}
  */
 function toggleMenuButton() {
-	if (elements.navigation.getCurrentMenuView() == 'full') {
-		elements.navigation.menuView = 'mini'
+	if (elements.svymenubar.getCurrentMenuView() == 'full') {
+		elements.svymenubar.menuView = 'mini'
 	} else {
-		elements.navigation.menuView = 'full'
+		elements.svymenubar.menuView = 'full'
 	}
 }
 
@@ -41,12 +41,13 @@ function toggleMenuButton() {
  */
 function userMenuItemClick(menuItem) {
 	switch (menuItem) {
-	case 'logout':
+	case 'Logout':
 		security.logout();
 		break;
 	
-	case 'settings':
+	case 'Settings':
 		var window = application.createWindow('userSettings', JSWindow.MODAL_DIALOG);
+		window.undecorated = true;
 		window.show('userProfile');
 	break;
 	default:
@@ -67,5 +68,5 @@ function userMenuItemClick(menuItem) {
  * @properties={typeid:24,uuid:"FCDBF997-2832-4C76-AB3E-52FDD3A8F4E8"}
  */
 function onLoad(event) {
-	elements.userheader.userName = scopes$login_to_users.name_full;
+	elements.svyuserbar.userName = scopes$login_to_users.name_full;
 }

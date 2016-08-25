@@ -1,4 +1,4 @@
-angular.module('bootstrapcomponentsextraTextboxgroup',['servoy']).directive('bootstrapcomponentsextraTextboxgroup', function() {  
+angular.module('bootstrapcomponentsextraTextboxgroup',['servoy']).directive('bootstrapcomponentsextraTextboxgroup', function($formatterUtils) {  
     return {
         restrict: 'E',
         scope: {

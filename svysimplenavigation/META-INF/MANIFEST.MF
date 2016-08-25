@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: svysimplenavigation
+Bundle-Name: Navigation
+Bundle-Version: 1.0.0
+Package-Type: Web-Component
+
+Name: svymenubar/svymenubar.spec
+Web-Component: True
+
+Name: svyuserbar/svyuserbar.spec
+Web-Component: True
+
