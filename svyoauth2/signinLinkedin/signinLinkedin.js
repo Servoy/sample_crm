@@ -1,9 +1,4 @@
-angular.module('svyoauth2SigninLinkedin',['servoy','satellizer']).config(function($authProvider) {
-    $authProvider.linkedin({
-        clientId: '78zvij188dntsk',
-        redirectUri: 'http://localhost:8080/solutions/svySampleCrm/index.html?a='
-      });
-   }).directive('svyoauth2SigninLinkedin', function($auth) {  
+angular.module('svyoauth2SigninLinkedin',['servoy','satellizer']).directive('svyoauth2SigninLinkedin', function($location) {  
     return {
       restrict: 'E',
       scope: {
@@ -11,14 +6,8 @@ angular.module('svyoauth2SigninLinkedin',['servoy','satellizer']).config(functio
       },
       controller: function($scope, $element, $attrs) {
         $scope.authenticate = function(provider) {
-          $auth.link('linkedin').then(function(response) {
-            console.log('bla')
-          });
+        	window.location.href = 'https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=78zvij188dntsk&redirect_uri='+ encodeURI('http://localhost:8080/solutions/svySampleCrm/index.html?m=linkedinAuthentication&a=bl&')
           };
-          
-          $scope.isAuthenticated = function() {
-              return $auth.isAuthenticated();
-            };
       },
       templateUrl: 'svyoauth2/signinLinkedin/signinLinkedin.html'
     };
