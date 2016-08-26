@@ -14,13 +14,55 @@
 .absolute-center.is-responsive {
 	width: 50%;
 	height: 50%;
-	min-width: 200px;
-	max-width: 400px;
+	min-width: 250px;
+	max-width: 465px;
 	padding: 40px;
 }
+
 .btn-login {
 	width: 100%;
 	background-color: #EB7932;
 	color: white;
 	font-size: 17px;
+}
+
+.col-createAccount {
+	top: 10px;
+}
+
+.label-createAccount {
+	color: #EB7932;
+	cursor: pointer;
+}
+
+.label-createAccount:focus {
+	outline: 0;
+}
+
+.col-forgotPassword {
+	top: 10px;
+}
+
+.label-forgotPassword {
+	color: #EB7932;
+	cursor: pointer;
+}
+
+.label-forgotPassword:focus {
+	outline: 0;
+}
+
+.col-alreadyAccount {
+	top: 10px;
+}
+
+.label-alreadyAccount {
+	color: #EB7932;
+	text-align: center;
+	padding-left: 50px;
+	cursor: pointer;
+}
+
+.label-alreadyAccount:focus {
+	outline: 0;
 }

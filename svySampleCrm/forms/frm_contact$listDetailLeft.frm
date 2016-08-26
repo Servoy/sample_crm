@@ -6,7 +6,7 @@ items:[
 anchors:11,
 dataProviderID:"c_job_company",
 editable:false,
-location:"91,60",
+location:"90,60",
 size:"189,20",
 styleClass:"field-no-border",
 transparent:true,
@@ -106,12 +106,12 @@ size:{
 height:65,
 width:65
 },
-styleClass:"imgCircleDisplayEditPopup field-no-border"
+styleClass:"imgCircleDisplayEditPopup field-no-border",
+visible:true
 },
 location:"5,35",
 name:"fldImage",
 size:"65,65",
-styleClass:"imgCircleDisplayEditPopup field-no-border",
 typeName:"servoysample-sc-Image",
 typeid:47,
 uuid:"6B606AF8-E9AE-48EC-AB93-5FBE8C5BCB53"

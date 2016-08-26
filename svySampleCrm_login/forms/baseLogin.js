@@ -27,8 +27,62 @@ var password
  * @properties={typeid:24,uuid:"291D8FA5-F7FF-47F5-8478-C9C41A7A6E19"}
  */
 function login(event) {
-	scopes.login.user_uuid = security.authenticate('svySampleCrm_authenticator', 'authenticate_user', [username, password]);
-	if(!scopes.login.user_uuid) {
-		application.output('Ohoh wrong login, please fix a nice warning dialog')
+	if(elements.btn_login.text == 'Sign In') {
+		scopes.login.user_uuid = security.authenticate('svySampleCrm_authenticator', 'authenticate_user', [username, password]);
+		if(!scopes.login.user_uuid) {
+			application.output('Ohoh wrong login, please fix a nice warning dialog')
+		}
+	} else {
+		scopes.login.user_uuid = security.authenticate('svySampleCrm_authenticator', 'authenticate_user', [username, password, true]);
+		if(!scopes.login.user_uuid) {
+			application.output('Ohoh creating new account failed')
+		}
 	}
+}
+
+/**
+ *
+ * @param {JSEvent} event
+ *
+ * @protected
+ *
+ * @properties={typeid:24,uuid:"A2D4049B-59DD-4E65-8D73-C18C63E2F8C0"}
+ */
+function createAccount(event) {
+	elements.btn_login.text = "Create Account";
+	elements.lbl_createAccount.visible = false;
+	elements.lbl_forgotPassword.visible = false;
+	elements.lbl_alreadyAccount.visible = true;
+	username = null
+	password = null
+	
+
+}
+
+/**
+ *
+ * @param {JSEvent} event
+ *
+ * @protected
+ *
+ * @properties={typeid:24,uuid:"CB7D8EBA-EFE7-431A-9AE6-1964665212D1"}
+ */
+function forgotPassword(event) {
+	// TODO Auto-generated method stub
+
+}
+
+/**
+ *
+ * @param {JSEvent} event
+ *
+ * @protected
+ *
+ * @properties={typeid:24,uuid:"FB069709-FEE8-48B9-B9C5-D70366EE4E08"}
+ */
+function alreadyAccount(event) {
+	elements.btn_login.text = "Sign In";
+	elements.lbl_createAccount.visible = true;
+	elements.lbl_forgotPassword.visible = true;
+	elements.lbl_alreadyAccount.visible = false;
 }

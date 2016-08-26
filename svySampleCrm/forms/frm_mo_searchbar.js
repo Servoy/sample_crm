@@ -30,5 +30,4 @@ function searchPersion(event) {
  */
 function goToListForm(event) {
 	forms.frm_mo_contactTab.elements.tab.tabIndex = 1;
-	elements.btn_returnToList.enabled = false;
 }

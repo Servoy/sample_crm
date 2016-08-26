@@ -66,7 +66,7 @@ width:30
 styleclass:"faCloseDialog"
 },
 location:"334,1",
-name:"fa-Icon_852",
+name:"btn_close",
 size:"30,30",
 typeName:"svyfontawesome-fa-Icon",
 typeid:47,
@@ -109,7 +109,6 @@ tabSeq:3
 },
 location:"124,38",
 size:"120,120",
-styleClass:"imgCircleProfilePopup",
 typeName:"servoysample-sc-Image",
 typeid:47,
 uuid:"DDE52D6E-7D9A-4B34-B5FE-C1C2DC63F5A1"

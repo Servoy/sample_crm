@@ -1,6 +1,12 @@
 [
 {
 encapsulation:0,
+name:".DS_Store",
+typeid:37,
+uuid:"C97F2C22-F4E2-48B7-8DBC-60CDECA1634F"
+},
+{
+encapsulation:0,
 mimeType:"text/css",
 name:"login.css",
 typeid:37,

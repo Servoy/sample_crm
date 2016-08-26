@@ -10,7 +10,6 @@
  * @properties={typeid:24,uuid:"2644A3EF-A967-44F2-BABF-1C32B551E596"}
  */
 function onShow(firstShow, event) {
-	forms.frm_mo_searchbar.elements.btn_returnToList.enabled = true;
 }
 
 /**
