@@ -116,7 +116,10 @@ visable:true
 ],
 toggleMenuButton:"E05AE2B0-491E-4FB7-8947-270CFEE94300",
 userImage:"742DF789-275F-4EB5-8F68-0B66DE18181C",
-userName:"John Doe"
+userImage-dataProviderID:"scopes$login_to_users.profile_photo",
+userImageDataProviderID:"scopes$login_to_users.profile_photo",
+userName:"John Doe",
+userNameDataProviderID:"scopes$login_to_users.name_full"
 },
 name:"svyuserbar",
 typeName:"svysimplenavigation-svyuserbar",

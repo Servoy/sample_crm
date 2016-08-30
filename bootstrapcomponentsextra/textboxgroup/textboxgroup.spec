@@ -3,7 +3,7 @@
 	"displayName": "textboxgroup",
 	"version": 1,
 	"definition": "bootstrapcomponentsextra/textboxgroup/textboxgroup.js",
-	"libraries": [],
+	"libraries": [{"name":"textboxgroup.css", "version":"1.0.0", "url":"bootstrapcomponentsextra/textboxgroup/textboxgroup.css", "mimetype":"text/css"}],
 	"model":
 	{
 			"dataProviderID" : { "type":"dataprovider", "pushToServer": "allow","tags": { "scope" :"design" }, "ondatachange": { "onchange":"onDataChangeMethodID", "callback":"onDataChangeCallback"}},
@@ -11,6 +11,7 @@
 			"format" : {"for":["dataProviderID"] , "type" :"format"}, 
 			"glyphicon" : {"type":"string"},
 			"inputType" : {"type":"string" , "tags": { "scope" :"design" }, "default" : "text",  "values" :["text", "password"]},
+			"inputValidation" : {"type":"string", "default" : "text",  "values" :["none", "email"]},
 			"readOnly" : { "type": "protected", "blockingOn": true, "default": false,"for": ["dataProviderID","onDataChangeMethodID"] },
 			"placeholderText" : "tagstring",
 			"styleClass" : { "type" :"styleclass", "tags": { "scope" :"design" }, "default": "form-control", "values" :["form-control", "input-sm"]},
@@ -76,7 +77,9 @@
 	},
 	"api":
 	{
-
+		"isValid": {
+	            "returns": "boolean"
+	        }
 	}
 
 }

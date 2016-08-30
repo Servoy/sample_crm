@@ -27,15 +27,18 @@ var password
  * @properties={typeid:24,uuid:"291D8FA5-F7FF-47F5-8478-C9C41A7A6E19"}
  */
 function login(event) {
-	if(elements.btn_login.text == 'Sign In') {
+	if (elements.btn_login.text == 'Sign In') {
 		scopes.login.user_uuid = security.authenticate('svySampleCrm_authenticator', 'authenticate_user', [username, password]);
-		if(!scopes.login.user_uuid) {
+		if (!scopes.login.user_uuid) {
 			application.output('Ohoh wrong login, please fix a nice warning dialog')
 		}
 	} else {
-		scopes.login.user_uuid = security.authenticate('svySampleCrm_authenticator', 'authenticate_user', [username, password, true]);
-		if(!scopes.login.user_uuid) {
-			application.output('Ohoh creating new account failed')
+		if (username && password) {
+			if (elements.fld_username.isValid() && elements.fld_password.isValid()) {
+				scopes.login.user_uuid = security.authenticate('svySampleCrm_authenticator', 'authenticate_user', [username, password, true]);
+				if (!scopes.login.user_uuid) {
+				}
+			}
 		}
 	}
 }
@@ -55,7 +58,9 @@ function createAccount(event) {
 	elements.lbl_alreadyAccount.visible = true;
 	username = null
 	password = null
-	
+
+	elements.fld_username.inputValidation = 'email'
+	elements.fld_password.inputValidation = 'password'
 
 }
 
@@ -85,4 +90,6 @@ function alreadyAccount(event) {
 	elements.lbl_createAccount.visible = true;
 	elements.lbl_forgotPassword.visible = true;
 	elements.lbl_alreadyAccount.visible = false;
+	elements.fld_username.inputValidation = 'none'
+	elements.fld_password.inputValidation = 'none'
 }

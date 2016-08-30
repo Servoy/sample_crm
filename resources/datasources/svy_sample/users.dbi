@@ -19,10 +19,26 @@ name:"creation_date"
 },
 {
 allowNull:true,
+autoEnterType:3,
+creationOrderIndex:8,
+dataType:4,
+defaultValue:"1",
+name:"first_login"
+},
+{
+allowNull:true,
 creationOrderIndex:5,
 dataType:12,
 length:50,
 name:"name_first"
+},
+{
+allowNull:true,
+creationOrderIndex:9,
+dataType:12,
+description:"//Work-around for not able to select calc true relation.",
+length:254,
+name:"name_full"
 },
 {
 allowNull:true,

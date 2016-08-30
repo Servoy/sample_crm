@@ -1,6 +1,7 @@
 <div class="form-group input-group">
 	<span class="input-group-addon"><i class="{{'glyphicon '+ model.glyphicon}}"></i></span>
-	<input type="{{model.inputType}}"
+	<input 	name="textbox"
+			type="{{model.inputType}}"
 		    ng-class='model.styleClass' class='bts-textbox'
 		    ng-model="model.dataProviderID"
 		    ng-disabled="!model.enabled"
@@ -14,5 +15,9 @@
 	      	ng-show='model.visible'
 			sablo-tabseq='model.tabSeq'
 			id="{{::model.svyMarkupId}}"
+			ng-invalid='inputValidator'
 		    />
+</div>
+<div ng-if="showError" class="msg-error">
+	{{errorMessage}}
 </div>

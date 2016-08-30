@@ -44,6 +44,8 @@ items:[
 json:{
 dataProviderID:"username",
 glyphicon:"fa fa-envelope-o fa-fw",
+inputType:"text",
+inputValidation:"none",
 placeholderText:"Username",
 readOnly:false
 },
@@ -142,7 +144,7 @@ typeid:46,
 uuid:"726C7EC6-A596-47F7-9861-A9D52BB10BAE"
 }
 ],
-location:"4,4",
+location:"6,6",
 typeid:46,
 uuid:"87C41B2F-4155-40E0-8A5D-96B71690996D"
 },
@@ -151,6 +153,7 @@ json:{
 dataProviderID:"password",
 glyphicon:"fa fa-key fa-fw",
 inputType:"password",
+onActionMethodID:"291D8FA5-F7FF-47F5-8478-C9C41A7A6E19",
 placeholderText:"Password"
 },
 location:"2,2",
@@ -166,7 +169,7 @@ onActionMethodID:"291D8FA5-F7FF-47F5-8478-C9C41A7A6E19",
 styleClass:"btn btn-login",
 text:"Sign In"
 },
-location:"3,3",
+location:"5,5",
 name:"btn_login",
 typeName:"bootstrapcomponents-button",
 typeid:47,

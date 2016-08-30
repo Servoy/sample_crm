@@ -6,12 +6,12 @@
 	"libraries": [{"name":"svyuserbar.css", "version":"1.0.0", "url":"svysimplenavigation/svyuserbar/svyuserbar.css", "mimetype":"text/css"}],
 	"model":
 	{
-		"logo"          : {"type": "media"},
-		"showToggleMenu": {"type": "protected","blockingOn": false, "default": true},
-		"userName"      : {"type": "string", "default": "UserName"},
-		"userImage"		: {"type": "media"},
-		"menuItems"     : {"type": "item[]"},
-		"styleclass"    : {"type": "styleclass"}
+		"logo"          			: {"type": "media"},
+		"showToggleMenu"			: {"type": "protected","blockingOn": false, "default": true},
+		"userImageDataProviderID" 	: {"type": "dataprovider", "tags": { "scope": "design", "typeName": "mediaDataprovider" }, "displayTagsPropertyName" : "displaysTags"}, 
+		"userNameDataProviderID"    : {"type": "dataprovider", "tags": { "scope": "design"}, "displayTagsPropertyName" : "displaysTags"},
+		"menuItems"     			: {"type": "item[]"},
+		"styleclass"    			: {"type": "styleclass"}
 	},
 	"handlers":
 	{

@@ -1,0 +1,15 @@
+customProperties:"formComponent:true",
+encapsulation:60,
+items:[
+{
+height:450,
+partType:5,
+typeid:19,
+uuid:"93B1C0B1-8768-4D04-B988-8CC4A6295699"
+}
+],
+name:"frm_dashboard$bottomRight",
+showInMenu:true,
+size:"464,480",
+typeid:3,
+uuid:"21F89118-9420-4DDA-AFBC-56AB513B870F"

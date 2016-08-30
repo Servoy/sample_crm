@@ -17,7 +17,7 @@ function authenticate_user(username, password, createAccount) {
 				if (result == 0) {
 					var rec = users.getRecord(users.newRecord());
 					rec.username = username;
-					rec.user_password = password;
+					rec.user_password = utils.stringMD5HashBase64(password);
 					databaseManager.saveData(rec)
 					if (security.login(users.username, users.user_id, ['Administrators'])) {
 						return users.user_id;
@@ -28,7 +28,7 @@ function authenticate_user(username, password, createAccount) {
 	} else if (username && password) {
 		if (users.find()) {
 			users.username = username;
-			users.user_password = password;
+			users.user_password = utils.stringMD5HashBase64(password);
 			result = users.search();
 			if (result == 1) {
 				if (security.login(username, users.user_id, ['Administrators'])) {

@@ -15,7 +15,7 @@
  	}
 
  	if(array.length == 0){
- 		return 'John Doe';
+ 		return username;
  	}
  	return array.join(' ');
  }
