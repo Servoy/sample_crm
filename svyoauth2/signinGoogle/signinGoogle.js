@@ -1,10 +1,10 @@
-angular.module('svyoauth2SigninLinkedin',['servoy','satellizer']).config(function($authProvider) {
+angular.module('svyoauth2SigninGoogle',['servoy','satellizer']).config(function($authProvider) {
    $authProvider.linkedin({
-       clientId: '78zvij188dntsk',
+       clientId: '',
 	   redirectUri: window.location.origin,
 	   url: window.location.origin
      });
-  }).directive('svyoauth2SigninLinkedin', function($auth) {  
+  }).directive('svyoauth2SigninGoogle', function($auth) {  
    return {
      restrict: 'E',
      scope: {
@@ -22,6 +22,6 @@ angular.module('svyoauth2SigninLinkedin',['servoy','satellizer']).config(functio
          })
 		};
      },
-     templateUrl: 'svyoauth2/signinLinkedin/signinLinkedin.html'
+     templateUrl: 'svyoauth2/signinGoogle/signinGoogle.html'
    };
 })

@@ -1,1 +1,8 @@
-<button ng-click="authenticate('linkedin')">Sign in with LinkedIn</button>
+<button 
+	class="btn btn-oauth btn-linkedin"
+	ng-class="model.styleClass" 
+	ng-if="model.visible"
+	ng-click="authenticate('linkedin')"
+	id="{{::model.svyMarkupId}}">
+		<i class="ion-social-linkedin"></i> {{model.text}}
+</button>

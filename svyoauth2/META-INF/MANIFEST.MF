@@ -1,4 +1,6 @@
 Manifest-Version: 1.0
+CSS-ClientLibs: svyoauth2/lib/ionicons.min.css;name=ionicons.css;versi
+ on=v2.0.1
 Bundle-SymbolicName: svyoauth2
 Bundle-Name: oAuth2
 Bundle-Version: 1.0.0
@@ -7,5 +9,8 @@ JS-ClientLibs: svyoauth2/lib/satellizer.min.js;name=satellizer.js;vers
  ion=0.15.4
 
 Name: signinLinkedin/signinLinkedin.spec
+Web-Component: True
+
+Name: signinGoogle/signinGoogle.spec
 Web-Component: True
 
