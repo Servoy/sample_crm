@@ -38,12 +38,13 @@
 	left: 23px;
 	top: 8px;
 }
-.dropdown {
-	width: 208px;
+.navbar-user {
+	position: absolute;
+	right: 10px;
+}
+.navbar-user>.dropdown {
+	width: 100%;
 }
 .username {
 	margin-left: 50px;
-}
-.dropdown-menu {
-	width: 208px;
 }

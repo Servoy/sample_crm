@@ -34,6 +34,7 @@ function login(event) {
 		}
 	} else {
 		if (username && password) {
+			application.output(elements.fld_username.isValid())
 			if (elements.fld_username.isValid() && elements.fld_password.isValid()) {
 				scopes.login.user_uuid = security.authenticate('svySampleCrm_authenticator', 'authenticate_user', [username, password, true]);
 				if (!scopes.login.user_uuid) {

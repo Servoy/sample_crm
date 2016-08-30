@@ -28,7 +28,7 @@ angular.module('bootstrapcomponentsextraTextboxgroup',['servoy']).directive('boo
 			
 			//API
 			$scope.api.isValid = function() {
-				return $scope.showError
+				return !$scope.showError
 			}
         },
       templateUrl: 'bootstrapcomponentsextra/textboxgroup/textboxgroup.html'
