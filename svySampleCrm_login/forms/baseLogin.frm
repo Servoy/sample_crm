@@ -61,7 +61,6 @@ styleClass:"btn-oauth2"
 location:"8,8",
 name:"signin_Facebook_1",
 size:"100,100",
-styleClass:"btn-oauth2",
 typeName:"svyoauth2-signin-Facebook",
 typeid:47,
 uuid:"3EFD2016-F41E-4E78-8EA6-5DE142AC0751"
@@ -84,7 +83,8 @@ location:{
 x:7,
 y:7
 },
-styleClass:"btn-oauth2"
+styleClass:"btn-oauth2",
+tokenDataProviderID:"testDP"
 },
 location:"7,7",
 name:"signin_Linkedin_1",

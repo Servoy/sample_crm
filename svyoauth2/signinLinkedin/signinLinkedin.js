@@ -16,7 +16,9 @@ angular.module('svyoauth2SigninLinkedin',['servoy','satellizer']).config(functio
          $auth.link(provider, {clientId: $scope.model.cliendId}).then(function(response) {
 			 if(response && response.config && response.config.data &&response.config.data.code) {
 			 	$scope.model.tokenDataProviderID = response.config.data.code
+				console.log($scope.model.tokenDataProviderID)
 			 } else {
+				 console.log('Failed to get the token')
 				 $scope.model.tokenDataProviderID = null
 			 }
          })
