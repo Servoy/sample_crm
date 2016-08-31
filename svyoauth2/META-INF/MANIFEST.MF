@@ -11,6 +11,9 @@ JS-ClientLibs: svyoauth2/lib/satellizer.min.js;name=satellizer.js;vers
 Name: signinLinkedin/signinLinkedin.spec
 Web-Component: True
 
+Name: signinFacebook/signinFacebook.spec
+Web-Component: True
+
 Name: signinGoogle/signinGoogle.spec
 Web-Component: True
 

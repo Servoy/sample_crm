@@ -1,10 +1,10 @@
-angular.module('svyoauth2SigninGoogle',['servoy','satellizer']).config(function($authProvider) {
-   $authProvider.google({
+angular.module('svyoauth2SigninFacebook',['servoy','satellizer']).config(function($authProvider) {
+   $authProvider.facebook({
        clientId: '',
 	   redirectUri: window.location.origin,
 	   url: window.location.origin
      });
-  }).directive('svyoauth2SigninGoogle', function($auth) {  
+  }).directive('svyoauth2SigninFacebook', function($auth) {  
    return {
      restrict: 'E',
      scope: {
@@ -22,6 +22,6 @@ angular.module('svyoauth2SigninGoogle',['servoy','satellizer']).config(function(
          })
 		};
      },
-     templateUrl: 'svyoauth2/signinGoogle/signinGoogle.html'
+     templateUrl: 'svyoauth2/signinFacebook/signinFacebook.html'
    };
 })
