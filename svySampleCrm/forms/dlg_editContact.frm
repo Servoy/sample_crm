@@ -52,11 +52,11 @@ uuid:"14BB1831-863D-4A2F-8894-509FEDCC1FD9"
 {
 dataProviderID:"c_name_full",
 fontType:"Helvetica Neue,0,18",
-location:"266,45",
+location:"265,45",
 name:"fldfullname",
 onDataChangeMethodID:"06FF149D-05D3-4547-96CD-5DFE5124317D",
 placeholderText:"Full name",
-size:"366,30",
+size:"369,30",
 styleClass:"field-placeholder-left",
 tabSeq:4,
 typeid:4,
@@ -452,18 +452,18 @@ uuid:"C8000162-C679-430D-8B37-AF489BFCDD6D"
 json:{
 faclass:"fa-user fa-2x",
 location:{
-x:231,
+x:230,
 y:45
 },
 size:{
 height:23,
-width:42
+width:28
 },
 styleclass:"fa-icon-orange"
 },
-location:"231,45",
+location:"230,45",
 name:"icon_envelope_home_copy399_copy146",
-size:"42,23",
+size:"28,23",
 typeName:"svyfontawesome-fa-Icon",
 typeid:47,
 uuid:"D36947E2-70E5-4933-A2B6-89AC7C044BBD"
