@@ -12,6 +12,7 @@
 		<project>svySampleCrm_authenticator</project>
 		<project>svySampleCrm_login</project>
 		<project>svyoauth2</project>
+		<project>svysimplenavigation</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
