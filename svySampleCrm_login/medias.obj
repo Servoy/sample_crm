@@ -1,9 +1,10 @@
 [
 {
 encapsulation:0,
-name:".DS_Store",
+mimeType:"image/png",
+name:"linkedin/linkedin-button.png",
 typeid:37,
-uuid:"C97F2C22-F4E2-48B7-8DBC-60CDECA1634F"
+uuid:"F3B43B50-247E-48F1-A6C4-6EC762F255A6"
 },
 {
 encapsulation:0,
@@ -11,12 +12,5 @@ mimeType:"text/css",
 name:"login.css",
 typeid:37,
 uuid:"C2DE5A24-D04C-47A8-B13F-FEDD13C1FAB0"
-},
-{
-encapsulation:0,
-mimeType:"image/png",
-name:"logo/logo.png",
-typeid:37,
-uuid:"EC450511-B3E1-45B2-8B4E-73E372F22363"
 }
 ]
