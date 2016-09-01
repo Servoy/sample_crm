@@ -8,7 +8,7 @@
 	{
 		"styleClass"			: {"type":"styleclass", "tags": { "scope" :"design" }},
 		"cliendId" 				: {"type": "string", "tags": { "scope" :"design" }},
-		"tokenDataProviderID" 	: {"type": "dataprovider", "pushToServer": "allow", "tags": { "scope" :"design" }, "ondatachange": { "onchange":"onDataChangeMethodID"}},
+		"tokenDataProviderID" 	: {"type": "dataprovider", "pushToServer": "shallow", "tags": { "scope" :"design" }, "ondatachange": { "onchange":"onDataChangeMethodID"}},
 		"text"					: {"type": "string", "default": "Sign in with Linkedin"},
 		"enabled"				: {"type": "protected", "default": true, "blockingOn": false, "for": ["tokenDataProviderID","onDataChangeMethodID"] },
 		"visible" 				: {"type": "visible", "default":true},

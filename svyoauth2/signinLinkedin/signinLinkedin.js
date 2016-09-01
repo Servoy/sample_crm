@@ -9,6 +9,7 @@ angular.module('svyoauth2SigninLinkedin',['servoy','satellizer']).config(functio
      restrict: 'E',
      scope: {
        model: '=svyModel',
+	   svyApi: '=svyServoyapi',
 	   handlers: "=svyHandlers"
      },
      controller: function($scope, $element, $attrs) {
@@ -16,9 +17,8 @@ angular.module('svyoauth2SigninLinkedin',['servoy','satellizer']).config(functio
          $auth.link(provider, {clientId: $scope.model.cliendId}).then(function(response) {
 			 if(response && response.config && response.config.data &&response.config.data.code) {
 			 	$scope.model.tokenDataProviderID = response.config.data.code
-				console.log($scope.model.tokenDataProviderID)
+				$scope.svyApi.apply('tokenDataProviderID')
 			 } else {
-				 console.log('Failed to get the token')
 				 $scope.model.tokenDataProviderID = null
 			 }
          })
