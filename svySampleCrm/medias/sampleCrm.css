@@ -67,6 +67,9 @@
 	padding: 40px;
 }
 
+.bs-userbar-height {
+	height: 58px;
+}
 /* VIEWS */
 .form-baseDashboard {
 	padding-left: 12.5%;

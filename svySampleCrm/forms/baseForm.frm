@@ -87,7 +87,7 @@ specname:\"2columns\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"col-md-12 bs-nopadding\"\
+class:\"col-md-12 bs-nopadding bs-userbar-height\"\
 },\
 properties:{\
 packagename:\"12grid\",\
