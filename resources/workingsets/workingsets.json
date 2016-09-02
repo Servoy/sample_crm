@@ -7,16 +7,6 @@
 ]
 },
 {
-"name":"contacts-mobile",
-"paths":[
-"/svySampleCrm/.project",
-"/svySampleCrm/forms/frm_mo_contactEdit.frm",
-"/svySampleCrm/forms/frm_mo_contactList.frm",
-"/svySampleCrm/forms/frm_mo_contactTab.frm",
-"/svySampleCrm/forms/frm_mo_searchbar.frm"
-]
-},
-{
 "name":"mobile",
 "paths":[]
 },
