@@ -1,9 +1,9 @@
 {
-	"name": "svysimplenavigation-svyuserbar",
-	"displayName": "User Headerbar",
+	"name": "servoynavigation-userbar",
+	"displayName": "Headerbar",
 	"version": 1,
-	"definition": "svysimplenavigation/svyuserbar/svyuserbar.js",
-	"libraries": [{"name":"svyuserbar.css", "version":"1.0.0", "url":"svysimplenavigation/svyuserbar/svyuserbar.css", "mimetype":"text/css"}],
+	"definition": "servoynavigation/userbar/userbar.js",
+	"libraries": [{"name":"userbar.css", "version":"1.0.0", "url":"servoynavigation/userbar/userbar.css", "mimetype":"text/css"}],
 	"model":
 	{
 		"logo"          			: {"type": "media"},

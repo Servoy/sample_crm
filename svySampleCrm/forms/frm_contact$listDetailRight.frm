@@ -29,7 +29,7 @@ visible:true
 location:"423,174",
 name:"editButton",
 size:"29,28",
-typeName:"svyfontawesome-fa-Icon",
+typeName:"servoyextra-fontawesome",
 typeid:47,
 uuid:"075E211D-5E02-4371-A869-4487A221D0EC"
 },
@@ -81,7 +81,7 @@ styleclass:"fa-icon-orange"
 },
 location:"480,588",
 size:"23,23",
-typeName:"svyfontawesome-fa-Icon",
+typeName:"servoyextra-fontawesome",
 typeid:47,
 uuid:"25303579-2717-4145-894C-61C3DB6FD821"
 },
@@ -110,7 +110,7 @@ styleclass:"fa-icon-orange"
 },
 location:"480,375",
 size:"23,23",
-typeName:"svyfontawesome-fa-Icon",
+typeName:"servoyextra-fontawesome",
 typeid:47,
 uuid:"2931E315-91FD-4D1B-87E9-FCF09DB9AA3F"
 },
@@ -140,7 +140,7 @@ styleclass:"fa-icon-orange"
 },
 location:"480,517",
 size:"23,23",
-typeName:"svyfontawesome-fa-Icon",
+typeName:"servoyextra-fontawesome",
 typeid:47,
 uuid:"32033AF8-9626-45D4-BBD8-8025BAA8B6B3"
 },
@@ -159,7 +159,7 @@ styleclass:"fa-icon-orange"
 },
 location:"27,374",
 size:"23,23",
-typeName:"svyfontawesome-fa-Icon",
+typeName:"servoyextra-fontawesome",
 typeid:47,
 uuid:"3B50E714-E609-4F7D-A7C1-382523DCDAB8"
 },
@@ -178,7 +178,7 @@ styleclass:"fa-icon-orange"
 },
 location:"27,585",
 size:"23,23",
-typeName:"svyfontawesome-fa-Icon",
+typeName:"servoyextra-fontawesome",
 typeid:47,
 uuid:"3EBDAC90-B02F-4956-B4B2-36D4044164F8"
 },
@@ -237,7 +237,7 @@ styleclass:"fa-icon-orange"
 },
 location:"480,555",
 size:"23,23",
-typeName:"svyfontawesome-fa-Icon",
+typeName:"servoyextra-fontawesome",
 typeid:47,
 uuid:"5C550CEA-BDE1-478B-861F-9374423D290B"
 },
@@ -274,7 +274,7 @@ styleclass:"fa-icon-orange"
 },
 location:"231,213",
 size:"23,23",
-typeName:"svyfontawesome-fa-Icon",
+typeName:"servoyextra-fontawesome",
 typeid:47,
 uuid:"6F4B8259-EE3B-48B2-BB23-B68D4A0D97DF"
 },
@@ -294,7 +294,7 @@ styleclass:"fa-icon-orange"
 location:"457,173",
 name:"DeleteButton",
 size:"23,26",
-typeName:"svyfontawesome-fa-Icon",
+typeName:"servoyextra-fontawesome",
 typeid:47,
 uuid:"7864B527-1F70-4FAF-9067-662991C8FFDE"
 },
@@ -313,7 +313,7 @@ styleclass:"fa-icon-orange"
 },
 location:"27,425",
 size:"23,23",
-typeName:"svyfontawesome-fa-Icon",
+typeName:"servoyextra-fontawesome",
 typeid:47,
 uuid:"7A1C0B91-774B-4586-9604-EBE17B4B156E"
 },
@@ -352,7 +352,7 @@ styleclass:"fa-icon-orange"
 },
 location:"27,518",
 size:"23,23",
-typeName:"svyfontawesome-fa-Icon",
+typeName:"servoyextra-fontawesome",
 typeid:47,
 uuid:"86CC9083-555E-45FA-B786-BC2837383C39"
 },
@@ -403,7 +403,7 @@ styleclass:"fa-icon-orange"
 },
 location:"27,553",
 size:"23,23",
-typeName:"svyfontawesome-fa-Icon",
+typeName:"servoyextra-fontawesome",
 typeid:47,
 uuid:"B20F4F4B-6F2B-4B65-ADCC-5276A000F626"
 },
@@ -461,7 +461,7 @@ styleclass:"fa-icon-orange"
 },
 location:"230,253",
 size:"23,23",
-typeName:"svyfontawesome-fa-Icon",
+typeName:"servoyextra-fontawesome",
 typeid:47,
 uuid:"C36EDE9F-A7B6-482A-8A6D-F9DDDE789688"
 },
@@ -512,7 +512,7 @@ styleclass:"fa-icon-orange"
 },
 location:"480,425",
 size:"23,23",
-typeName:"svyfontawesome-fa-Icon",
+typeName:"servoyextra-fontawesome",
 typeid:47,
 uuid:"CAAC5B13-911A-434C-8025-CA0135326B81"
 },

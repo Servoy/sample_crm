@@ -1,10 +1,11 @@
-angular.module('svysimplenavigationSvymenubar',['servoy']).directive('svysimplenavigationSvymenubar', function() {  
+angular.module('servoynavigationMenubar',['servoy']).directive('servoynavigationMenubar', function() {  
 	return {
 		restrict: 'E',
 		scope: {
 			model: '=svyModel',
 			api: "=svyApi",
-			handlers: "=svyHandlers"
+			handlers: "=svyHandlers",
+			svyApi: '=svyServoyapi'
 		},
 		controller: function($scope, $element, $attrs) {
 
@@ -16,10 +17,11 @@ angular.module('svysimplenavigationSvymenubar',['servoy']).directive('svysimplen
 
 			function init() {
 				initMenu();
-				//Init set menu open (so toggle it once)
-				$("#wrapper").toggleClass("toggled-2");
-			}
-			;
+				//If menu shouldn't be collapsed by default toggle it once
+				if($scope.model.menuViewcollapse != true) {
+					$("#wrapper").toggleClass("toggled-2");
+				}
+			};
 
 			function menuItemOnClick(itemName) {
 				$scope.activeItem = itemName;	
@@ -44,21 +46,19 @@ angular.module('svysimplenavigationSvymenubar',['servoy']).directive('svysimplen
 			}
 
 			//API
-			$scope.api.getCurrentMenuView = function() {
-				if ($scope.model.menuView) {
-					return $scope.model.menuView;
+			$scope.api.isMenuCollapsed = function() {
+				if ($scope.model.menuViewcollapse) {
+					return $scope.model.menuViewcollapse;
 				} else {
-					return "full";
+					return false
 				}
 			};
 
 			//WATCHERS
-			$scope.$watch('model.menuView', function() {
-					if ($scope.model.menuView) {
-						$("#wrapper").toggleClass("toggled-2");
-					}
+			$scope.$watch('model.menuViewcollapse', function() {
+					$("#wrapper").toggleClass("toggled-2");
 				})
 		},
-      templateUrl: 'svysimplenavigation/svymenubar/svymenubar.html'
+      templateUrl: 'servoynavigation/menubar/menubar.html'
     };
   })

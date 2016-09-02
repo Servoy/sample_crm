@@ -90,7 +90,7 @@ styleclass:"fa-icon-orange"
 location:"6,3",
 name:"fa_Icon_2",
 size:"28,28",
-typeName:"svyfontawesome-fa-Icon",
+typeName:"servoyextra-fontawesome",
 typeid:47,
 uuid:"5101F2C6-166F-4485-95EF-6251F41923DA"
 },
@@ -142,7 +142,7 @@ styleclass:"fa-icon-orange"
 location:"290,4",
 name:"fa_Icon_1",
 size:"28,28",
-typeName:"svyfontawesome-fa-Icon",
+typeName:"servoyextra-fontawesome",
 typeid:47,
 uuid:"989AF2B7-A0D4-46C2-AAF6-C1BB5C0A2F30"
 },

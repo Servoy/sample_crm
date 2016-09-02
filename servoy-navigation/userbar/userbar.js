@@ -1,4 +1,4 @@
-angular.module('svysimplenavigationSvyuserbar',['servoy']).directive('svysimplenavigationSvyuserbar', function() {  
+angular.module('servoynavigationUserbar',['servoy']).directive('servoynavigationUserbar', function() {  
     return {
       restrict: 'E',
       scope: {
@@ -15,6 +15,6 @@ angular.module('svysimplenavigationSvyuserbar',['servoy']).directive('svysimplen
 				}
 			})
       },
-      templateUrl: 'svysimplenavigation/svyuserbar/svyuserbar.html'
+      templateUrl: 'servoynavigation/userbar/userbar.html'
     };
   })

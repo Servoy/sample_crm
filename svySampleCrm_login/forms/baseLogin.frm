@@ -43,6 +43,7 @@ items:[
 {
 json:{
 dataProviderID:"username",
+faclass:"fa-envelope-o fa-fw",
 glyphicon:"fa fa-envelope-o fa-fw",
 inputType:"text",
 inputValidation:"none",
@@ -51,7 +52,7 @@ readOnly:false
 },
 location:"1,1",
 name:"fld_username",
-typeName:"bootstrapcomponentsextra-textboxgroup",
+typeName:"servoyextra-textfieldgroup",
 typeid:47,
 uuid:"431F2954-C803-4F71-B946-64AEE132CADE"
 },
@@ -151,6 +152,7 @@ uuid:"87C41B2F-4155-40E0-8A5D-96B71690996D"
 {
 json:{
 dataProviderID:"password",
+faclass:"fa-key fa-fw",
 glyphicon:"fa fa-key fa-fw",
 inputType:"password",
 onActionMethodID:"291D8FA5-F7FF-47F5-8478-C9C41A7A6E19",
@@ -158,7 +160,7 @@ placeholderText:"Password"
 },
 location:"2,2",
 name:"fld_password",
-typeName:"bootstrapcomponentsextra-textboxgroup",
+typeName:"servoyextra-textfieldgroup",
 typeid:47,
 uuid:"A05FC819-DBF2-4773-A713-CF6DFE04C7FF"
 },

@@ -1,15 +1,15 @@
 {
-	"name": "svysimplenavigation-svymenubar",
-	"displayName": "Nav Sidebar",
+	"name": "servoynavigation-menubar",
+	"displayName": "Sidebar",
 	"version": 1,
-	"definition": "svysimplenavigation/svymenubar/svymenubar.js",
-	"libraries": [{"name":"svymenubar.css", "version":"1.0.0", "url":"svysimplenavigation/svymenubar/svymenubar.css", "mimetype":"text/css"}],
+	"definition": "servoynavigation/menubar/menubar.js",
+	"libraries": [{"name":"menubar.css", "version":"1.0.0", "url":"servoynavigation/menubar/menubar.css", "mimetype":"text/css"}],
 	"model":
 	{
-		"height"       : {"type":"int", "default":0},
-		"menuItems"    : {"type": "item[]"},
-		"menuView"     : {"type": "string", "default": "full", "values": ["full", "mini"]},
-		"styleclass"   : {"type": "styleclass"}
+		"height"       		: {"type":"int", "default":0},
+		"menuItems"    		: {"type": "item[]"},
+		"menuViewcollapse"	: {"type": "boolean", "pushToServer": "shallow", "default": "false"},
+		"styleclass"   		: {"type": "styleclass"}
 	},
 	"handlers":
 	{
@@ -22,7 +22,7 @@
 						}
 	},
 	"api": {
-		"getCurrentMenuView" : {"returns": "string"}
+		"isMenuCollapsed" : {"returns": "boolean"}
 	},
 	"types":
 	{

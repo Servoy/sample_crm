@@ -6,13 +6,13 @@
 		<project>resources</project>
 		<project>servoysample</project>
 		<project>svyUtils</project>
-		<project>svyfontawesome</project>
 		<project>randomData</project>
-		<project>bootstrapcomponentsextra</project>
 		<project>svySampleCrm_authenticator</project>
 		<project>svySampleCrm_login</project>
 		<project>svyoauth2</project>
-		<project>svysimplenavigation</project>
+		<project>servoy-extra-components</project>
+		<project>servoynavigation</project>
+		<project>servoy-navigation</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

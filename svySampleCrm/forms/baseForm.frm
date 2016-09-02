@@ -62,7 +62,7 @@ onItemClick:"2B8A2EBE-E181-4A79-A13E-D9ECE90EFEB4"
 },
 location:"1,1",
 name:"svymenubar",
-typeName:"svysimplenavigation-svymenubar",
+typeName:"servoynavigation-menubar",
 typeid:47,
 uuid:"CFAEF95F-A0D6-4E9E-BDE2-A8C6A8C06757"
 }
@@ -122,7 +122,7 @@ userName:"John Doe",
 userNameDataProviderID:"scopes$login_to_users.name_full"
 },
 name:"svyuserbar",
-typeName:"svysimplenavigation-svyuserbar",
+typeName:"servoynavigation-userbar",
 typeid:47,
 uuid:"3E17A749-311E-44DD-B90A-949CAE6F2E84"
 }
@@ -144,7 +144,6 @@ uuid:"4BB0BA3D-8B4D-4E5B-8E5A-775E5841EA87"
 ],
 name:"baseForm",
 navigatorID:"-1",
-onLoadMethodID:"FCDBF997-2832-4C76-AB3E-52FDD3A8F4E8",
 styleClass:"bs-full-height",
 titleText:"-none-",
 typeid:3,

@@ -39,7 +39,7 @@ width:63
 },
 location:"40,12",
 size:"63,70",
-typeName:"svyfontawesome-fa-Icon",
+typeName:"servoyextra-fontawesome",
 typeid:47,
 uuid:"DB53D0AB-97E8-40BF-BE6B-4DBEC2ACC51E"
 }

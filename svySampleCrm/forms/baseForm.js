@@ -25,10 +25,10 @@ function menuNavigationClick(menuItem) {
  * @properties={typeid:24,uuid:"E05AE2B0-491E-4FB7-8947-270CFEE94300"}
  */
 function toggleMenuButton() {
-	if (elements.svymenubar.getCurrentMenuView() == 'full') {
-		elements.svymenubar.menuView = 'mini'
+	if (elements.svymenubar.isMenuCollapsed() == false) {
+		elements.svymenubar.menuViewcollapse = true
 	} else {
-		elements.svymenubar.menuView = 'full'
+		elements.svymenubar.menuViewcollapse = false
 	}
 }
 
@@ -44,7 +44,6 @@ function userMenuItemClick(menuItem) {
 	case 'Logout':
 		security.logout();
 		break;
-	
 	case 'Settings':
 		var window = application.createWindow('userSettings', JSWindow.MODAL_DIALOG);
 		window.undecorated = true;
@@ -56,17 +55,4 @@ function userMenuItemClick(menuItem) {
 		}
 	break;
 	}
-}
-
-/**
- * Callback method when form is (re)loaded.
- *
- * @param {JSEvent} event the event that triggered the action
- *
- * @protected
- *
- * @properties={typeid:24,uuid:"FCDBF997-2832-4C76-AB3E-52FDD3A8F4E8"}
- */
-function onLoad(event) {
-	elements.svyuserbar.userName = scopes$login_to_users.name_full;
 }
