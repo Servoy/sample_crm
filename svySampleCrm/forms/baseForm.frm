@@ -144,6 +144,7 @@ uuid:"4BB0BA3D-8B4D-4E5B-8E5A-775E5841EA87"
 ],
 name:"baseForm",
 navigatorID:"-1",
+scrollbars:36,
 styleClass:"bs-full-height",
 titleText:"-none-",
 typeid:3,

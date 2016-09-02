@@ -75,6 +75,9 @@
 	padding-left: 12.5%;
 }
 
+.form-contact-list {
+	min-width: 320px;	
+}
 /* Elements */
 .fa-icon-orange {
 	color: #EB7932;
