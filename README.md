@@ -2,6 +2,9 @@
 
 'sample_crm' is a Servoy Solution to show how to build a responsive application..
 
+# Live preview
+
+
 # Getting started
 
 To use the Samle CRM Solution. 
