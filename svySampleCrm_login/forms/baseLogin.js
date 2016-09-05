@@ -94,3 +94,17 @@ function alreadyAccount(event) {
 	elements.fld_username.inputValidation = 'none'
 	elements.fld_password.inputValidation = 'none'
 }
+
+/**
+ * Callback method for when form is shown.
+ *
+ * @param {Boolean} firstShow form is shown first time after load
+ * @param {JSEvent} event the event that triggered the action
+ *
+ * @protected
+ *
+ * @properties={typeid:24,uuid:"704D621F-8BC9-4C58-972F-D14DA97917F2"}
+ */
+function onShow(firstShow, event) {
+	controller.focusFirstField()
+}

@@ -48,7 +48,8 @@ glyphicon:"fa fa-envelope-o fa-fw",
 inputType:"text",
 inputValidation:"none",
 placeholderText:"Username",
-readOnly:false
+readOnly:false,
+tabSeq:1
 },
 location:"1,1",
 name:"fld_username",
@@ -78,6 +79,7 @@ items:[
 json:{
 onActionMethodID:"CB7D8EBA-EFE7-431A-9AE6-1964665212D1",
 styleClass:"label-forgotPassword",
+tabSeq:-2,
 text:"Forgot password?",
 visible:true
 },
@@ -104,6 +106,7 @@ items:[
 json:{
 onActionMethodID:"FB069709-FEE8-48B9-B9C5-D70366EE4E08",
 styleClass:"label-alreadyAccount",
+tabSeq:-2,
 text:"Already have a account?",
 visible:false
 },
@@ -131,6 +134,7 @@ items:[
 json:{
 onActionMethodID:"A2D4049B-59DD-4E65-8D73-C18C63E2F8C0",
 styleClass:"label-createAccount",
+tabSeq:-2,
 text:"Create account",
 visible:true
 },
@@ -156,7 +160,8 @@ faclass:"fa-key fa-fw",
 glyphicon:"fa fa-key fa-fw",
 inputType:"password",
 onActionMethodID:"291D8FA5-F7FF-47F5-8478-C9C41A7A6E19",
-placeholderText:"Password"
+placeholderText:"Password",
+tabSeq:2
 },
 location:"2,2",
 name:"fld_password",
@@ -169,6 +174,7 @@ json:{
 enabled:true,
 onActionMethodID:"291D8FA5-F7FF-47F5-8478-C9C41A7A6E19",
 styleClass:"btn btn-login",
+tabSeq:3,
 text:"Sign In"
 },
 location:"5,5",
@@ -200,6 +206,7 @@ uuid:"7B971D4C-84BD-40E7-A276-2B08A7EE7857"
 ],
 name:"baseLogin",
 navigatorID:"-1",
+onShowMethodID:"704D621F-8BC9-4C58-972F-D14DA97917F2",
 showInMenu:true,
 titleText:"-none-",
 typeid:3,
