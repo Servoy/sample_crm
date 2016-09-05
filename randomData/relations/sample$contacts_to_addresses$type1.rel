@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+encapsulation:2,
+foreignDataSource:"db:/svy_sample/addresses",
+items:[
+{foreignColumnName:"address_type",primaryDataProviderID:"LITERAL:1",typeid:23,uuid:"76059FDA-0F31-4045-970B-6C547DAD5C43"},
+{foreignColumnName:"contact_id",primaryDataProviderID:"contact_id",typeid:23,uuid:"FD1414FF-9A8F-4FF1-AFAE-FCF210AA44D0"}
+],
+joinType:1,
+name:"sample$contacts_to_addresses$type1",
+primaryDataSource:"db:/svy_sample/contacts",
+typeid:22,
+uuid:"C39D0AAE-5C6D-466A-8C78-7FDF7C892BE9"

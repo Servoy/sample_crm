@@ -48,7 +48,7 @@ noResultText:"No Result found",
 noResultonActionMethodID:"AEC08934-6826-43C0-98AD-8D05F7988E6A",
 onActionMethodID:"1DD7DF65-F9D5-4A8C-A51D-BA3850ED2A8F",
 size:{
-height:32,
+height:20,
 width:247
 },
 valuelistID:"8C58D921-28F1-4815-AA6A-707B47BF121D",
@@ -56,7 +56,7 @@ visible:true
 },
 location:"37,0",
 name:"fldSearchbar",
-size:"247,32",
+size:"247,20",
 typeName:"servoysample-sc-Searchbar",
 typeid:47,
 uuid:"294C5B1B-7B9B-453A-AF75-8AFEED817FDA"

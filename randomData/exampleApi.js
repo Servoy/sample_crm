@@ -1,10 +1,38 @@
 /**
+ * @private
+ * @param {String} fullName
+ * @return {{firstName: String, middleName: String, lastName: String}}
+ * 
+ * @properties={typeid:24,uuid:"CC3572DE-7628-4474-BA78-A7B095EA94CE"}
+ */
+function splitContactFullName(fullName) {
+	/**@type {{firstName: String, middleName: String, lastName: String}} */
+	var obj = {}
+	var split = fullName.split(' ');
+	if (split.length > 2) {
+		obj.firstName = utils.stringInitCap(split.shift());
+		obj.lastName = utils.stringInitCap(split.pop());
+		obj.middleName = split.join(' ');
+	} else if (split.length > 1) {
+		obj.firstName = utils.stringInitCap(split.shift());
+		obj.lastName = utils.stringInitCap(split.pop());
+		obj.middleName = '';
+	} else {
+		obj.firstName = '';
+		obj.lastName = utils.stringInitCap(split.pop());
+		obj.middleName = '';
+	}
+	return obj
+}
+
+/**
  * @properties={typeid:24,uuid:"433DE9C1-2819-45A1-A180-34F5656F481C"}
  * @AllowToRunInFind
+ * @param {Number} numberOfUsers
  */
-function loadUsers() {
-	var userCount = 75//plugins.dialogs.showInputDialog('', 'Number of users to add')
-	var userDelete = 'Yes'//plugins.dialogs.showQuestionDialog('', 'Delete all the data', 'Yes', 'No')
+function loadUsers(numberOfUsers) {
+	var userCount = numberOfUsers
+	var userDelete = 'Yes'
 	var fs = datasources.db.svy_sample.contacts.getFoundSet();
 
 	if (userDelete == 'Yes') {
@@ -18,7 +46,7 @@ function loadUsers() {
 	var fsCountry = datasources.db.svy_sample.countries.getFoundSet()
 	for (var i = 0; i < userCount; i++) {
 		rec = fs.getRecord(fs.newRecord());
-		var obj = scopes.contactUtils.splitContactFullName(randomUser.results[i].name.first + ' ' + randomUser.results[i].name.last)
+		var obj = splitContactFullName(randomUser.results[i].name.first + ' ' + randomUser.results[i].name.last)
 		rec.name_first = obj.firstName;
 		rec.name_middle = obj.middleName;
 		rec.name_last = obj.lastName;
@@ -35,7 +63,7 @@ function loadUsers() {
 		
 		
 		//Address part
-		recAddress = rec.contacts_to_addresses$type1.getRecord(rec.contacts_to_addresses$type1.newRecord())
+		recAddress = rec.sample$contacts_to_addresses$type1.getRecord(rec.sample$contacts_to_addresses$type1.newRecord())
 		recAddress.city = randomUser.results[i].location.city
 		recAddress.zipcode = randomUser.results[i].location.postcode
 		recAddress.line_1 = randomUser.results[i].location.street
@@ -76,4 +104,24 @@ function loadCountries() {
 	}
 	databaseManager.saveData()
 	
+}
+
+/**
+ * @properties={typeid:24,uuid:"1CB6D64A-3333-44AA-B7B4-AB0D63423185"}
+ */
+function devCleanAllData() {
+	if(application.isInDeveloper()) {
+		if(plugins.dialogs.showQuestionDialog('Clean all Data','Do you want to remove ALL data', 'Yes', 'No') == 'Yes') {
+			if(plugins.dialogs.showQuestionDialog('Remove SaaS filter?','Do you want to remove the SaaS filter?', 'Yes', 'No') == 'Yes') {
+				databaseManager.removeTableFilterParam(datasources.db.svy_sample.getServerName(),'userFilter');
+			}
+			var tables = databaseManager.getTableNames(datasources.db.svy_sample.getServerName())
+				for(var i in tables) {
+					var fs = databaseManager.getFoundSet(databaseManager.getTable(datasources.db.svy_sample.getServerName(),tables[i]).getDataSource())
+					fs.loadAllRecords();
+					fs.deleteAllRecords();
+				}
+			security.logout()
+		}
+	}
 }
