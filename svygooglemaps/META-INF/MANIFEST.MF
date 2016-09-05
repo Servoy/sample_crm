@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Bundle-SymbolicName: svygooglemaps
-Bundle-Name: Servoy Google Maps
-Bundle-Version: 1.0.0
-Package-Type: Web-Component
-
-Name: map/map.spec
-Web-Component: True
-

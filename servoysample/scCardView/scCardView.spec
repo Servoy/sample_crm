@@ -1,6 +1,6 @@
 {
 	"name": "servoysample-sc-Card-View",
-	"displayName": "View - Cardboard",
+	"displayName": "Cardboard",
 	"version": 1,
 	"definition": "servoysample/scCardView/scCardView.js",
 	"libraries": [{

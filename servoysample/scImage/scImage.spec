@@ -1,6 +1,6 @@
 {
 	"name": "servoysample-sc-Image",
-	"displayName": "Elem - Image",
+	"displayName": "Imagefield",
 	"version": 1,
 	"icon": "servoydefault/imagemedia/IMG16.png",
 	"definition": "servoysample/scImage/scImage.js",
