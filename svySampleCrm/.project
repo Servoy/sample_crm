@@ -13,6 +13,7 @@
 		<project>servoy-extra-components</project>
 		<project>servoynavigation</project>
 		<project>servoy-navigation</project>
+		<project>svytimelinecomponent</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
