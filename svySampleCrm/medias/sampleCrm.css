@@ -40,7 +40,8 @@
 
 .bs-col-centered {
 	position: relative;
-	margin-left: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 .row {
@@ -51,6 +52,11 @@
 	height: 50%;
 	width: 50%;
 }
+
+.svy-layoutcontainer.bs-center-content > * > * {
+	margin:auto;
+}
+
 .bs-absolute-center {
 	margin: auto;
 	position: absolute;
@@ -73,10 +79,6 @@
 /* VIEWS */
 .form-baseDashboard {
 	padding-left: 12.5%;
-}
-
-.form-contact-list {
-	min-width: 320px;	
 }
 /* Elements */
 .fa-icon-orange {

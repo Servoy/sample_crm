@@ -4,6 +4,7 @@ encapsulation:60,
 initialSort:"c_name_full asc",
 items:[
 {
+groupID:"525551CC-31AD-461A-A374-8DB797124B98",
 location:"59,315",
 size:"317,20",
 styleClass:"infotitle",
@@ -13,6 +14,7 @@ typeid:7,
 uuid:"05751AA9-B416-4456-AFDC-8182D8ED9EB8"
 },
 {
+groupID:"D817725B-EB73-4EFA-AF2D-339B9EC7A899",
 json:{
 faclass:"fa-pencil fa-2x",
 location:{
@@ -35,6 +37,7 @@ uuid:"075E211D-5E02-4371-A869-4487A221D0EC"
 },
 {
 foreground:"#808080",
+groupID:"7F303D59-A25B-4EED-B2D2-6CAF2B89509A",
 lineSize:1,
 location:"468,359",
 size:"378,1",
@@ -45,6 +48,7 @@ uuid:"0E7A7891-5573-4DC1-AD03-C1451CB47A45"
 dataProviderID:"c_name_full",
 editable:false,
 fontType:"Helvetica Neue,0,16",
+groupID:"D817725B-EB73-4EFA-AF2D-339B9EC7A899",
 horizontalAlignment:0,
 location:"266,213",
 placeholderText:"Full name",
@@ -59,6 +63,7 @@ borderType:"EmptyBorder,0,0,0,0",
 dataProviderID:"c_favorite_icon",
 displayType:9,
 editable:false,
+groupID:"D817725B-EB73-4EFA-AF2D-339B9EC7A899",
 location:"379,171",
 name:"favicon",
 size:"32,32",
@@ -67,6 +72,7 @@ typeid:4,
 uuid:"18E31F25-1984-4F7D-A297-84297B48F8DA"
 },
 {
+groupID:"7F303D59-A25B-4EED-B2D2-6CAF2B89509A",
 json:{
 faclass:"fa-linkedin fa-2x",
 location:{
@@ -88,6 +94,7 @@ uuid:"25303579-2717-4145-894C-61C3DB6FD821"
 {
 dataProviderID:"contacts_to_addresses$type1.line_1",
 editable:false,
+groupID:"525551CC-31AD-461A-A374-8DB797124B98",
 location:"61,418",
 placeholderText:"Street Name",
 size:"320,20",
@@ -96,6 +103,7 @@ typeid:4,
 uuid:"271CDE5B-D7EE-4900-A3F2-5BFE0E29C380"
 },
 {
+groupID:"7F303D59-A25B-4EED-B2D2-6CAF2B89509A",
 json:{
 faclass:"fa-envelope fa-2x",
 location:{
@@ -117,6 +125,7 @@ uuid:"2931E315-91FD-4D1B-87E9-FCF09DB9AA3F"
 {
 dataProviderID:"contacts_to_addresses$type2.zipcode",
 editable:false,
+groupID:"7F303D59-A25B-4EED-B2D2-6CAF2B89509A",
 location:"516,444",
 placeholderText:"Zip Code",
 selectOnEnter:true,
@@ -126,6 +135,7 @@ typeid:4,
 uuid:"293622AF-FC3B-493C-BA5E-C3504977CD5B"
 },
 {
+groupID:"7F303D59-A25B-4EED-B2D2-6CAF2B89509A",
 json:{
 faclass:"fa-info-circle fa-2x",
 location:{
@@ -145,6 +155,7 @@ typeid:47,
 uuid:"32033AF8-9626-45D4-BBD8-8025BAA8B6B3"
 },
 {
+groupID:"525551CC-31AD-461A-A374-8DB797124B98",
 json:{
 faclass:"fa-envelope fa-2x",
 location:{
@@ -164,6 +175,7 @@ typeid:47,
 uuid:"3B50E714-E609-4F7D-A7C1-382523DCDAB8"
 },
 {
+groupID:"525551CC-31AD-461A-A374-8DB797124B98",
 json:{
 faclass:"fa-linkedin fa-2x",
 location:{
@@ -186,6 +198,7 @@ uuid:"3EBDAC90-B02F-4956-B4B2-36D4044164F8"
 dataProviderID:"c_job_company",
 editable:false,
 fontType:"Helvetica Neue,0,16",
+groupID:"D817725B-EB73-4EFA-AF2D-339B9EC7A899",
 horizontalAlignment:0,
 location:"265,251",
 placeholderText:"Company",
@@ -204,6 +217,7 @@ uuid:"44F0FDEF-A2CF-4756-8B4C-4AA54696484F"
 {
 displayType:9,
 editable:false,
+groupID:"7F303D59-A25B-4EED-B2D2-6CAF2B89509A",
 location:"480,639",
 name:"goImagec",
 size:"376,154",
@@ -213,6 +227,7 @@ uuid:"46440633-DBD9-4CD6-A56E-3649916EFE17"
 {
 dataProviderID:"contacts_to_addresses$type1.countrie_id",
 editable:false,
+groupID:"525551CC-31AD-461A-A374-8DB797124B98",
 location:"61,469",
 placeholderText:"Country",
 selectOnEnter:true,
@@ -223,6 +238,7 @@ uuid:"4E83FDEF-92F7-4651-92CD-A4AD60BAEAAD",
 valuelistID:"FE094231-B296-4C9E-89F0-72FE8ACBB5D9"
 },
 {
+groupID:"7F303D59-A25B-4EED-B2D2-6CAF2B89509A",
 json:{
 faclass:"fa-phone fa-2x",
 location:{
@@ -243,6 +259,7 @@ uuid:"5C550CEA-BDE1-478B-861F-9374423D290B"
 },
 {
 foreground:"#808080",
+groupID:"525551CC-31AD-461A-A374-8DB797124B98",
 lineSize:1,
 location:"15,358",
 size:"378,1",
@@ -252,6 +269,7 @@ uuid:"5EB37D80-667D-4BD2-A73C-A3C71FD74CBE"
 {
 dataProviderID:"contacts_to_addresses$type1.zipcode",
 editable:false,
+groupID:"525551CC-31AD-461A-A374-8DB797124B98",
 location:"61,444",
 placeholderText:"Zip Code",
 size:"117,20",
@@ -260,6 +278,7 @@ typeid:4,
 uuid:"6EF900C0-C685-489A-9589-FC831F7759C0"
 },
 {
+groupID:"D817725B-EB73-4EFA-AF2D-339B9EC7A899",
 json:{
 faclass:"fa-user fa-2x",
 location:{
@@ -279,6 +298,7 @@ typeid:47,
 uuid:"6F4B8259-EE3B-48B2-BB23-B68D4A0D97DF"
 },
 {
+groupID:"D817725B-EB73-4EFA-AF2D-339B9EC7A899",
 json:{
 faclass:"fa-trash-o fa-2x",
 location:{
@@ -299,6 +319,7 @@ typeid:47,
 uuid:"7864B527-1F70-4FAF-9067-662991C8FFDE"
 },
 {
+groupID:"525551CC-31AD-461A-A374-8DB797124B98",
 json:{
 faclass:"fa-location-arrow fa-2x",
 location:{
@@ -320,6 +341,7 @@ uuid:"7A1C0B91-774B-4586-9604-EBE17B4B156E"
 {
 dataProviderID:"contacts_to_addresses$type2.city",
 editable:false,
+groupID:"7F303D59-A25B-4EED-B2D2-6CAF2B89509A",
 location:"632,444",
 placeholderText:"CIty",
 size:"205,20",
@@ -330,6 +352,7 @@ uuid:"7A892B70-7346-4092-A992-ACB22D813544"
 {
 dataProviderID:"linkedin_2",
 editable:false,
+groupID:"7F303D59-A25B-4EED-B2D2-6CAF2B89509A",
 location:"516,595",
 placeholderText:"Linkedin Profile",
 size:"320,20",
@@ -338,6 +361,7 @@ typeid:4,
 uuid:"847DE87A-6128-4E8D-805E-FF89C36CD3D3"
 },
 {
+groupID:"525551CC-31AD-461A-A374-8DB797124B98",
 json:{
 faclass:"fa-phone fa-2x",
 location:{
@@ -359,6 +383,7 @@ uuid:"86CC9083-555E-45FA-B786-BC2837383C39"
 {
 dataProviderID:"phone_1",
 editable:false,
+groupID:"525551CC-31AD-461A-A374-8DB797124B98",
 location:"61,520",
 placeholderText:"Phone Number",
 size:"320,20",
@@ -369,6 +394,7 @@ uuid:"8A952145-3F2E-4A1F-AF46-AC4445D41BF8"
 {
 dataProviderID:"contacts_to_addresses$type2.countrie_id",
 editable:false,
+groupID:"7F303D59-A25B-4EED-B2D2-6CAF2B89509A",
 location:"516,469",
 placeholderText:"Country",
 selectOnEnter:true,
@@ -381,6 +407,7 @@ valuelistID:"FE094231-B296-4C9E-89F0-72FE8ACBB5D9"
 {
 dataProviderID:"phone_3",
 editable:false,
+groupID:"525551CC-31AD-461A-A374-8DB797124B98",
 location:"61,557",
 placeholderText:"Mobile Number",
 size:"320,20",
@@ -389,6 +416,7 @@ typeid:4,
 uuid:"A1DCB46E-8D6D-4091-9407-268B6F9D90D0"
 },
 {
+groupID:"525551CC-31AD-461A-A374-8DB797124B98",
 json:{
 faclass:"fa-mobile fa-2x",
 location:{
@@ -410,6 +438,7 @@ uuid:"B20F4F4B-6F2B-4B65-ADCC-5276A000F626"
 {
 dataProviderID:"phone_2",
 editable:false,
+groupID:"7F303D59-A25B-4EED-B2D2-6CAF2B89509A",
 location:"516,559",
 placeholderText:"Phone Number",
 size:"320,20",
@@ -420,6 +449,7 @@ uuid:"B2F7A471-AA6F-4574-A486-1A707A3F4156"
 {
 dataProviderID:"email_2",
 editable:false,
+groupID:"7F303D59-A25B-4EED-B2D2-6CAF2B89509A",
 location:"516,380",
 placeholderText:"Email",
 size:"320,20",
@@ -428,6 +458,7 @@ typeid:4,
 uuid:"B4B39DD4-F52C-45AF-9C32-91EACAEAED2D"
 },
 {
+groupID:"7F303D59-A25B-4EED-B2D2-6CAF2B89509A",
 location:"512,308",
 size:"329,33",
 styleClass:"infotitle",
@@ -439,6 +470,7 @@ uuid:"B68A36DA-45CE-4968-BACB-41519615A575"
 {
 dataProviderID:"website",
 editable:false,
+groupID:"7F303D59-A25B-4EED-B2D2-6CAF2B89509A",
 location:"516,520",
 placeholderText:"Website",
 size:"320,20",
@@ -447,6 +479,7 @@ typeid:4,
 uuid:"B8A16866-595B-4AD2-871A-280684AB248D"
 },
 {
+groupID:"D817725B-EB73-4EFA-AF2D-339B9EC7A899",
 json:{
 faclass:"fa-building fa-2x",
 location:{
@@ -468,6 +501,7 @@ uuid:"C36EDE9F-A7B6-482A-8A6D-F9DDDE789688"
 {
 dataProviderID:"email_1",
 editable:false,
+groupID:"525551CC-31AD-461A-A374-8DB797124B98",
 horizontalAlignment:2,
 location:"61,380",
 placeholderText:"Email",
@@ -478,6 +512,7 @@ typeid:4,
 uuid:"C9D705E1-6A20-42FF-9064-00E7B696B971"
 },
 {
+groupID:"D817725B-EB73-4EFA-AF2D-339B9EC7A899",
 json:{
 alternateImage:"A568EE86-91F1-4BDE-BEA2-6444E262D4E9",
 dataProviderID:"image",
@@ -498,6 +533,7 @@ typeid:47,
 uuid:"CA2D8218-FF90-485B-80A4-356AB0BAEDFC"
 },
 {
+groupID:"7F303D59-A25B-4EED-B2D2-6CAF2B89509A",
 json:{
 faclass:"fa-location-arrow fa-2x",
 location:{
@@ -519,6 +555,7 @@ uuid:"CAAC5B13-911A-434C-8025-CA0135326B81"
 {
 displayType:9,
 editable:false,
+groupID:"525551CC-31AD-461A-A374-8DB797124B98",
 location:"27,639",
 name:"goImage",
 size:"376,154",
@@ -528,6 +565,7 @@ uuid:"CADD6EA9-7DC0-4EEC-85AF-75D34344683B"
 {
 dataProviderID:"linkedin_1",
 editable:false,
+groupID:"525551CC-31AD-461A-A374-8DB797124B98",
 location:"61,592",
 placeholderText:"Linkedin Profile",
 size:"320,20",
@@ -538,6 +576,7 @@ uuid:"D1F8E6DB-0461-4BD2-B65F-EA199CE00730"
 {
 dataProviderID:"contacts_to_addresses$type2.line_1",
 editable:false,
+groupID:"7F303D59-A25B-4EED-B2D2-6CAF2B89509A",
 location:"516,418",
 placeholderText:"Street Name",
 selectOnEnter:true,
@@ -549,6 +588,7 @@ uuid:"D2FCFC99-6137-4B78-94CB-2467557D312B"
 {
 dataProviderID:"contacts_to_addresses$type1.city",
 editable:false,
+groupID:"525551CC-31AD-461A-A374-8DB797124B98",
 location:"183,444",
 placeholderText:"City",
 size:"198,20",

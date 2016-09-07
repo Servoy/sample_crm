@@ -74,8 +74,8 @@ function onRecordSelection(event) {
 function renderMapImageLeft() {
 	var url = 'https://maps.googleapis.com/maps/api/staticmap?center=%%street%%,%%city%%,%%country%%&zoom=14&size=%%width%%x%%heigth%%&maptype=roadmap&markers=%%street%%,%%city%%,%%country%%'
 	var correctData = { }
-	correctData.heigth = elements.formcomponent.containedForm.goImage.getHeight();
-	correctData.width = elements.formcomponent.containedForm.goImage.getWidth();
+	correctData.heigth = elements.formcomponent.containedForm.comp_infopersonal.containedForm.goImage.getHeight();
+	correctData.width = elements.formcomponent.containedForm.comp_infopersonal.containedForm.goImage.getWidth();
 	var rec = foundset.getSelectedRecord();
 	var reca
 	var allowLoad = false
@@ -104,10 +104,11 @@ function renderMapImageLeft() {
  * @properties={typeid:24,uuid:"ADCBFCCD-2786-4221-97FB-5BE23EF17F97"}
  */
 function renderMapImageRight() {
+	return
 	var url = 'https://maps.googleapis.com/maps/api/staticmap?center=%%street%%,%%city%%,%%country%%&zoom=14&size=%%width%%x%%heigth%%&maptype=roadmap&markers=%%street%%,%%city%%,%%country%%'
 	var correctData = { }
-	correctData.heigth = elements.formcomponent.containedForm.goImagec.getHeight();
-	correctData.width = elements.formcomponent.containedForm.goImagec.getWidth();
+	correctData.heigth = elements.formcomponent.containedForm.comp_infocompany.containedForm.goImage.getHeight();
+	correctData.width = elements.formcomponent.containedForm.comp_infocompany.containedForm.goImage.getWidth();
 	var rec = foundset.getSelectedRecord();
 	var reca
 	var allowLoad = false
