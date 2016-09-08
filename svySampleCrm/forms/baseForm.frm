@@ -58,6 +58,7 @@ itemText:"Contacts",
 svyUUID:"1F8423EC-0B74-4509-B94E-CB885A3E5354"
 }
 ],
+menuViewcollapse:true,
 onItemClick:"2B8A2EBE-E181-4A79-A13E-D9ECE90EFEB4"
 },
 location:"1,1",

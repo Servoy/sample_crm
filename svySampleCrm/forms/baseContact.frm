@@ -23,11 +23,10 @@ specname:\"column\"\
 items:[
 {
 json:{
-containedForm:"498E5B9E-AAFE-4665-AEE2-F37524065E43",
+containedForm:"B2B427A0-22AF-4708-816E-087946927878",
 styleClass:"bs-full-height form-bgColor"
 },
 name:"tab_dataContent",
-styleClass:"bs-full-height form-bgColor",
 typeName:"bootstrapcomponents-tablesspanel",
 typeid:47,
 uuid:"5F214B26-99A3-4137-B5D9-D328D71E309C"

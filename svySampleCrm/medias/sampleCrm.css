@@ -1,3 +1,5 @@
+@import url("css3Techniques.css");
+
 /* Bootstrap part*/
 /*@media ( min-width : 768px) {
 	.phoneOnly {
@@ -194,4 +196,10 @@
 .fieldEmailDisplayCard {
 	border: none;
 	text-indent: 2px;
+}
+
+/* Grid & List */
+.ui-grid-row-selected div.ui-grid-cell {
+    background-color: #E48445 !important;
+    color: white;
 }

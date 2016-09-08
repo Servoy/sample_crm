@@ -23,6 +23,13 @@ uuid:"792C2B4E-CD47-4B80-B02D-D21A70931F63"
 {
 encapsulation:0,
 mimeType:"text/css",
+name:"css3Techniques.css",
+typeid:37,
+uuid:"E5FA5F58-97C1-47E5-A452-3BED720ACAB8"
+},
+{
+encapsulation:0,
+mimeType:"text/css",
 name:"sampleCrm.css",
 typeid:37,
 uuid:"63C84B5F-0A04-49E0-89BB-7A9AF4A689F2"

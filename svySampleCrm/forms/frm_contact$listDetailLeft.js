@@ -53,3 +53,15 @@ function searchPerson(event) {
 		}
 	}
 }
+
+/**
+ *
+ * @param {JSEvent} event
+ *
+ * @protected
+ *
+ * @properties={typeid:24,uuid:"31D2EE7E-B333-4831-87DC-EF0DCF8B79D9"}
+ */
+function goToDetails(event) {
+	forms.form_contact$content.collapseLeftPane();
+}
