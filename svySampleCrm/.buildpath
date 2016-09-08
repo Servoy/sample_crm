@@ -4,5 +4,4 @@
 	<buildpathentry exported="true" kind="prj" path="/randomData"/>
 	<buildpathentry exported="true" kind="prj" path="/svySampleCrm_authenticator"/>
 	<buildpathentry exported="true" kind="prj" path="/svySampleCrm_login"/>
-	<buildpathentry exported="true" kind="prj" path="/svyUtils"/>
 </buildpath>

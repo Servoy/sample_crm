@@ -12,7 +12,7 @@
 	"model":
 	{
 		"columns":  { "type":"column[]", "droppable": false },
-		"foundset": { "type": "foundset", "pushToServer": "allow" },
+		"foundset": { "type": "foundset"},
 		"styleClass" : { "type": "styleclass", "tags": { "scope": "design" }},
 	 	"visible" : "visible"
 	},

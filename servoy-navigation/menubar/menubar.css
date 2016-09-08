@@ -82,6 +82,7 @@
 	color: #fff;
 	background: rgba(255, 255, 255, 0.2);
 	border-left: #E48445 2px solid;
+	margin-top: 0px !important;
 }
 
 .sidebar-nav li a:active,.sidebar-nav li a:focus {
@@ -92,6 +93,7 @@
 	{
 	background-color: #E48445 !important;
 	border-radius: 0px !important;
+	margin-top: 0px;
 }
 
 .nav-pills > li > a {

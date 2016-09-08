@@ -1,5 +1,5 @@
 <md-content class="flex-container wrap" layout-xs="column" layout="row" ng-if='model.visible' id="{{::model.svyMarkupId}}">
-    <div flex-xs flex-gt-xs="50" class="flex-item" ng-repeat="row in model.foundset.viewPort.rows" layout="column">
+    <div flex-xs flex-gt-xs class="flex-item" ng-repeat="row in model.foundset.viewPort.rows" layout="column">
       <md-card md-theme='default' md-theme-watch class="sc-card" svy-click="cardClicked(model.foundset.viewPort.rows.indexOf(row))">
         <md-card-title>
           <md-card-title-text>
@@ -15,7 +15,7 @@
 			</span>
           </md-card-title-text>
           <md-card-title-media>
-			<img class="sc-image-circle" ng-src="{{getUrl(model.columns[0],row) ? getUrl(model.columns[0],row) : model.columns[0].image}}"></img>
+			<img class="sc-image-circle" ng-src="{{getUrl(model.columns[0],row)}}"></img>
           </md-card-title-media>
         </md-card-title>
       </md-card>

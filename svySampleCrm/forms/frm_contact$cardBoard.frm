@@ -8,7 +8,7 @@ anchors:15,
 columns:[
 {
 dataprovider:"image",
-image:"A568EE86-91F1-4BDE-BEA2-6444E262D4E9",
+image:"792C2B4E-CD47-4B80-B02D-D21A70931F63",
 svyUUID:"08221BC9-D871-4DCE-A779-4299D282CB5A"
 },
 {

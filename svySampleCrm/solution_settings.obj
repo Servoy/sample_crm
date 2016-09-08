@@ -1,5 +1,5 @@
 firstFormID:"E9159A77-356D-4AA2-9EEE-B23680611D9C",
-modulesNames:"svyUtils,randomData,svySampleCrm_login,svySampleCrm_authenticator",
+modulesNames:"randomData,svySampleCrm_login,svySampleCrm_authenticator",
 onOpenMethodID:"9BCE2B01-2A80-470D-AD59-BC6571083E67",
 styleSheetID:"63C84B5F-0A04-49E0-89BB-7A9AF4A689F2",
 titleText:"Sample CRM",

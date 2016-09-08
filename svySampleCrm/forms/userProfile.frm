@@ -41,7 +41,6 @@ uuid:"286F93EA-902B-4D92-8D54-D21994100DC6"
 {
 borderType:"LineBorder,1,#d6dbd6",
 dataProviderID:"newPassword",
-editable:false,
 location:"15,335",
 size:"337,25",
 styleClass:"field-profile",
@@ -52,7 +51,6 @@ uuid:"32B483D9-399F-4659-AE45-0A487295553B"
 {
 borderType:"LineBorder,1,#d6dbd6",
 dataProviderID:"newPasswordRepeat",
-editable:false,
 location:"15,387",
 size:"337,25",
 styleClass:"field-profile",
@@ -194,7 +192,6 @@ uuid:"E25B35A9-98D8-402C-A72C-7D5889AC377F"
 {
 borderType:"LineBorder,1,#d6dbd6",
 dataProviderID:"currentPassword",
-editable:false,
 location:"15,287",
 size:"337,25",
 styleClass:"field-profile",
