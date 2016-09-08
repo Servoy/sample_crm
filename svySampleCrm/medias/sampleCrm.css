@@ -46,7 +46,11 @@
 .row {
 	position: relative;
 }
-
+.bs-col-1x2 {
+	height: 100%;
+	width: 48%;
+	margin-left: 20px;
+}
 .bs-col-2x2 {
 	height: 50%;
 	width: 50%;
@@ -71,10 +75,9 @@
 	height: 58px;
 }
 /* VIEWS */
-.form-baseDashboard {
-	padding-left: 12.5%;
+.dashboard-timeline {
+	margin-left: 200px !important;
 }
-
 .form-contact-list {
 	min-width: 320px;	
 }

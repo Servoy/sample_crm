@@ -1,0 +1,15 @@
+<div id="{{::model.svyMarkupId}}" ng-show='model.visible'>
+		<section id="svy-timeline" class=".svy-timeline-container">
+			<div class="svy-timeline-block" ng-repeat="row in model.foundset.viewPort.rows">
+				<div class="svy-timeline-img svy-picture">
+					<img ng-if='getImageUrl(model.imageDataProviderID, row)' ng-src='{{getImageUrl(model.imageDataProviderID, row)}}'>
+				</div> <!-- svy-timeline-img -->
+		
+				<div class="svy-timeline-content">
+					<h2>{{getData(model.titleDataProviderID, row)}}</h2>
+					<p>{{getData(model.messageDataProviderID, row)}}</p>
+					<span class="svy-timeline-date">{{getDate(model.dateDataProviderID, row)}}</span>
+				</div> <!-- svy-timeline-content -->
+			</div> <!-- svy-timeline-block -->
+		</section> <!-- svy-timeline -->
+</div>
