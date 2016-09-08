@@ -3,6 +3,7 @@ layout:{\
 responsive:true\
 }",
 dataSource:"db:/svy_sample/contacts",
+deprecated:"deptr",
 encapsulation:60,
 items:[
 {

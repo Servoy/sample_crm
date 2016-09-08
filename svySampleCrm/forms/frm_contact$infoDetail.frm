@@ -102,7 +102,7 @@ goImage:{
 },
 svy_form:"256A46A0-E0D9-424A-9CEE-06BB6C38EB23"
 },
-height:540
+height:390
 },
 name:"comp_infocompany",
 typeName:"bootstrapcomponents-formcomponent",
@@ -134,7 +134,7 @@ goImage1:{
 },
 svy_form:"6C36822F-BCE9-4558-8A7F-C9CCCE41D601"
 },
-height:540
+height:390
 },
 location:"0,0",
 name:"comp_infopersonal",

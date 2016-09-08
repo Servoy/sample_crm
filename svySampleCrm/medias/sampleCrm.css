@@ -13,6 +13,27 @@
 	}
 }*/
 
+
+.btn-success {
+	background-color: #E48445;	
+	border: 2px solid #E48445;
+}
+
+.btn-success:hover, 
+.btn-success.focus, 
+.btn-success:active {
+	background-color: #CC763D;
+	border: 2px solid #CC763D;
+}
+
+.btn-tertiary, 
+.btn-tertiary:hover, 
+.btn-tertiary.focus, 
+.btn-tertiary:active   {
+	color: #E48445;
+	border: 2px solid #E48445;
+}
+
 .bs-full-height {
 	height: 100%;
 }

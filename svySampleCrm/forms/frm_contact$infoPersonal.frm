@@ -36,7 +36,7 @@ typeid:47,
 uuid:"1782F390-1BB5-40B3-B06C-A96AEB0FE496"
 },
 {
-height:540,
+height:370,
 partType:5,
 typeid:19,
 uuid:"20E63882-5F19-4B72-B753-4E9EDCC352E3"
@@ -60,7 +60,8 @@ location:"12,370",
 name:"goImage",
 size:"189,154",
 typeid:4,
-uuid:"297B129A-B4B3-414E-BC73-AA940537B93C"
+uuid:"297B129A-B4B3-414E-BC73-AA940537B93C",
+visible:false
 },
 {
 json:{

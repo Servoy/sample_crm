@@ -20,7 +20,7 @@ var mapImage = null;
 function editContact(event) {
 	//Set form in edit mode
 	databaseManager.setAutoSave(false);
-	forms.dlg_editContact.showDialog(foundset.getSelectedRecord())
+	forms.dlg_editContact_copy.showDialog(foundset.getSelectedRecord())
 }
 
 /**
