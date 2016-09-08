@@ -61,12 +61,37 @@ items:[
 json:{
 containedForm:{
 comp_infocompany:{
+containedForm:{
+goImage:{
 
+}
+}
 },
 comp_infopersonal:{
 containedForm:{
 goImage:{
 
+}
+}
+},
+comp_summary:{
+containedForm:{
+formcomponent_1:{
+containedForm:{
+formcomponent_1:{
+containedForm:{
+DeleteButton:{
+onActionMethodID:"7F3C6F55-C3F9-4560-AB74-42C45D2EAB33"
+},
+editButton:{
+onActionMethodID:"10D679FD-34C2-4484-ACF5-3602C3F57A49"
+},
+favicon:{
+onActionMethodID:"7ABBDAE3-EECF-49D7-A4DE-344E0FFEF590"
+}
+}
+}
+}
 }
 }
 },

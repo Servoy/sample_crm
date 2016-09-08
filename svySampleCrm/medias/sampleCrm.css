@@ -76,6 +76,24 @@
 .bs-userbar-height {
 	height: 58px;
 }
+
+.bs-pad-top {
+	padding-top: 30px;
+}
+
+.bs-col-centered .bs-col-pad > div:first-child {
+	padding-right: 2.5%;
+}
+
+.bs-col-centered .bs-col-pad > div:last-child {
+	padding-left: 2.5%;
+}
+
+.bs-col-centered .bs-col-pad > div:not(:last-child):not(:first-child) {
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
+
 /* VIEWS */
 .form-baseDashboard {
 	padding-left: 12.5%;

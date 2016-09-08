@@ -15,7 +15,7 @@ specname:\"container\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"row\"\
+class:\"row bs-pad-top bs-col-pad\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -92,7 +92,7 @@ uuid:"AAC62604-BB20-457D-950F-21CC1DFBED16"
 },
 {
 customProperties:"attributes:{\
-class:\"row\"\
+class:\"row bs-pad-top bs-col-pad\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -115,7 +115,11 @@ favicon1:{
 
 },
 formcomponent_1:{
+containedForm:{
+formcomponent_1:{
 
+}
+}
 },
 svy_form:"1BE720F4-524E-4DA4-AEAE-5B227D9FFE85"
 },
