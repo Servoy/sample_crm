@@ -220,7 +220,7 @@ typeid:4,
 uuid:"E7252FF8-3B36-41E2-BF0E-C2200A632EF9"
 }
 ],
-name:"dlg_editContact_copy",
+name:"dlg_editContact",
 navigatorID:"-1",
 showInMenu:true,
 size:"867,563",
