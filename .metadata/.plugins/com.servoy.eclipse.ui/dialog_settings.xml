@@ -1,10 +1,221 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="false" key="ShowVariables"/>
+	<item value="false" key="ShowTables"/>
 	<item value="2" key="SolutionExplorerView.orientation"/>
-	<item value="500" key="SolutionExplorerView.ratio512"/>
+	<item value="false" key="ShowRelations"/>
+	<item value="true" key="ShowStatusLine"/>
+	<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode UUID=&quot;FDC52448-265C-4E3A-B15E-9CD95331A2DB&quot;/&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
 	<item value="true" key="SolutionExplorerView.useOpenAsDefaultAction"/>
 	<item value="false" key="SolutionExplorerView.includeEntriedFromModules"/>
+	<item value="false" key="ShowForms"/>
+	<item value="false" key="ShowElements"/>
+	<item value="false" key="ShowScopes"/>
+	<item value="false" key="ShowMethods"/>
+	<item value="544" key="SolutionExplorerView.ratio512"/>
+	<item value="false" key="ShowCalculations"/>
+	<item value="false" key="ShowValuelist"/>
+	<section name="serclipseDialogs">
+		<section name="Select Web Packages">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="272" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="415" key="DIALOG_HEIGHT"/>
+			<item value="824" key="DIALOG_X_ORIGIN"/>
+			<item value="289" key="DIALOG_Y_ORIGIN"/>
+		</section>
+		<section name="tagsAndI18NTextDialog">
+			<item value="2" key="treePatternFilterMode"/>
+			<item value="870" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="534" key="DIALOG_HEIGHT"/>
+			<item value="525" key="DIALOG_X_ORIGIN"/>
+			<item value="209" key="DIALOG_Y_ORIGIN"/>
+		</section>
+		<section name="dataProviderDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="true" key="placeLabels"/>
+			<item value="373" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="false" key="placeHorizontal"/>
+			<item value="false" key="fillName"/>
+			<item value="false" key="placeAsLabels"/>
+			<item value="false" key="fillText"/>
+			<item value="410" key="DIALOG_HEIGHT"/>
+			<item value="774" key="DIALOG_X_ORIGIN"/>
+			<item value="292" key="DIALOG_Y_ORIGIN"/>
+		</section>
+		<section name="loginSolutionDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="272" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="394" key="DIALOG_HEIGHT"/>
+			<item value="824" key="DIALOG_X_ORIGIN"/>
+			<item value="303" key="DIALOG_Y_ORIGIN"/>
+		</section>
+		<section name="sortDialog">
+			<item value="2" key="treePatternFilterMode"/>
+			<item value="573" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="348" key="DIALOG_HEIGHT"/>
+			<item value="674" key="DIALOG_X_ORIGIN"/>
+			<item value="333" key="DIALOG_Y_ORIGIN"/>
+		</section>
+		<section name="selectImageDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="212" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="533" key="DIALOG_HEIGHT"/>
+			<item value="854" key="DIALOG_X_ORIGIN"/>
+			<item value="210" key="DIALOG_Y_ORIGIN"/>
+		</section>
+		<section name="relationSourceDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="272" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="415" key="DIALOG_HEIGHT"/>
+			<item value="824" key="DIALOG_X_ORIGIN"/>
+			<item value="289" key="DIALOG_Y_ORIGIN"/>
+		</section>
+		<section name="methodDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="331" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="347" key="DIALOG_HEIGHT"/>
+			<item value="795" key="DIALOG_X_ORIGIN"/>
+			<item value="334" key="DIALOG_Y_ORIGIN"/>
+		</section>
+		<section name="saveEditors">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="272" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="415" key="DIALOG_HEIGHT"/>
+			<item value="824" key="DIALOG_X_ORIGIN"/>
+			<item value="289" key="DIALOG_Y_ORIGIN"/>
+		</section>
+		<section name="selectRelationDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="272" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="394" key="DIALOG_HEIGHT"/>
+			<item value="824" key="DIALOG_X_ORIGIN"/>
+			<item value="243" key="DIALOG_Y_ORIGIN"/>
+		</section>
+		<section name="relationDestinationDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="272" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="415" key="DIALOG_HEIGHT"/>
+			<item value="824" key="DIALOG_X_ORIGIN"/>
+			<item value="289" key="DIALOG_Y_ORIGIN"/>
+		</section>
+		<section name="serverTableDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="272" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="394" key="DIALOG_HEIGHT"/>
+			<item value="824" key="DIALOG_X_ORIGIN"/>
+			<item value="303" key="DIALOG_Y_ORIGIN"/>
+		</section>
+		<section name="valuelistDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="212" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="349" key="DIALOG_HEIGHT"/>
+			<item value="854" key="DIALOG_X_ORIGIN"/>
+			<item value="333" key="DIALOG_Y_ORIGIN"/>
+		</section>
+		<section name="formatDialog">
+			<item value="532" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="515" key="DIALOG_HEIGHT"/>
+			<item value="601" key="DIALOG_X_ORIGIN"/>
+			<item value="313" key="DIALOG_Y_ORIGIN"/>
+		</section>
+		<section name="relatedFormDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="272" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="394" key="DIALOG_HEIGHT"/>
+			<item value="824" key="DIALOG_X_ORIGIN"/>
+			<item value="303" key="DIALOG_Y_ORIGIN"/>
+		</section>
+		<section name="selectFoundsetDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="272" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="394" key="DIALOG_HEIGHT"/>
+			<item value="824" key="DIALOG_X_ORIGIN"/>
+			<item value="303" key="DIALOG_Y_ORIGIN"/>
+		</section>
+		<section name="Select form dialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="423" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="394" key="DIALOG_HEIGHT"/>
+			<item value="824" key="DIALOG_X_ORIGIN"/>
+			<item value="303" key="DIALOG_Y_ORIGIN"/>
+		</section>
+		<section name="newFormWizard">
+			<item value="true" key="placeLabels"/>
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="false" key="placeHorizontal"/>
+			<item value="false" key="fillName"/>
+			<item value="db:/svy_sample/contacts" key="datasource"/>
+			<item value="false" key="placeAsLabels"/>
+			<item value="" key="style"/>
+			<item value="" key="templatename"/>
+			<item value="false" key="fillText"/>
+		</section>
+		<section name="modulesNamesSelectDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="272" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="394" key="DIALOG_HEIGHT"/>
+			<item value="824" key="DIALOG_X_ORIGIN"/>
+			<item value="303" key="DIALOG_Y_ORIGIN"/>
+		</section>
+		<section name="navigatorFormDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="272" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="429" key="DIALOG_HEIGHT"/>
+			<item value="824" key="DIALOG_X_ORIGIN"/>
+			<item value="279" key="DIALOG_Y_ORIGIN"/>
+		</section>
+		<section name="Select modules">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="272" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="415" key="DIALOG_HEIGHT"/>
+			<item value="824" key="DIALOG_X_ORIGIN"/>
+			<item value="289" key="DIALOG_Y_ORIGIN"/>
+		</section>
+		<section name="SpecDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="272" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="415" key="DIALOG_HEIGHT"/>
+			<item value="928" key="DIALOG_X_ORIGIN"/>
+			<item value="260" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+	<section name="DialogBoundsSettings">
+		<item value="600" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="660" key="DIALOG_X_ORIGIN"/>
+		<item value="232" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="InstalledExtensionsDialog">
 		<item value="85" key="splitAt"/>
+	</section>
+	<section name="I18NComposite.table.widths">
+		<item value="100" key="key.column"/>
+		<item value="100" key="default.column"/>
+		<item value="100" key="locale.column"/>
+	</section>
+	<section name="SolutionExportWizard">
+		<item value="/Users/rene/Desktop/svySampleCrm.servoy" key="initialFileName"/>
 	</section>
 </section>

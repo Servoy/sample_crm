@@ -289,3 +289,688 @@ Binding(ALT+SHIFT+M,
 
 !ENTRY com.servoy.eclipse.model 1 0 2016-09-08 10:44:19.184
 !MESSAGE Browser url for editor: http://localhost:8088/rfb/angular/index.html?s=servoy_sample_crm&l=flow&f=baseForm&w=640.0&h=0.0&editorid=141d92f2-916b-4579-b772-b2926ac58c7d&c_sessionid=3d7ecd8a-ab08-4bc2-9b0c-58c8a886bfdc
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:41:33.685
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=flow&f=baseForm&w=640.0&h=0.0&editorid=bf644812-66ce-43dc-a847-53b96bfb1cda&c_sessionid=165ed05d-8c5d-492a-ba6c-bd67e4e528a8
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:41:33.686
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=absolute&f=frm_dashboard$left&w=465.0&h=450.0&editorid=8f1a804a-1c5a-4c31-911c-6824c30b3a25&c_sessionid=11fcb7a9-495e-4dec-8b64-2f2f4f20204c
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:41:33.687
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=flow&f=baseDashboard&w=640.0&h=0.0&editorid=dedf3488-71c9-4129-ae79-975f9c56e184&c_sessionid=bba81108-475f-4d61-8eb8-8a217c80b630
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:41:33.745
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=flow&f=frm_contact$listDetail&w=640.0&h=0.0&editorid=b29c565f-1cdd-4b28-9e46-7d2ca05675d1&c_sessionid=aa7273ec-44f6-4750-8268-450ce28c1606
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:41:33.988
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=absolute&f=frm_contact$listDetailLeft&w=320.0&h=106.0&editorid=f7bad22b-1825-4b0e-b85e-611144a3ee94&c_sessionid=c2250aa8-6d05-41f5-bab7-77c3f71525cd
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:41:33.990
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=absolute&f=dlg_editContact&w=867.0&h=563.0&editorid=bc854eda-0998-447a-9783-a2a6faf0c36b&c_sessionid=90724a9e-0849-4a2a-9cd4-9fa99a9361f9
+
+!ENTRY com.servoy.eclipse.model 4 0 2016-09-09 15:41:39.874
+!MESSAGE Unexpected Exception
+!STACK 0
+java.lang.NullPointerException
+	at com.servoy.eclipse.designer.editor.rfb.actions.handlers.GhostHandler$1.writeGhostsForWebcomponentBeans(GhostHandler.java:148)
+	at com.servoy.eclipse.designer.editor.rfb.actions.handlers.GhostHandler$1.visit(GhostHandler.java:393)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:391)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:397)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:397)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:397)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:397)
+	at com.servoy.eclipse.designer.editor.rfb.actions.handlers.GhostHandler.executeMethod(GhostHandler.java:95)
+	at com.servoy.eclipse.designer.editor.rfb.EditorServiceHandler$10.call(EditorServiceHandler.java:259)
+	at com.servoy.eclipse.core.util.UIUtils$8.run(UIUtils.java:913)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4024)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3700)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY com.servoy.eclipse.model 4 0 2016-09-09 15:41:40.456
+!MESSAGE Unexpected Exception
+!STACK 0
+java.lang.NullPointerException
+	at com.servoy.eclipse.designer.editor.rfb.actions.handlers.GhostHandler$1.writeGhostsForWebcomponentBeans(GhostHandler.java:148)
+	at com.servoy.eclipse.designer.editor.rfb.actions.handlers.GhostHandler$1.visit(GhostHandler.java:393)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:391)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:397)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:397)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:397)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:397)
+	at com.servoy.eclipse.designer.editor.rfb.actions.handlers.GhostHandler.executeMethod(GhostHandler.java:95)
+	at com.servoy.eclipse.designer.editor.rfb.EditorServiceHandler$10.call(EditorServiceHandler.java:259)
+	at com.servoy.eclipse.core.util.UIUtils$8.run(UIUtils.java:913)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4024)
+	at org.eclipse.swt.widgets.Display.observerProc(Display.java:3613)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSMenu.popUpContextMenu(NSMenu.java:77)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:280)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4149)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3691)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:41:55.880
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=flow&f=baseForm&w=640.0&h=0.0&editorid=bf644812-66ce-43dc-a847-53b96bfb1cda&c_sessionid=165ed05d-8c5d-492a-ba6c-bd67e4e528a8
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:41:55.881
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=absolute&f=frm_dashboard$left&w=465.0&h=450.0&editorid=8f1a804a-1c5a-4c31-911c-6824c30b3a25&c_sessionid=11fcb7a9-495e-4dec-8b64-2f2f4f20204c
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:41:55.882
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=flow&f=baseDashboard&w=640.0&h=0.0&editorid=dedf3488-71c9-4129-ae79-975f9c56e184&c_sessionid=bba81108-475f-4d61-8eb8-8a217c80b630
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:41:55.883
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=flow&f=frm_contact$listDetail&w=640.0&h=0.0&editorid=b29c565f-1cdd-4b28-9e46-7d2ca05675d1&c_sessionid=aa7273ec-44f6-4750-8268-450ce28c1606
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:41:55.883
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=absolute&f=frm_contact$listDetailLeft&w=320.0&h=106.0&editorid=f7bad22b-1825-4b0e-b85e-611144a3ee94&c_sessionid=c2250aa8-6d05-41f5-bab7-77c3f71525cd
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:41:55.911
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=absolute&f=dlg_editContact&w=867.0&h=563.0&editorid=bc854eda-0998-447a-9783-a2a6faf0c36b&c_sessionid=90724a9e-0849-4a2a-9cd4-9fa99a9361f9
+
+!ENTRY com.servoy.eclipse.model 4 0 2016-09-09 15:41:57.406
+!MESSAGE Unexpected Exception
+!STACK 0
+java.lang.NullPointerException
+	at com.servoy.eclipse.designer.editor.rfb.actions.handlers.GhostHandler$1.writeGhostsForWebcomponentBeans(GhostHandler.java:148)
+	at com.servoy.eclipse.designer.editor.rfb.actions.handlers.GhostHandler$1.visit(GhostHandler.java:393)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:391)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:397)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:397)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:397)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:397)
+	at com.servoy.eclipse.designer.editor.rfb.actions.handlers.GhostHandler.executeMethod(GhostHandler.java:95)
+	at com.servoy.eclipse.designer.editor.rfb.EditorServiceHandler$10.call(EditorServiceHandler.java:259)
+	at com.servoy.eclipse.core.util.UIUtils$8.run(UIUtils.java:913)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4024)
+	at org.eclipse.swt.widgets.Display.observerProc(Display.java:3613)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSMenu.popUpContextMenu(NSMenu.java:77)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:280)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4149)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3691)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY com.servoy.eclipse.model 4 0 2016-09-09 15:42:05.318
+!MESSAGE Unexpected Exception
+!STACK 0
+java.lang.NullPointerException
+	at com.servoy.eclipse.designer.editor.rfb.actions.handlers.GhostHandler$1.writeGhostsForWebcomponentBeans(GhostHandler.java:148)
+	at com.servoy.eclipse.designer.editor.rfb.actions.handlers.GhostHandler$1.visit(GhostHandler.java:393)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:391)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:397)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:397)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:397)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:397)
+	at com.servoy.eclipse.designer.editor.rfb.actions.handlers.GhostHandler.executeMethod(GhostHandler.java:95)
+	at com.servoy.eclipse.designer.editor.rfb.EditorServiceHandler$10.call(EditorServiceHandler.java:259)
+	at com.servoy.eclipse.core.util.UIUtils$8.run(UIUtils.java:913)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4024)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3700)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:42:10.272
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=flow&f=baseForm&w=640.0&h=0.0&editorid=bf644812-66ce-43dc-a847-53b96bfb1cda&c_sessionid=165ed05d-8c5d-492a-ba6c-bd67e4e528a8
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:42:10.288
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=absolute&f=frm_dashboard$left&w=465.0&h=450.0&editorid=8f1a804a-1c5a-4c31-911c-6824c30b3a25&c_sessionid=11fcb7a9-495e-4dec-8b64-2f2f4f20204c
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:42:10.290
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=flow&f=baseDashboard&w=640.0&h=0.0&editorid=dedf3488-71c9-4129-ae79-975f9c56e184&c_sessionid=bba81108-475f-4d61-8eb8-8a217c80b630
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:42:10.291
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=flow&f=frm_contact$listDetail&w=640.0&h=0.0&editorid=b29c565f-1cdd-4b28-9e46-7d2ca05675d1&c_sessionid=aa7273ec-44f6-4750-8268-450ce28c1606
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:42:10.323
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=absolute&f=frm_contact$listDetailLeft&w=320.0&h=106.0&editorid=f7bad22b-1825-4b0e-b85e-611144a3ee94&c_sessionid=c2250aa8-6d05-41f5-bab7-77c3f71525cd
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:42:10.324
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=absolute&f=dlg_editContact&w=867.0&h=563.0&editorid=bc854eda-0998-447a-9783-a2a6faf0c36b&c_sessionid=90724a9e-0849-4a2a-9cd4-9fa99a9361f9
+
+!ENTRY org.eclipse.search 4 0 2016-09-09 15:42:10.603
+!MESSAGE Text Search
+!SUBENTRY 1 org.eclipse.search 4 0 2016-09-09 15:42:10.603
+!MESSAGE Problems encountered during text search.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:42:10.603
+!MESSAGE File 'svySampleCrm/forms/baseContact.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/baseContact.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/baseContact.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:42:10.603
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/baseContact.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:42:10.603
+!MESSAGE File 'svySampleCrm/forms/baseDashboard.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/baseDashboard.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/baseDashboard.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:42:10.603
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/baseDashboard.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:42:10.603
+!MESSAGE File 'svySampleCrm/forms/baseForm.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/baseForm.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/baseForm.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:42:10.603
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/baseForm.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:42:10.603
+!MESSAGE File 'svySampleCrm/forms/dlg_editContact.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/dlg_editContact.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/dlg_editContact.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:42:10.603
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/dlg_editContact.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:42:10.603
+!MESSAGE File 'svySampleCrm/forms/frm_contact$cardBoard.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$cardBoard.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$cardBoard.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:42:10.632
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$cardBoard.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:42:10.632
+!MESSAGE File 'svySampleCrm/forms/frm_contact$listDetail.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$listDetail.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$listDetail.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:42:10.632
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$listDetail.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:42:10.632
+!MESSAGE File 'svySampleCrm/forms/frm_contact$listDetailLeft.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$listDetailLeft.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$listDetailLeft.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:42:10.632
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$listDetailLeft.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:42:10.632
+!MESSAGE File 'svySampleCrm/forms/frm_contact$listDetailRight.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$listDetailRight.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$listDetailRight.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:42:10.632
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$listDetailRight.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:42:10.632
+!MESSAGE File 'svySampleCrm/forms/frm_dashboard$bottomRight.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/frm_dashboard$bottomRight.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/frm_dashboard$bottomRight.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:42:10.632
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/frm_dashboard$bottomRight.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:42:10.632
+!MESSAGE File 'svySampleCrm/forms/frm_dashboard$left.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/frm_dashboard$left.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/frm_dashboard$left.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:42:10.633
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/frm_dashboard$left.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:42:10.633
+!MESSAGE File 'svySampleCrm/forms/frm_dashboard$topRight.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/frm_dashboard$topRight.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/frm_dashboard$topRight.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:42:10.633
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/frm_dashboard$topRight.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:42:10.633
+!MESSAGE File 'svySampleCrm/forms/userProfile.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/userProfile.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/userProfile.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:42:10.633
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/userProfile.frm'.
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:42:18.972
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=flow&f=baseForm&w=640.0&h=0.0&editorid=bf644812-66ce-43dc-a847-53b96bfb1cda&c_sessionid=165ed05d-8c5d-492a-ba6c-bd67e4e528a8
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:42:18.973
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=absolute&f=frm_dashboard$left&w=465.0&h=450.0&editorid=8f1a804a-1c5a-4c31-911c-6824c30b3a25&c_sessionid=11fcb7a9-495e-4dec-8b64-2f2f4f20204c
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:42:18.974
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=flow&f=baseDashboard&w=640.0&h=0.0&editorid=dedf3488-71c9-4129-ae79-975f9c56e184&c_sessionid=bba81108-475f-4d61-8eb8-8a217c80b630
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:42:18.991
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=flow&f=frm_contact$listDetail&w=640.0&h=0.0&editorid=b29c565f-1cdd-4b28-9e46-7d2ca05675d1&c_sessionid=aa7273ec-44f6-4750-8268-450ce28c1606
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:42:18.998
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=absolute&f=frm_contact$listDetailLeft&w=320.0&h=106.0&editorid=f7bad22b-1825-4b0e-b85e-611144a3ee94&c_sessionid=c2250aa8-6d05-41f5-bab7-77c3f71525cd
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:42:19.040
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=absolute&f=dlg_editContact&w=867.0&h=563.0&editorid=bc854eda-0998-447a-9783-a2a6faf0c36b&c_sessionid=90724a9e-0849-4a2a-9cd4-9fa99a9361f9
+!SESSION 2016-09-09 15:42:43.768 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -server -server -server -keyring /Users/rene/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -server -server -data file:/Users/rene/Servoy/Workspaces/servoy81_servoyUxify/ -server -keyring /Users/rene/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-09-09 15:42:57.588
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:43:11.513
+!MESSAGE Time taken to read in the solution svySampleCrm: 231
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:43:11.779
+!MESSAGE Time taken to read in the solution randomData: 219
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:43:11.790
+!MESSAGE Time taken to read in the solution svySampleCrm_login: 10
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:43:11.792
+!MESSAGE Time taken to read in the solution svySampleCrm_authenticator: 2
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-09 15:43:12.703
+!MESSAGE Browser url for editor: http://localhost:8080/rfb/angular/index.html?s=svySampleCrm&l=flow&f=baseForm&w=640.0&h=0.0&editorid=473df1be-4476-437a-a946-0b76aedf5dc6&c_sessionid=6191b182-2373-4fbd-8202-5d25ae1ae9ad
+
+!ENTRY org.eclipse.search 4 0 2016-09-09 15:43:16.053
+!MESSAGE Text Search
+!SUBENTRY 1 org.eclipse.search 4 0 2016-09-09 15:43:16.053
+!MESSAGE Problems encountered during text search.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:43:16.053
+!MESSAGE File 'svySampleCrm/forms/baseContact.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/baseContact.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/baseContact.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:43:16.055
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/baseContact.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:43:16.055
+!MESSAGE File 'svySampleCrm/forms/baseDashboard.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/baseDashboard.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/baseDashboard.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:43:16.055
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/baseDashboard.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:43:16.055
+!MESSAGE File 'svySampleCrm/forms/baseForm.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/baseForm.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/baseForm.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:43:16.055
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/baseForm.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:43:16.055
+!MESSAGE File 'svySampleCrm/forms/dlg_editContact.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/dlg_editContact.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/dlg_editContact.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:43:16.055
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/dlg_editContact.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:43:16.055
+!MESSAGE File 'svySampleCrm/forms/frm_contact$cardBoard.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$cardBoard.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$cardBoard.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:43:16.055
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$cardBoard.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:43:16.055
+!MESSAGE File 'svySampleCrm/forms/frm_contact$listDetail.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$listDetail.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$listDetail.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:43:16.055
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$listDetail.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:43:16.055
+!MESSAGE File 'svySampleCrm/forms/frm_contact$listDetailLeft.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$listDetailLeft.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$listDetailLeft.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:43:16.056
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$listDetailLeft.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:43:16.056
+!MESSAGE File 'svySampleCrm/forms/frm_contact$listDetailRight.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$listDetailRight.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$listDetailRight.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:43:16.056
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/frm_contact$listDetailRight.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:43:16.056
+!MESSAGE File 'svySampleCrm/forms/frm_dashboard$bottomRight.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/frm_dashboard$bottomRight.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/frm_dashboard$bottomRight.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:43:16.056
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/frm_dashboard$bottomRight.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:43:16.056
+!MESSAGE File 'svySampleCrm/forms/frm_dashboard$left.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/frm_dashboard$left.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/frm_dashboard$left.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:43:16.056
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/frm_dashboard$left.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:43:16.056
+!MESSAGE File 'svySampleCrm/forms/frm_dashboard$topRight.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/frm_dashboard$topRight.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/frm_dashboard$topRight.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:43:16.056
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/frm_dashboard$topRight.frm'.
+!SUBENTRY 2 org.eclipse.search 4 4 2016-09-09 15:43:16.056
+!MESSAGE File 'svySampleCrm/forms/userProfile.frm' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/svySampleCrm/forms/userProfile.frm'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/svySampleCrm/forms/userProfile.frm'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.<init>(FileCharSequenceProvider.java:255)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:36)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:381)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2016-09-09 15:43:16.056
+!MESSAGE Resource is out of sync with the file system: '/svySampleCrm/forms/userProfile.frm'.
