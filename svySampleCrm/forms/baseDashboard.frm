@@ -132,6 +132,6 @@ name:"baseDashboard",
 onShowMethodID:"52CD002A-C551-4DDE-8AC7-2D43902A122A",
 scrollbars:36,
 showInMenu:true,
-styleClass:"bs-full-height form-baseDashboard",
+styleClass:"bs-full-height form-base form-base-dashboard",
 typeid:3,
 uuid:"7594FE1C-88F2-414C-87CC-6394F228DE8D"

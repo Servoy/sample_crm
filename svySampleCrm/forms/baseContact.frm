@@ -48,6 +48,6 @@ onLoadMethodID:"-1",
 scrollbars:33,
 showInMenu:true,
 size:"300,0",
-styleClass:"bs-full-height",
+styleClass:"bs-full-height form-base form-base-contact",
 typeid:3,
 uuid:"A82E2E0E-3793-4F82-B708-BB0915A3B85C"
