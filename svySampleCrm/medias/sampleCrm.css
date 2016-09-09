@@ -13,6 +13,9 @@
 	}
 }*/
 
+.btn {
+	outline:none;
+}
 
 .btn-success {
 	background-color: #E48445;	
@@ -217,6 +220,33 @@
 .fieldEmailDisplayCard {
 	border: none;
 	text-indent: 2px;
+}
+
+/* App Style */
+.svy-main-content {
+	background-color: white;
+}
+
+.svy-main {
+	background-color: #152533;
+}
+
+.svy-main-body {
+	top: 30px;
+}
+
+.navbar {
+	border-radius: 0px;
+	background-image: linear-gradient(to bottom, #ffffff 0%, #eeeeee 100%);
+}
+
+md-autocomplete,
+md-autocomplete md-autocomplete-wrap {
+	height: 28px;
+}
+
+md-autocomplete input:not(.md-input) {
+	height: 28px;
 }
 
 /* Grid & List */

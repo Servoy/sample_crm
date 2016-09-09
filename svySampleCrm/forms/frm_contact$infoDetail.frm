@@ -136,7 +136,7 @@ svy_form:"6C36822F-BCE9-4558-8A7F-C9CCCE41D601"
 },
 height:390
 },
-location:"0,0",
+location:"1,1",
 name:"comp_infopersonal",
 size:"100,100",
 typeName:"bootstrapcomponents-formcomponent",
@@ -161,6 +161,7 @@ uuid:"20A5BD35-8B1B-4BED-8D5C-47568CE7BB52"
 }
 ],
 name:"frm_contact$infoDetail",
+onLoadMethodID:"913DC411-02C4-4779-B508-26F19ECDE8E1",
 showInMenu:true,
 typeid:3,
 uuid:"7F5881F4-BE74-4256-A127-FEEEA5BC8655"

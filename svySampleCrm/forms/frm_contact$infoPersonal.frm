@@ -6,7 +6,6 @@ items:[
 {
 anchors:11,
 dataProviderID:"email_1",
-editable:false,
 horizontalAlignment:2,
 location:"46,70",
 placeholderText:"Email",
@@ -44,7 +43,6 @@ uuid:"20E63882-5F19-4B72-B753-4E9EDCC352E3"
 {
 anchors:11,
 dataProviderID:"phone_1",
-editable:false,
 location:"46,250",
 placeholderText:"Phone Number",
 size:"155,30",
@@ -85,7 +83,6 @@ uuid:"33FE023C-2509-4CCB-855E-7820B99B068E"
 {
 anchors:11,
 dataProviderID:"linkedin_1",
-editable:false,
 location:"46,330",
 placeholderText:"Linkedin Profile",
 size:"155,30",
@@ -114,7 +111,6 @@ uuid:"6A580117-47C7-4C4E-BBA5-6D5EADFF5E84"
 },
 {
 dataProviderID:"contacts_to_addresses$type1.zipcode",
-editable:false,
 location:"46,160",
 placeholderText:"Zip Code",
 size:"117,30",
@@ -125,7 +121,6 @@ uuid:"8911F72F-F22F-4C9E-B0B4-DE6A99D7D3EC"
 {
 anchors:11,
 dataProviderID:"contacts_to_addresses$type1.countrie_id",
-editable:false,
 location:"46,200",
 placeholderText:"Country",
 selectOnEnter:true,
@@ -186,7 +181,6 @@ uuid:"B6EC7F8B-E0A1-4CE0-A562-20BF47375883"
 {
 anchors:11,
 dataProviderID:"phone_3",
-editable:false,
 location:"46,290",
 placeholderText:"Mobile Number",
 size:"155,30",
@@ -197,7 +191,6 @@ uuid:"B9A5FB27-DAA6-4FC4-A1F8-D6E5EF1D8197"
 {
 anchors:11,
 dataProviderID:"contacts_to_addresses$type1.city",
-editable:false,
 location:"168,160",
 placeholderText:"City",
 size:"33,30",
@@ -217,7 +210,6 @@ uuid:"DC8EF0E2-9B5E-4A89-9266-17ECB1A11ED5"
 {
 anchors:11,
 dataProviderID:"contacts_to_addresses$type1.line_1",
-editable:false,
 location:"46,120",
 placeholderText:"Street Name",
 size:"155,30",

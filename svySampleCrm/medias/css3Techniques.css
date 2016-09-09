@@ -1,5 +1,5 @@
 /* SPLIT PANEL */
-.trans-left > * > .svy-wrapper {
+.trans-left > .svy-body > .svy-wrapper {
 	transition: left 500ms;
 }
 

@@ -6,7 +6,7 @@ encapsulation:28,
 items:[
 {
 customProperties:"attributes:{\
-class:\"container-fluid bs-full-height\"\
+class:\"container-fluid bs-full-height svy-main\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -24,7 +24,7 @@ specname:\"row\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"col-md-12 bs-sidebar-container bs-full-height\"\
+class:\"col-md-12 bs-sidebar-container bs-full-height svy-main-body\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -35,7 +35,7 @@ items:[
 json:{
 containedForm:"7594FE1C-88F2-414C-87CC-6394F228DE8D",
 height:0,
-styleClass:"bs-full-height"
+styleClass:"bs-full-height svy-main-content"
 },
 location:"2,2",
 name:"tab_content",

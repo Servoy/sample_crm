@@ -131,3 +131,16 @@ function renderMapImageRight() {
 		mapImage2 = null
 	}
 }
+
+/**
+ * Callback method when form is (re)loaded.
+ *
+ * @param {JSEvent} event the event that triggered the action
+ *
+ * @protected
+ *
+ * @properties={typeid:24,uuid:"913DC411-02C4-4779-B508-26F19ECDE8E1"}
+ */
+function onLoad(event) {
+	controller.readOnly = true;
+}
