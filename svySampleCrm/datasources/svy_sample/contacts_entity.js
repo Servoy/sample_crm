@@ -1,5 +1,41 @@
 /**
  * @param {JSRecord<db:/svy_sample/contacts>} record
+ * @properties={typeid:24,uuid:"21325533-4E2E-4B67-883C-82A907A578D2"}
+ */
+function onRecordInsert(record)
+{
+	updateSearchData(record)
+	
+	//New Timeline Info
+	var fs = datasources.db.svy_sample.timeline.getFoundSet();
+	var rec = fs.getRecord(fs.newRecord());
+		rec.item_image = rec.item_image = solutionModel.getMedia('timeline/add.png').bytes;
+		rec.item_date = application.getServerTimeStamp();
+		rec.item_title = 'Contact added';
+		rec.item_text = 'New contact added: ' + record.c_name_full + '.';
+		databaseManager.saveData(rec)
+}
+
+/**
+ * @param {JSRecord<db:/svy_sample/contacts>} record
+ * @properties={typeid:24,uuid:"9138324F-DB2A-4102-A9E0-603DAA19BDED"}
+ */
+function onRecordUpdate(record)
+{
+	updateSearchData(record)
+	
+	//Update Timeline Info
+	var fs = datasources.db.svy_sample.timeline.getFoundSet();
+	var rec = fs.getRecord(fs.newRecord());
+		rec.item_image = rec.item_image = solutionModel.getMedia('timeline/edit.png').bytes;
+		rec.item_date = application.getServerTimeStamp();
+		rec.item_title = 'Contact update';
+		rec.item_text = 'The contact information for contact: ' + record.c_name_full + '\n has been manualy updated.';
+		databaseManager.saveData(rec)
+}
+
+/**
+ * @param {JSRecord<db:/svy_sample/contacts>} record
  * @properties={typeid:24,uuid:"50B933B5-8628-4413-AD9F-6BD6EB5CC333"}
  */
 function updateSearchData(record)

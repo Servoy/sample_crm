@@ -30,7 +30,9 @@ function login(event) {
 	if (elements.btn_login.text == 'Sign In') {
 		scopes.login.user_uuid = security.authenticate('svySampleCrm_authenticator', 'authenticate_user', [username, password]);
 		if (!scopes.login.user_uuid) {
-			application.output('Ohoh wrong login, please fix a nice warning dialog')
+			elements.lbl_wrongCredentials.visible = true
+		} else {
+			elements.lbl_wrongCredentials.visible = false
 		}
 	} else {
 		if (username && password) {
@@ -57,6 +59,7 @@ function createAccount(event) {
 	elements.lbl_createAccount.visible = false;
 	elements.lbl_forgotPassword.visible = false;
 	elements.lbl_alreadyAccount.visible = true;
+	elements.lbl_wrongCredentials.visible = false;
 	username = null
 	password = null
 
@@ -91,6 +94,7 @@ function alreadyAccount(event) {
 	elements.lbl_createAccount.visible = true;
 	elements.lbl_forgotPassword.visible = true;
 	elements.lbl_alreadyAccount.visible = false;
+	elements.lbl_wrongCredentials.visible = false;
 	elements.fld_username.inputValidation = 'none'
 	elements.fld_password.inputValidation = 'none'
 }
