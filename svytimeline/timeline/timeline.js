@@ -1,10 +1,10 @@
-angular.module('svytimelineTimeline',['servoy']).directive('svytimelineTimeline', function() {  
+angular.module('svytimelineTimeline',['servoy']).directive('svytimelineTimeline', function($formatterUtils) {  
     return {
       restrict: 'E',
       scope: {
     	  model: '=svyModel'
       },
-      controller: function($scope, $element, $attrs, $document) {
+      controller: function($scope, $element, $attrs) {
     	  
 //      		$scope.$on('$viewContentLoaded',(function () {
 //	    			var timelineBlocks = $('.svy-timeline-block'),
@@ -32,27 +32,14 @@ angular.module('svytimelineTimeline',['servoy']).directive('svytimelineTimeline'
 //						});
 //					}
 //				}));
-    	    
-    	    
-    	  $scope.getImageUrl = function(dataprovider,row) {
-    		  if (dataprovider && row) {
-       			var index = $scope.model.foundset.viewPort.rows.indexOf(row)
-       			if (index >= 0 && dataprovider[index]) {
-       				 return dataprovider[index].url;
-       			}	 
-       		 }	  
-      		 return null; 
-    	  }
+
     	  
-    	  $scope.getData = function(dataprovider,row) {
-  	  		if(dataprovider && row) {
-  	  			var index = $scope.model.foundset.viewPort.rows.indexOf(row)
-       			if (index >= 0 && dataprovider[index]) {
-       				 return dataprovider[$scope.model.foundset.viewPort.rows.indexOf(row)];
-       			}	 
-       		 }	  
-      		 return null; 
-      	  }
+    	  $scope.$watch('model.foundset.serverSize', function (newValue,oldValue) {
+    		  if (newValue)
+    		  {
+    		  	$scope.model.foundset.loadRecordsAsync(0, newValue);
+    		  }	  
+          });
     	  
     	  $scope.getDate = function(dataprovider,row) {
     	  		if(dataprovider && row) {
@@ -61,7 +48,10 @@ angular.module('svytimelineTimeline',['servoy']).directive('svytimelineTimeline'
          				var date = dataprovider[$scope.model.foundset.viewPort.rows.indexOf(row)]
          				if(date) {
          					try {
-         						return (date.getDate() + '-' + (date.getMonth() + 1) + '-' + (date.getFullYear().toString().substr(2)) + ' ' +  ("0" + date.getHours()).slice(-2) + ':' + ("0" + date.getMinutes()).slice(-2));
+         						//return date
+         						return $formatterUtils.format(date, $scope.model.dateFormat.display, $scope.model.dateFormat.type) 
+								//$formatterUtils.createFormatState($element, $scope, ngModel,true,date);
+         						//return (date.getDate() + '-' + (date.getMonth() + 1) + '-' + (date.getFullYear().toString().substr(2)) + ' ' +  ("0" + date.getHours()).slice(-2) + ':' + ("0" + date.getMinutes()).slice(-2));
          					} catch(e) {
          						return null
          					}

@@ -479,7 +479,7 @@ uuid:"C9D705E1-6A20-42FF-9064-00E7B696B971"
 },
 {
 json:{
-alternateImage:"A568EE86-91F1-4BDE-BEA2-6444E262D4E9",
+alternateImage:"792C2B4E-CD47-4B80-B02D-D21A70931F63",
 dataProviderID:"image",
 location:{
 x:376,

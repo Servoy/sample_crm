@@ -2,12 +2,12 @@
 		<section id="svy-timeline" class=".svy-timeline-container">
 			<div class="svy-timeline-block" ng-repeat="row in model.foundset.viewPort.rows">
 				<div class="svy-timeline-img svy-picture">
-					<img ng-if='getImageUrl(model.imageDataProviderID, row)' ng-src='{{getImageUrl(model.imageDataProviderID, row)}}'>
+					<img ng-if='model.imageDataProviderID[$index].url' ng-src='{{model.imageDataProviderID[$index].url}}'>
 				</div> <!-- svy-timeline-img -->
 		
 				<div class="svy-timeline-content">
-					<h2>{{getData(model.titleDataProviderID, row)}}</h2>
-					<p>{{getData(model.messageDataProviderID, row)}}</p>
+					<h2>{{model.titleDataProviderID[$index]}}</h2>
+					<p>{{model.messageDataProviderID[$index]}}</p>
 					<span class="svy-timeline-date">{{getDate(model.dateDataProviderID, row)}}</span>
 				</div> <!-- svy-timeline-content -->
 			</div> <!-- svy-timeline-block -->

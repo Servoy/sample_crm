@@ -66,6 +66,7 @@ items:[
 {
 json:{
 containedForm:"20D96B1F-4FAB-471C-9865-497070ABFD55",
+relationName:"scopes$login_to_users.users_to_timeline",
 styleClass:"bs-full-height-min-nav"
 },
 name:"tablesspanel",

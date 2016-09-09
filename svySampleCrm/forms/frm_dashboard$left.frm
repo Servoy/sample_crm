@@ -1,4 +1,6 @@
+dataSource:"db:/svy_sample/timeline",
 encapsulation:60,
+initialSort:"item_date desc",
 items:[
 {
 height:450,
@@ -12,8 +14,9 @@ json:{
 anchors:15,
 date-dataProviderID:"item_date",
 dateDataProviderID:"item_date",
+dateFormat:"dd-MM-yy HH:mm",
 foundset:{
-foundsetSelector:"scopes$login_to_users.users_to_timeline"
+foundsetSelector:""
 },
 image-dataProviderID:"item_image",
 imageDataProviderID:"item_image",
@@ -43,5 +46,6 @@ name:"frm_dashboard$left",
 scrollbars:36,
 showInMenu:true,
 size:"465,450",
+styleClass:"bs-full-height",
 typeid:3,
 uuid:"20D96B1F-4FAB-471C-9865-497070ABFD55"

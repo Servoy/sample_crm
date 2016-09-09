@@ -13,6 +13,7 @@ function onRecordInsert(record)
 		rec.item_date = application.getServerTimeStamp();
 		rec.item_title = 'Contact added';
 		rec.item_text = 'New contact added: ' + record.c_name_full + '.';
+		databaseManager.saveData(rec)
 }
 
 /**
@@ -30,6 +31,7 @@ function onRecordUpdate(record)
 		rec.item_date = application.getServerTimeStamp();
 		rec.item_title = 'Contact update';
 		rec.item_text = 'The contact information for contact: ' + record.c_name_full + '\n has been manualy updated.';
+		databaseManager.saveData(rec)
 }
 
 /**

@@ -105,7 +105,7 @@ uuid:"31277E60-EED2-4CC1-9760-17BA1D45EBD3"
 },
 {
 json:{
-alternateImage:"A568EE86-91F1-4BDE-BEA2-6444E262D4E9",
+alternateImage:"792C2B4E-CD47-4B80-B02D-D21A70931F63",
 dataProviderID:"image",
 location:{
 x:10,

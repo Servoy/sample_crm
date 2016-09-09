@@ -9,6 +9,7 @@
 		"foundset"				: { "type": "foundset"},
 		"imageDataProviderID"	: { "type":"dataprovider", "tags": {"scope":"design"},"forFoundset": "foundset"},
 		"dateDataProviderID"	: { "type":"dataprovider", "tags": {"scope":"design"},"forFoundset": "foundset"},
+		"dateFormat"			: {"for":["dateDataProviderID"] , "type" :"format"},
 		"titleDataProviderID"	: { "type":"dataprovider", "tags": {"scope":"design"},"forFoundset": "foundset"},
 		"messageDataProviderID"	: { "type":"dataprovider", "tags": {"scope":"design"},"forFoundset": "foundset"},
 	 	"visible" 				: "visible"
