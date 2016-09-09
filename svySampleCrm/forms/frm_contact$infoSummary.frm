@@ -111,7 +111,7 @@ typeid:47,
 uuid:"DC2DFE03-3AE5-42FA-819C-7A5F51179203"
 }
 ],
-name:"frm_contact$listDetailRight$infoSummary",
+name:"frm_contact$infoSummary",
 scrollbars:36,
 showInMenu:true,
 size:"235,256",

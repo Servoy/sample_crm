@@ -117,7 +117,11 @@ favicon1:{
 formcomponent_1:{
 containedForm:{
 formcomponent_1:{
+containedForm:{
+editButton:{
 
+}
+}
 }
 }
 },
@@ -148,7 +152,7 @@ typeid:46,
 uuid:"A4CFB0D2-998C-4FFC-945A-A8EF0AA3D037"
 }
 ],
-name:"frm_contact$listDetailRight$bts",
+name:"frm_contact$infoTemplate",
 showInMenu:true,
 typeid:3,
 uuid:"6FE545C4-797F-4A19-8E9F-46ACB5D4C8F4"

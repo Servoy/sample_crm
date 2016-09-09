@@ -1,11 +1,14 @@
 /**
  * @type {Number}
+ * @protected 
  *
  * @properties={typeid:35,uuid:"DE09B393-B90C-4C6A-866D-92698FF29517",variableType:4}
  */
 var DEFAULT_SIZE = 300;
 
 /**
+ * @protected 
+ * 
  * @properties={typeid:35,uuid:"F004F2D2-9FFD-4B30-BB6F-6C4152967821",variableType:-4}
  */
 var MODE_PANE = {
@@ -15,6 +18,7 @@ var MODE_PANE = {
 }
 
 /**
+ * @private  
  * @properties={typeid:35,uuid:"2C4C8923-AD6C-4044-AD9C-86F07E443F3C",variableType:-4}
  */
 var paneMode = MODE_PANE.SPLIT
@@ -33,25 +37,30 @@ function onLoad(event) {
 }
 
 /**
+ * @protected 
  * @properties={typeid:24,uuid:"182602F3-C06E-4C72-BCD3-A43BCDF3B6C1"}
  */
 function updateUI() {
 	switch (paneMode) {
 	case MODE_PANE.SPLIT:
 	case MODE_PANE.RIGHT:
+		// expand splitpane
 		elements.splitpane.dividerLocation = DEFAULT_SIZE; 
-		//elements.bt.setLocation(x,y)
 		elements.splitpane.removeStyleClass('select-pane-2');
 		elements.splitpane.addStyleClass('select-pane-1');
+		// hide toggle in xs screens
 		elements.fa_icon_1.addStyleClass('hidden-xs');
 		elements.fa_icon_1.setLocation(DEFAULT_SIZE,2);
 		break;
 	case MODE_PANE.LEFT:
+		// collapse splitpane to the left
 		elements.splitpane.dividerLocation = 1;
-		elements.fa_icon_1.removeStyleClass('hidden-xs');
-		elements.fa_icon_1.setLocation(0,2);
 		elements.splitpane.removeStyleClass('select-pane-1');
 		elements.splitpane.addStyleClass('select-pane-2');
+		
+		// move toggle and make it always visible
+		elements.fa_icon_1.removeStyleClass('hidden-xs');
+		elements.fa_icon_1.setLocation(0,2);
 		break;
 	default:
 		break;

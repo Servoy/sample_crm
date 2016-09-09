@@ -84,7 +84,7 @@ typeid:4,
 uuid:"F94104BA-125B-4B76-A231-9C2CD4B757B9"
 }
 ],
-name:"frm_contact$listDetailRight$infoSummaryLogo",
+name:"frm_contact$infoIcon",
 scrollbars:36,
 showInMenu:true,
 size:"120,256",

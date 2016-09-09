@@ -160,7 +160,7 @@ typeid:46,
 uuid:"20A5BD35-8B1B-4BED-8D5C-47568CE7BB52"
 }
 ],
-name:"frm_contact$infoDetail",
+name:"frm_contact$info",
 onLoadMethodID:"913DC411-02C4-4779-B508-26F19ECDE8E1",
 showInMenu:true,
 typeid:3,

@@ -65,7 +65,7 @@ typeid:46,
 uuid:"7B13C5FD-3AE6-4F8C-B651-4CBEC97A4CCE"
 }
 ],
-name:"frm_contact$centeredContainer",
+name:"frm_contact$infoIconContainer",
 showInMenu:true,
 typeid:3,
 uuid:"42AACE66-2067-4E5E-82B1-F52E56FBEA8A"

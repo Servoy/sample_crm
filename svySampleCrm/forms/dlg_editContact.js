@@ -22,6 +22,7 @@ function showDialog(record, newName) {
 
 	var window = application.createWindow('editContact', JSWindow.MODAL_DIALOG);
 	window.undecorated = true;
+	window.setSize(867,controller.getPartHeight(JSPart.BODY));
 	window.title = '';
 	controller.show(window);
 }

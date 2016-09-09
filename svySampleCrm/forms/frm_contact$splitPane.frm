@@ -30,6 +30,6 @@ typeid:16,
 uuid:"ACAF9259-8C12-49E1-9211-40E6D4A15101"
 }
 ],
-name:"form_contact$content",
+name:"frm_contact$splitPane",
 typeid:3,
 uuid:"B2B427A0-22AF-4708-816E-087946927878"

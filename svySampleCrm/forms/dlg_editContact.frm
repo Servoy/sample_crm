@@ -2,41 +2,18 @@ dataSource:"db:/svy_sample/contacts",
 encapsulation:60,
 items:[
 {
+anchors:11,
 dataProviderID:"c_name_full",
 fontType:"Helvetica Neue,0,14,Dialog",
 location:"265,45",
 name:"fldfullname",
 onDataChangeMethodID:"D83134A9-6DCE-4880-AC19-E9B218D59AC8",
 placeholderText:"Full name",
-size:"369,30",
-styleClass:"field-placeholder-left",
+size:"146,30",
+styleClass:"field-placeholder-left field-no-border",
 tabSeq:4,
 typeid:4,
 uuid:"065AC4A7-8418-495D-A33B-CD7ACF669D46"
-},
-{
-json:{
-containedForm:{
-goImage:{
-
-},
-svy_form:"6C36822F-BCE9-4558-8A7F-C9CCCE41D601"
-},
-location:{
-x:35,
-y:190
-},
-size:{
-height:370,
-width:350
-}
-},
-location:"35,190",
-name:"formcomponent_1",
-size:"350,370",
-typeName:"servoycore-formcomponent",
-typeid:47,
-uuid:"249BDD3E-5AA4-4253-B3E8-277A5A7FCE56"
 },
 {
 json:{
@@ -86,13 +63,14 @@ typeid:19,
 uuid:"9F695691-8163-40C9-96E6-960B80E1FC22"
 },
 {
+anchors:11,
 dataProviderID:"job_title",
 fontType:"Helvetica Neue,0,14,Dialog",
 location:"265,114",
 name:"fldCompanyc",
 placeholderText:"Job Title",
-size:"369,30",
-styleClass:"field-placeholder-left",
+size:"146,30",
+styleClass:"field-placeholder-left field-no-border",
 tabSeq:6,
 typeid:4,
 uuid:"A1280424-8E1C-4937-B5B1-4395142ACE3F"
@@ -120,25 +98,38 @@ typeid:47,
 uuid:"A16A3181-BD20-478C-BDC1-364F43B844AD"
 },
 {
+anchors:11,
 json:{
+anchors:11,
+containedForm:{
+comp_infocompany:{
 containedForm:{
 goImage:{
 
-},
-svy_form:"256A46A0-E0D9-424A-9CEE-06BB6C38EB23"
-},
-location:{
-x:459,
-y:190
-},
-size:{
-height:370,
-width:350
+}
 }
 },
-location:"459,190",
+comp_infopersonal:{
+containedForm:{
+goImage:{
+
+}
+}
+},
+svy_form:"25BEC795-136A-46BD-9D21-694441B64BF9"
+},
+location:{
+x:10,
+y:178
+},
+size:{
+height:420,
+width:567
+}
+},
+location:"10,178",
 name:"formcomponent_2",
-size:"350,370",
+size:"567,420",
 typeName:"servoycore-formcomponent",
 typeid:47,
 uuid:"A1F893C2-F5F3-469D-9BC5-36F70DB779B4"
@@ -184,8 +175,9 @@ typeid:47,
 uuid:"CD8837F2-410D-40A0-953D-7BAA1A8D17E7"
 },
 {
+anchors:3,
 displaysTags:true,
-location:"792,575",
+location:"517,10",
 onActionMethodID:"2652B5F0-10F2-4601-BAA2-5C56BCB5F632",
 onDoubleClickMethodID:"-1",
 onRightClickMethodID:"-1",
@@ -196,8 +188,9 @@ typeid:7,
 uuid:"D053F618-B325-4245-B574-13824FEDBBEE"
 },
 {
+anchors:3,
 displaysTags:true,
-location:"725,575",
+location:"450,10",
 onActionMethodID:"376424D9-B589-4CDF-BB0C-87FF4555EE1F",
 onDoubleClickMethodID:"-1",
 onRightClickMethodID:"-1",
@@ -208,13 +201,14 @@ typeid:7,
 uuid:"DA4AE54F-CA25-4432-9865-5711FCC03D06"
 },
 {
+anchors:11,
 dataProviderID:"company",
 fontType:"Helvetica Neue,0,14,Dialog",
 location:"265,79",
 name:"fldCompany",
 placeholderText:"Company",
-size:"369,30",
-styleClass:"field-placeholder-left",
+size:"146,30",
+styleClass:"field-placeholder-left field-no-border",
 tabSeq:5,
 typeid:4,
 uuid:"E7252FF8-3B36-41E2-BF0E-C2200A632EF9"
@@ -223,7 +217,7 @@ uuid:"E7252FF8-3B36-41E2-BF0E-C2200A632EF9"
 name:"dlg_editContact",
 navigatorID:"-1",
 showInMenu:true,
-size:"867,563",
+size:"587,619",
 styleClass:"formEditDialog",
 typeid:3,
 uuid:"C908773B-433D-4996-8D1A-858778EC4A59"

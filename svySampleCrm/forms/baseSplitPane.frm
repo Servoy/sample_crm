@@ -45,7 +45,7 @@ typeid:16,
 uuid:"91E1FA30-FCAA-4555-9D15-10A5FE12C451"
 }
 ],
-name:"baseContent",
+name:"baseSplitPane",
 onLoadMethodID:"89FD323F-54BA-44B3-96DA-AEC18DF10803",
 showInMenu:true,
 size:"300,200",

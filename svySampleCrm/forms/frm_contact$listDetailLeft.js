@@ -63,5 +63,5 @@ function searchPerson(event) {
  * @properties={typeid:24,uuid:"31D2EE7E-B333-4831-87DC-EF0DCF8B79D9"}
  */
 function goToDetails(event) {
-	forms.form_contact$content.collapseLeftPane();
+	forms.frm_contact$splitPane.collapseLeftPane();
 }
