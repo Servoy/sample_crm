@@ -1,0 +1,5 @@
+dataSource:"db:/svy_sample/contacts",
+onAfterInsertMethodID:"21325533-4E2E-4B67-883C-82A907A578D2",
+onAfterUpdateMethodID:"9138324F-DB2A-4102-A9E0-603DAA19BDED",
+typeid:39,
+uuid:"5A0412F0-68DC-4CE9-8140-8E00ED6D0D22"

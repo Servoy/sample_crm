@@ -19,3 +19,12 @@ md-autocomplete input:not(.md-input) {
 :-ms-input-placeholder {  
    text-align: center; 
 }
+.md-virtual-repeat-container.md-autocomplete-suggestions-container {
+	top: 91px !important;
+}
+.md-autocomplete {
+	height: 20px !important;
+}
+.md-whiteframe-z1 {
+	box-shadow: none !important;
+}

@@ -1,0 +1,180 @@
+/* Bootstrap part*/
+/*@media ( min-width : 768px) {
+	.phoneOnly {
+		display: none;
+	}
+}
+
+@media ( max-width : 768px) {
+	.otherScreens {
+		display: none;
+	}
+}*/
+
+.bs-full-height {
+	height: 100%;
+}
+
+.bs-full-height-min-nav {
+	height: 95%;
+}
+
+.bs-sidebar-container {
+	padding: 0px !important;
+	overflow: hidden;
+}
+
+.bs-listview {
+	padding-right: 0px !important;
+	height: 100%
+}
+
+.bs-nopadding {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.bs-detailed-view {
+	padding-left: 0px;
+}
+
+.bs-col-centered {
+	position: relative;
+	margin-left: 10%;
+}
+
+.row {
+	position: relative;
+}
+.bs-col-1x2 {
+	height: 100%;
+	width: 48%;
+	margin-left: 20px;
+}
+.bs-col-2x2 {
+	height: 50%;
+	width: 50%;
+}
+.bs-absolute-center {
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.bs-absolute-center.is-responsive {
+	width: 50%;
+	height: 50%;
+	min-width: 250px;
+	max-width: 465px;
+	padding: 40px;
+}
+
+.bs-userbar-height {
+	height: 58px;
+}
+/* VIEWS */
+.dashboard-timeline {
+	margin-left: 200px !important;
+}
+.form-contact-list {
+	min-width: 320px;	
+}
+/* Elements */
+.fa-icon-orange {
+	color: #EB7932;
+}
+
+.faCloseDialog {
+	color: #666765;
+}
+
+.field-placeholder-left::-webkit-input-placeholder {
+	text-align: left;
+}
+
+.field-no-border {
+	box-shadow: 0px 0px 0px 0px !important;
+}
+
+
+/* INPUT FIELDS STYLING */
+.field-placeholder-left{}
+.field-placeholder-left::-webkit-input-placeholder {
+	text-align: left;
+}
+
+.fa-icon-orange {
+	color: #E48449;
+}
+
+.infotitle {
+	font-size: 25px;
+	text-align: center;
+}
+
+.field-no-border {
+	box-shadow: 0px 0px 0px 0px !important;
+}
+
+.form-bgColor {
+	background-color: #e7e7e7;
+}
+
+.form-control[disabled],.form-control[readonly],fieldset[disabled] .form-control
+	{
+	background-color: white;
+}
+
+.imgCircleDisplayEditPopup {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	vertical-align: middle;
+}
+
+/* Profile popup */
+.label-fieldLabel {
+	font-size: 11px;
+	color: #868684;
+}
+
+.field-profile {
+
+}
+
+.imgCircleProfilePopup {
+	border-radius: 50%;
+	width: 110px;
+	height: 110px;
+	vertical-align: middle;
+}
+
+/* Card View */
+.imgCircleDisplayCard {
+	border-radius: 50%;
+	width: 95px;
+	height: 95px;
+	vertical-align: middle;
+}
+
+.fieldNameDisplayCard {
+	border: none;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.fieldTitleDisplayCard {
+	border: none;
+}
+
+.fieldPhoneDisplayCard {
+	border: none;
+	text-indent: 2px;
+}
+
+.fieldEmailDisplayCard {
+	border: none;
+	text-indent: 2px;
+}

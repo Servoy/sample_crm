@@ -25,7 +25,7 @@
 
 .sc-card {
 	height: 168px;
-	width: 354px;
+	width: 354px !important;
 	-webkit-box-shadow: 7px 10px 21px -5px rgba(0, 0, 0, 0.64);
 	-moz-box-shadow: 7px 10px 21px -5px rgba(0, 0, 0, 0.64);
 	box-shadow: 7px 10px 21px -5px rgba(0, 0, 0, 0.64);
@@ -44,8 +44,8 @@
 }
 
 .sc-image-circle {
-	width: 100px;
-	height: 100px;
+	width: 100px !important;
+	height: 100px !important;
 	margin-top: 15px;
 	border-radius: 50%;
 }

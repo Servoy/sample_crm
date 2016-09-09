@@ -1,0 +1,9 @@
+groups:[
+"Administrators"
+],
+usergroups:{
+
+},
+users:[
+{name:"rene",password_hash:"PBKDF2:13C8BEA4A8F7ADC9:9999:2FA59769FDEECDED6372CFBF091599894C412AAE",user_uid:"2C4BDC94-426B-4830-9B9A-6B5DB9C8A74B"}
+]

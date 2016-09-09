@@ -1,5 +1,0 @@
-dataSource:"db:/svy_sample/contacts",
-onAfterInsertMethodID:"50B933B5-8628-4413-AD9F-6BD6EB5CC333",
-onAfterUpdateMethodID:"50B933B5-8628-4413-AD9F-6BD6EB5CC333",
-typeid:39,
-uuid:"5A0412F0-68DC-4CE9-8140-8E00ED6D0D22"

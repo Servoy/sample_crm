@@ -1,6 +1,6 @@
 {
 	"name": "servoysample-sc-Card-View",
-	"displayName": "View - Cardboard",
+	"displayName": "Cardboard",
 	"version": 1,
 	"definition": "servoysample/scCardView/scCardView.js",
 	"libraries": [{
@@ -12,7 +12,7 @@
 	"model":
 	{
 		"columns":  { "type":"column[]", "droppable": false },
-		"foundset": { "type": "foundset", "pushToServer": "allow" },
+		"foundset": { "type": "foundset"},
 		"styleClass" : { "type": "styleclass", "tags": { "scope": "design" }},
 	 	"visible" : "visible"
 	},
