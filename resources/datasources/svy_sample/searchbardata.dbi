@@ -37,6 +37,13 @@ dataType:12,
 flags:4,
 length:36,
 name:"returnvalue"
+},
+{
+allowNull:true,
+creationOrderIndex:5,
+dataType:12,
+length:36,
+name:"user_id"
 }
 ],
 name:"searchbardata",

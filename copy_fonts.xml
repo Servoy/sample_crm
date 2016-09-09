@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+   <project name="Copy Font Files" default="copy_fonts_dir">
+      
+	<property file="copy_fonts.properties"/>
+	  
+   <target name="copy_fonts_dir">
+		 <copy todir="${copy_fonts_to_dir}">
+			<fileset dir="${copy_fonts_from_dir}"/>
+		</copy>
+	</target>
+   
+</project>

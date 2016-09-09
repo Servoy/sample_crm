@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="com.servoy.eclipse.core.ServoyWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1472550472112_1" label="mobile" name="mobile">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/servoy_sample_crm/.project" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/servoy_sample_crm/forms/frm_mo_contactList.frm" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/servoy_sample_crm/forms/frm_mo_searchbar.frm" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/servoy_sample_crm/forms/frm_mo_contactTab.frm" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/servoy_sample_crm/forms/frm_mo_contactEdit.frm" type="1"/>
+</workingSet>
+<workingSet editPageId="com.servoy.eclipse.core.ServoyWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1472550472120_2" label="non-mobile" name="non-mobile">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/servoy_sample_crm/.project" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/servoy_sample_crm/forms/dlg_editContact.frm" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/servoy_sample_crm/forms/frm_contact$listDetailLeft.frm" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/servoy_sample_crm/forms/frm_contact$cardBoard.frm" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/servoy_sample_crm/forms/frm_contact$listDetail.frm" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/servoy_sample_crm/forms/frm_contact$listDetailRight.frm" type="1"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1472550472487_3" label="Servoy Active Solution" name="Servoy Active Solution">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/servoy_sample_crm" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/randomData" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/servoysample" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/svyfontawesome" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/resources" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/svyUtils" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1472550418738_0" label="Window Working Set" name="Aggregate for window 1472550418737">
+<workingSet IMemento.internal.id="Servoy Active Solution"/>
+</workingSet>
+</workingSetManager>

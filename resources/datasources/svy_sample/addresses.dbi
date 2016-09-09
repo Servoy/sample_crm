@@ -54,6 +54,13 @@ name:"line_2"
 },
 {
 allowNull:true,
+creationOrderIndex:8,
+dataType:12,
+length:36,
+name:"user_id"
+},
+{
+allowNull:true,
 creationOrderIndex:2,
 dataType:12,
 length:20,

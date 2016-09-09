@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="ASCII"?>
+<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" lastIndex="73" environment="org.eclipse.dltk.core.environment.localEnvironment">
+  <entries path="C:/Servoy/sample_crm/randomData/globals.js" timestamp="1472544958939" lastAccessTime="1473331455883">
+    <attributes name="indexed" location="2838196607/3094551591/3.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/randomData" timestamp="1472544958939" lastAccessTime="1473331455928">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/1031340563/1.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/randomData/.buildpath" timestamp="1472544958939" lastAccessTime="1473331455849"/>
+  <entries path="C:/Servoy/sample_crm/randomData/.project" timestamp="1472544958939" lastAccessTime="1473331455849"/>
+  <entries path="C:/Servoy/sample_crm/randomData/randomCompany.js" timestamp="1472544958939" lastAccessTime="1473331455928">
+    <attributes name="indexed" location="2838196607/3094551591/5.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/randomData/rootmetadata.obj" timestamp="1472544958939" lastAccessTime="1473331455850"/>
+  <entries path="C:/Servoy/sample_crm/randomData/solution_settings.obj" timestamp="1472544958939" lastAccessTime="1473331455850"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms/baseContact.js" timestamp="1472544958939" lastAccessTime="1473331456691">
+    <attributes name="indexed" location="2838196607/1255515470/7.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms/baseContact.frm" timestamp="1472544958939" lastAccessTime="1473331456678"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms/baseDashboard.frm" timestamp="1472544958939" lastAccessTime="1473331456678"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms/baseForm.frm" timestamp="1472544958955" lastAccessTime="1473331456678"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms/baseForm.js" timestamp="1472544958955" lastAccessTime="1473331456725">
+    <attributes name="indexed" location="2838196607/1255515470/20.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms/dlg_editContact.frm" timestamp="1472544958955" lastAccessTime="1473331456679"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms/dlg_editContact.js" timestamp="1472544958955" lastAccessTime="1473331456693">
+    <attributes name="indexed" location="2838196607/1255515470/9.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms/frm_contact$cardBoard.frm" timestamp="1472544958955" lastAccessTime="1473331456679"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms/frm_contact$cardBoard.js" timestamp="1472544958955" lastAccessTime="1473331456736">
+    <attributes name="indexed" location="2838196607/1255515470/26.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms/frm_contact$listDetail.frm" timestamp="1472544958955" lastAccessTime="1473331456679"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms/frm_contact$listDetail.js" timestamp="1472544958955" lastAccessTime="1473331456711">
+    <attributes name="indexed" location="2838196607/1255515470/11.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms/frm_contact$listDetailLeft.frm" timestamp="1472544958955" lastAccessTime="1473331456679"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms/frm_contact$listDetailLeft.js" timestamp="1472544958955" lastAccessTime="1473331456728">
+    <attributes name="indexed" location="2838196607/1255515470/22.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms/frm_contact$listDetailRight.frm" timestamp="1472544958955" lastAccessTime="1473331456680"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms/frm_mo_contactEdit.frm" timestamp="1472544958955" lastAccessTime="1473331456680"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms/frm_mo_contactEdit.js" timestamp="1472544958955" lastAccessTime="1473331456724">
+    <attributes name="indexed" location="2838196607/1255515470/18.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms/frm_mo_contactList.frm" timestamp="1472544958955" lastAccessTime="1473331456680"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms/frm_mo_contactList.js" timestamp="1472544958955" lastAccessTime="1473331456757">
+    <attributes name="indexed" location="2838196607/1255515470/34.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms/frm_mo_contactTab.frm" timestamp="1472544958955" lastAccessTime="1473331456680"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms/frm_mo_searchbar.frm" timestamp="1472544958955" lastAccessTime="1473331456680"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms/frm_mo_searchbar.js" timestamp="1472544958955" lastAccessTime="1473331456717">
+    <attributes name="indexed" location="2838196607/1255515470/13.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/searchbar.js" timestamp="1472544958970" lastAccessTime="1473331456719">
+    <attributes name="indexed" location="2838196607/1964634827/15.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/.buildpath" timestamp="1472544958939" lastAccessTime="1473331456683"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/.project" timestamp="1472544958939" lastAccessTime="1473331456683"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/contactUtils.js" timestamp="1472544958939" lastAccessTime="1473331456743">
+    <attributes name="indexed" location="2838196607/1964634827/30.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/datasources" timestamp="1472544958939" lastAccessTime="1473331456684"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/exampleApi.js" timestamp="1472544958939" lastAccessTime="1473331456751">
+    <attributes name="indexed" location="2838196607/1964634827/32.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/forms" timestamp="1472544958955" lastAccessTime="1473331456758">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/1964634827/36.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/medias" timestamp="1472544958955" lastAccessTime="1473331456684"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/medias.obj" timestamp="1472544958955" lastAccessTime="1473331456684"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/ng_web_packages" timestamp="1472544958970" lastAccessTime="1473331456684"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/relations" timestamp="1472544958970" lastAccessTime="1473331456684"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/rootmetadata.obj" timestamp="1472544958970" lastAccessTime="1473331456684"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/solution_settings.obj" timestamp="1472544958970" lastAccessTime="1473331456685"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/valuelists" timestamp="1472544958970" lastAccessTime="1473331456685"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/datasources/svy_sample/contacts_entity.js" timestamp="1472544958939" lastAccessTime="1473331456730">
+    <attributes name="indexed" location="2838196607/3198821032/24.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/datasources/svy_sample/contacts.tbl" timestamp="1472544958939" lastAccessTime="1473331456687"/>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/datasources/svy_sample/contacts_calculations.js" timestamp="1472544958939" lastAccessTime="1473331456737">
+    <attributes name="indexed" location="2838196607/3198821032/28.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm" timestamp="1472544958970" lastAccessTime="1473331456751">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/1031340563/38.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/servoy_sample_crm/datasources/svy_sample" timestamp="1472544958939" lastAccessTime="1473331456737">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2691763817/40.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/svyUtils/svyUI.js" timestamp="1472544959017" lastAccessTime="1473331456825">
+    <attributes name="indexed" location="2838196607/2140867847/42.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/svyUtils/.buildpath" timestamp="1472544959001" lastAccessTime="1473331456815"/>
+  <entries path="C:/Servoy/sample_crm/svyUtils/.project" timestamp="1472544959001" lastAccessTime="1473331456815"/>
+  <entries path="C:/Servoy/sample_crm/svyUtils/forms" timestamp="1472544959017" lastAccessTime="1473331457120">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2140867847/72.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/svyUtils/LICENSE.txt" timestamp="1472544959001" lastAccessTime="1473331456815"/>
+  <entries path="C:/Servoy/sample_crm/svyUtils/rootmetadata.obj" timestamp="1472544959017" lastAccessTime="1473331456815"/>
+  <entries path="C:/Servoy/sample_crm/svyUtils/solution_settings.obj" timestamp="1472544959017" lastAccessTime="1473331456815"/>
+  <entries path="C:/Servoy/sample_crm/svyUtils/svyApplicationCore.js" timestamp="1472544959017" lastAccessTime="1473331457145">
+    <attributes name="indexed" location="2838196607/2140867847/68.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/svyUtils/svyDataUtils.js" timestamp="1472544959017" lastAccessTime="1473331456905">
+    <attributes name="indexed" location="2838196607/2140867847/52.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/svyUtils/svyDateUtils.js" timestamp="1472544959017" lastAccessTime="1473331456961">
+    <attributes name="indexed" location="2838196607/2140867847/54.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/svyUtils/svyEventManager.js" timestamp="1472544959017" lastAccessTime="1473331456880">
+    <attributes name="indexed" location="2838196607/2140867847/48.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/svyUtils/svyExceptions.js" timestamp="1472544959017" lastAccessTime="1473331457008">
+    <attributes name="indexed" location="2838196607/2140867847/58.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/svyUtils/svyIO.js" timestamp="1472544959017" lastAccessTime="1473331456847">
+    <attributes name="indexed" location="2838196607/2140867847/44.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/svyUtils/svyJSUtils.js" timestamp="1472544959017" lastAccessTime="1473331456873">
+    <attributes name="indexed" location="2838196607/2140867847/46.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/svyUtils/svyLogManager.js" timestamp="1472544959017" lastAccessTime="1473331457014">
+    <attributes name="indexed" location="2838196607/2140867847/60.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/svyUtils/svyNet.js" timestamp="1472544959017" lastAccessTime="1473331457135">
+    <attributes name="indexed" location="2838196607/2140867847/66.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/svyUtils/svySystem.js" timestamp="1472544959017" lastAccessTime="1473331457121">
+    <attributes name="indexed" location="2838196607/2140867847/64.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/svyUtils/valuelists" timestamp="1472544959017" lastAccessTime="1473331456817"/>
+  <entries path="C:/Servoy/sample_crm/svyUtils/forms/AbstractModuleDef.js" timestamp="1472544959001" lastAccessTime="1473331456903">
+    <attributes name="indexed" location="2838196607/2891728747/50.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/svyUtils/forms/AbstractModuleDef.frm" timestamp="1472544959001" lastAccessTime="1473331456819"/>
+  <entries path="C:/Servoy/sample_crm/svyUtils/forms/defaultUserPropertyPersistenceImpl.frm" timestamp="1472544959017" lastAccessTime="1473331456819"/>
+  <entries path="C:/Servoy/sample_crm/svyUtils/forms/defaultUserPropertyPersistenceImpl.js" timestamp="1472544959017" lastAccessTime="1473331457006">
+    <attributes name="indexed" location="2838196607/2891728747/56.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/svyUtils/forms/svyUtilsInit.frm" timestamp="1472544959017" lastAccessTime="1473331456820"/>
+  <entries path="C:/Servoy/sample_crm/svyUtils/forms/svyUtilsInit.js" timestamp="1472544959017" lastAccessTime="1473331457119">
+    <attributes name="indexed" location="2838196607/2891728747/62.idx"/>
+  </entries>
+  <entries path="C:/Servoy/sample_crm/svyUtils" timestamp="1472544959017" lastAccessTime="1473331457146">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/1031340563/70.idx"/>
+  </entries>
+</cache:CacheIndex>

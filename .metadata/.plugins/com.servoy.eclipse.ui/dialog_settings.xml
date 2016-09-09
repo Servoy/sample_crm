@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="2" key="SolutionExplorerView.orientation"/>
+	<item value="500" key="SolutionExplorerView.ratio512"/>
+	<item value="true" key="SolutionExplorerView.useOpenAsDefaultAction"/>
+	<item value="false" key="SolutionExplorerView.includeEntriedFromModules"/>
+	<section name="InstalledExtensionsDialog">
+		<item value="85" key="splitAt"/>
+	</section>
+</section>

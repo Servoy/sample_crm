@@ -1,0 +1,291 @@
+!SESSION 2016-08-30 09:46:48.033 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Servoy\sample_crm
+
+!ENTRY org.eclipse.jface 2 0 2016-08-30 09:46:56.952
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-08-30 09:46:56.952
+!MESSAGE A conflict occurred for ALT+SHIFT+M:
+Binding(ALT+SHIFT+M,
+	ParameterizedCommand(Command(com.servoy.eclipse.ui.StartMobileClient,Start Mobile Client,
+		Start Mobile Client,
+		Category(com.servoy.eclipse.ui,Servoy,Other Servoy Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ec151b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+M,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.extract.method,Extract Method,
+		Extract a set of statements or an expression into a new method and use the new method,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@cf2d5f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2016-08-30 09:47:02.838
+!MESSAGE Connection to http://subclipse.tigris.org/update_1.10.x/p2.index failed on Connection reset. Retry attempt 0 started
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:223)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2016-08-30 09:47:06.942
+!MESSAGE Unable to read repository at http://subclipse.tigris.org/update_1.10.x/content.xml.
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:197)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:259)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 2 2016-08-30 09:47:36.046
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at com.servoy.eclipse.model.ngpackages.BaseNGPackageManager.updateFromResourceChangeListener(BaseNGPackageManager.java:284)
+	at com.servoy.eclipse.model.ngpackages.BaseNGPackageResourcesChangedListener.notifyChanges(BaseNGPackageResourcesChangedListener.java:165)
+	at com.servoy.eclipse.model.ngpackages.BaseNGPackageResourcesChangedListener.checkForChangesInWebPackages(BaseNGPackageResourcesChangedListener.java:139)
+	at com.servoy.eclipse.model.ngpackages.BaseNGPackageResourcesChangedListener.resourceChanged(BaseNGPackageResourcesChangedListener.java:93)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2250)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:130)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-08-30 09:47:51.346
+!MESSAGE Time taken to read in the solution servoy_sample_crm: 265
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-08-30 09:47:51.978
+!MESSAGE Time taken to read in the solution svyUtils: 630
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-08-30 09:47:52.065
+!MESSAGE Time taken to read in the solution randomData: 85
+
+!ENTRY com.servoy.eclipse.model 4 0 2016-08-30 09:47:55.326
+!MESSAGE Unexpected Exception
+!STACK 0
+com.servoy.j2db.persistence.RepositoryException: The table contacts or addresses does not exist as defined in the relation contacts_to_addresses$type2
+	at com.servoy.j2db.persistence.Relation.makeForeignColumns(Relation.java:657)
+	at com.servoy.j2db.persistence.Relation.getForeignColumns(Relation.java:522)
+	at com.servoy.j2db.FlattenedSolution.getGlobalDataProviderEx(FlattenedSolution.java:1370)
+	at com.servoy.j2db.FlattenedSolution.getGlobalDataProvider(FlattenedSolution.java:1301)
+	at com.servoy.eclipse.model.builder.ServoyBuilder$5.checkDataProvider(ServoyBuilder.java:3642)
+	at com.servoy.eclipse.model.builder.ServoyBuilder$5.checkDataProviders(ServoyBuilder.java:3608)
+	at com.servoy.eclipse.model.builder.ServoyBuilder$5.visit(ServoyBuilder.java:2430)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:391)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:397)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:397)
+	at com.servoy.eclipse.model.builder.ServoyBuilder.checkServoyProject(ServoyBuilder.java:1959)
+	at com.servoy.eclipse.model.builder.ServoyBuilder.checkResource(ServoyBuilder.java:785)
+	at com.servoy.eclipse.model.builder.ServoyBuilder$ServoyResourceVisitor.visit(ServoyBuilder.java:238)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:119)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:83)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:129)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:93)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:51)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:116)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:104)
+	at com.servoy.eclipse.model.builder.ServoyBuilder.fullBuild(ServoyBuilder.java:6046)
+	at com.servoy.eclipse.model.builder.ServoyBuilder.build(ServoyBuilder.java:720)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:262)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:402)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:556)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:534)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:111)
+	at com.servoy.eclipse.model.extensions.AbstractServoyModel.buildActiveProjects(AbstractServoyModel.java:501)
+	at com.servoy.eclipse.model.extensions.AbstractServoyModel.buildActiveProjects(AbstractServoyModel.java:476)
+	at com.servoy.eclipse.core.ServoyModel$11.run(ServoyModel.java:1372)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.servoy.eclipse.model 4 0 2016-08-30 09:47:55.342
+!MESSAGE Unexpected Exception
+!STACK 0
+com.servoy.j2db.persistence.RepositoryException: The table contacts or addresses does not exist as defined in the relation contacts_to_addresses$type1
+	at com.servoy.j2db.persistence.Relation.makeForeignColumns(Relation.java:657)
+	at com.servoy.j2db.persistence.Relation.getForeignColumns(Relation.java:522)
+	at com.servoy.j2db.FlattenedSolution.getGlobalDataProviderEx(FlattenedSolution.java:1370)
+	at com.servoy.j2db.FlattenedSolution.getGlobalDataProvider(FlattenedSolution.java:1301)
+	at com.servoy.eclipse.model.builder.ServoyBuilder$5.checkDataProvider(ServoyBuilder.java:3642)
+	at com.servoy.eclipse.model.builder.ServoyBuilder$5.checkDataProviders(ServoyBuilder.java:3608)
+	at com.servoy.eclipse.model.builder.ServoyBuilder$5.visit(ServoyBuilder.java:2430)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:391)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:397)
+	at com.servoy.j2db.persistence.AbstractBase.acceptVisitor(AbstractBase.java:397)
+	at com.servoy.eclipse.model.builder.ServoyBuilder.checkServoyProject(ServoyBuilder.java:1959)
+	at com.servoy.eclipse.model.builder.ServoyBuilder.checkResource(ServoyBuilder.java:785)
+	at com.servoy.eclipse.model.builder.ServoyBuilder$ServoyResourceVisitor.visit(ServoyBuilder.java:238)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:119)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:83)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:129)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:93)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:51)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:116)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:104)
+	at com.servoy.eclipse.model.builder.ServoyBuilder.fullBuild(ServoyBuilder.java:6046)
+	at com.servoy.eclipse.model.builder.ServoyBuilder.build(ServoyBuilder.java:720)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:262)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:402)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:556)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:534)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:111)
+	at com.servoy.eclipse.model.extensions.AbstractServoyModel.buildActiveProjects(AbstractServoyModel.java:501)
+	at com.servoy.eclipse.model.extensions.AbstractServoyModel.buildActiveProjects(AbstractServoyModel.java:476)
+	at com.servoy.eclipse.core.ServoyModel$11.run(ServoyModel.java:1372)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-08-30 09:47:55.580
+!MESSAGE Browser url for editor: http://localhost:8088/rfb/angular/index.html?s=servoy_sample_crm&l=flow&f=baseForm&w=640.0&h=0.0&editorid=b1695444-32ce-490f-a034-8def10f09093&c_sessionid=7b687f07-e417-42ff-b29c-45cbea2124c9
+!SESSION 2016-09-08 10:44:03.789 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-09-08 10:44:08.077
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 4 567 2016-09-08 10:44:08.139
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2016-09-08 10:44:08.139
+!MESSAGE Could not read metadata for 'angularjs-google-maps-1.17.3.zip'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'angularjs-google-maps-1.17.3.zip' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:902)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:882)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:733)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1588)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2386)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2157)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:463)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:140)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2016-09-08 10:44:08.140
+!MESSAGE The project description file (.project) for 'angularjs-google-maps-1.17.3.zip' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-08 10:44:15.404
+!MESSAGE Time taken to read in the solution servoy_sample_crm: 426
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-08 10:44:15.802
+!MESSAGE Time taken to read in the solution svyUtils: 317
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-08 10:44:16.091
+!MESSAGE Time taken to read in the solution randomData: 276
+
+!ENTRY org.eclipse.jface 2 0 2016-09-08 10:44:17.311
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-09-08 10:44:17.311
+!MESSAGE A conflict occurred for ALT+SHIFT+M:
+Binding(ALT+SHIFT+M,
+	ParameterizedCommand(Command(com.servoy.eclipse.ui.StartMobileClient,Start Mobile Client,
+		Start Mobile Client,
+		Category(com.servoy.eclipse.ui,Servoy,Other Servoy Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1a14911,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+M,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.extract.method,Extract Method,
+		Extract a set of statements or an expression into a new method and use the new method,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c76fd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.servoy.eclipse.model 1 0 2016-09-08 10:44:19.184
+!MESSAGE Browser url for editor: http://localhost:8088/rfb/angular/index.html?s=servoy_sample_crm&l=flow&f=baseForm&w=640.0&h=0.0&editorid=141d92f2-916b-4579-b772-b2926ac58c7d&c_sessionid=3d7ecd8a-ab08-4bc2-9b0c-58c8a886bfdc
