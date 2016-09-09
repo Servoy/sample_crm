@@ -41,6 +41,36 @@ specname:\"div\"\
 }",
 items:[
 {
+customProperties:"attributes:{\
+class:\"col-md-12 col-alreadyAccount\"\
+},\
+properties:{\
+packagename:\"12grid\",\
+specname:\"div\"\
+}",
+items:[
+{
+json:{
+styleClass:"label-wrongCredentials",
+text:"<html>\
+That account doesn't exist. <br>\
+Please try again or create a new account\
+<\/html>",
+visible:false
+},
+location:"1,1",
+name:"lbl_wrongCredentials",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"BE6133C7-284F-43AA-9B57-EDD7ACC982AD",
+visible:false
+}
+],
+location:"4,4",
+typeid:46,
+uuid:"14C9524B-54A9-41CD-8801-7CE0BBCADFED"
+},
+{
 json:{
 dataProviderID:"username",
 faclass:"fa-envelope-o fa-fw",
@@ -177,7 +207,7 @@ styleClass:"btn btn-login",
 tabSeq:3,
 text:"Sign In"
 },
-location:"5,5",
+location:"3,3",
 name:"btn_login",
 typeName:"bootstrapcomponents-button",
 typeid:47,

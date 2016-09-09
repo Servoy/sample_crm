@@ -29,7 +29,15 @@
 .col-createAccount {
 	top: 10px;
 }
+.label-wrongCredentials {
+	color: #ff4929;
+	text-align: center;
+	padding-left: 20%;
+}
 
+.label-wrongCredentials:focus {
+	outline: 0;
+}
 .label-createAccount {
 	color: #EB7932;
 	cursor: pointer;
