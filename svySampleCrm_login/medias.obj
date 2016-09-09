@@ -12,5 +12,12 @@ mimeType:"text/css",
 name:"login.css",
 typeid:37,
 uuid:"C2DE5A24-D04C-47A8-B13F-FEDD13C1FAB0"
+},
+{
+encapsulation:0,
+mimeType:"image/png",
+name:"logo/logo.png",
+typeid:37,
+uuid:"16F83263-9C10-45BF-8115-7892963CD2D0"
 }
 ]

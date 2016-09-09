@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/svy_sample/timeline",
+initialSort:"item_date desc",
+items:[
+{foreignColumnName:"user_id",primaryDataProviderID:"user_id",typeid:23,uuid:"416CDAF9-B6AE-4FB4-A407-70FF1ADBE8C8"}
+],
+joinType:1,
+name:"users_to_timeline",
+primaryDataSource:"db:/svy_sample/users",
+typeid:22,
+uuid:"B613F6FB-ED4F-4E49-B1C3-8ED8E65DFD71"
