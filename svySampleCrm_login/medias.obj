@@ -16,6 +16,13 @@ uuid:"C2DE5A24-D04C-47A8-B13F-FEDD13C1FAB0"
 {
 encapsulation:0,
 mimeType:"image/png",
+name:"logo/logo-white.png",
+typeid:37,
+uuid:"4CADD3B6-9CA8-4701-B65D-B74848C1EADA"
+},
+{
+encapsulation:0,
+mimeType:"image/png",
 name:"logo/logo.png",
 typeid:37,
 uuid:"16F83263-9C10-45BF-8115-7892963CD2D0"

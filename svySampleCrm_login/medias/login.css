@@ -1,3 +1,7 @@
+:focus {
+	outline:none;
+}
+
 .full-height {
 	height: 100%;
 }
@@ -19,6 +23,44 @@
 	padding: 40px;
 }
 
+.form-login, .form-progressBar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: radial-gradient(ellipse at center, #f7f7f7  0%,#b2b2b2  100%);
+}
+
+.form-login .absolute-center.is-responsive {
+	height: 360px;
+	width: 100%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background: white;
+    border-radius: 5px;
+}
+
+.form-progressBar .absolute-center.is-responsive {
+	height: 300px;
+	width: 100%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background: white;
+    border-radius: 5px;
+}
+
+.img-logo {
+	content: url('servoy/logo.png');
+	max-width: 100%;
+	width: 180px;
+	margin: auto;
+}
+
+.form-login .img-logo {
+	content: url('logo/logo.png');
+}
+
 .btn-login {
 	width: 100%;
 	background-color: #EB7932;
@@ -26,51 +68,63 @@
 	font-size: 17px;
 }
 
-.col-createAccount {
-	top: 10px;
+.row-loginTexts {
+	margin-top: 15px;
+	padding: 0px 20px;
 }
+
+.row-loginTexts .bts-label {
+	display: block;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
 .label-wrongCredentials {
 	color: #ff4929;
 	text-align: center;
-	padding-left: 20%;
 }
 
-.label-wrongCredentials:focus {
-	outline: 0;
-}
 .label-createAccount {
 	color: #EB7932;
 	cursor: pointer;
 }
 
-.label-createAccount:focus {
-	outline: 0;
-}
+.col-createAccount {}
 
-.col-forgotPassword {
-	top: 10px;
-}
+.col-forgotPassword {}
 
 .label-forgotPassword {
 	color: #EB7932;
 	cursor: pointer;
 }
 
-.label-forgotPassword:focus {
-	outline: 0;
-}
-
-.col-alreadyAccount {
-	top: 10px;
-}
+.col-alreadyAccount {}
 
 .label-alreadyAccount {
 	color: #EB7932;
 	text-align: center;
-	padding-left: 50px;
 	cursor: pointer;
 }
 
-.label-alreadyAccount:focus {
-	outline: 0;
+.col-creatingAccount {
+	margin-top: 15px;
+}
+
+.label-creatingAccount {
+	color: #EB7932;
+}
+
+.progressbar {
+	margin-top: 15px;
+	height: 50px;
+	position: relative;
+}
+
+.progressbar > b {
+    font-size: 16px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 20px;
 }

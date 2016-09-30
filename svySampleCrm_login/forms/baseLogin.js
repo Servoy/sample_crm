@@ -18,6 +18,7 @@ var username;
  * @properties={typeid:35,uuid:"B0E0C944-30C2-4A56-B1BB-43B7E64DD89E"}
  */
 var password
+
 /**
  *
  * @param {JSEvent} event
@@ -42,6 +43,9 @@ function login(event) {
 				if (!scopes.login.user_uuid) {
 				}
 			}
+		} else {
+			//TODO account error
+			elements.lbl_emptyFields.visible = true;
 		}
 	}
 }
@@ -62,10 +66,8 @@ function createAccount(event) {
 	elements.lbl_wrongCredentials.visible = false;
 	username = null
 	password = null
-
 	elements.fld_username.inputValidation = 'email'
 	elements.fld_password.inputValidation = 'password'
-
 }
 
 /**
@@ -77,8 +79,7 @@ function createAccount(event) {
  * @properties={typeid:24,uuid:"CB7D8EBA-EFE7-431A-9AE6-1964665212D1"}
  */
 function forgotPassword(event) {
-	// TODO Auto-generated method stub
-
+	// TODO to be implemented
 }
 
 /**
@@ -95,6 +96,7 @@ function alreadyAccount(event) {
 	elements.lbl_forgotPassword.visible = true;
 	elements.lbl_alreadyAccount.visible = false;
 	elements.lbl_wrongCredentials.visible = false;
+	elements.lbl_emptyFields.visible = false;
 	elements.fld_username.inputValidation = 'none'
 	elements.fld_password.inputValidation = 'none'
 }
@@ -111,4 +113,23 @@ function alreadyAccount(event) {
  */
 function onShow(firstShow, event) {
 	controller.focusFirstField()
+}
+
+/**
+ *
+ * @param oldValue
+ * @param newValue
+ * @param {JSEvent} event
+ *
+ * @return {boolean}
+ *
+ * @protected
+ *
+ * @properties={typeid:24,uuid:"AB2C5C67-3738-441D-8AC4-7EEFDB7CA5EF"}
+ */
+function onInputChange(oldValue, newValue, event) {
+	if (username && password) {
+		elements.lbl_emptyFields.visible = false;
+	}
+	return false;
 }

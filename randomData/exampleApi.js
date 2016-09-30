@@ -26,11 +26,18 @@ function splitContactFullName(fullName) {
 }
 
 /**
+ * @param {Number} numberOfUsers
+ * @param {Function} [onProgressCallback]
+ * @param {Number} [progressInterval] Default 10.
+ * 
  * @properties={typeid:24,uuid:"433DE9C1-2819-45A1-A180-34F5656F481C"}
  * @AllowToRunInFind
- * @param {Number} numberOfUsers
  */
-function loadUsers(numberOfUsers) {
+function loadUsers(numberOfUsers, onProgressCallback, progressInterval) {
+	if (!progressInterval) {
+		progressInterval = 10;
+	}
+	
 	var userCount = numberOfUsers
 	var userDelete = 'Yes'
 	var fs = datasources.db.svy_sample.contacts.getFoundSet();
@@ -74,7 +81,10 @@ function loadUsers(numberOfUsers) {
 			if(result == 1) {
 				recAddress.countrie_id = fsCountry.getRecord(1).countrie_id
 			}
-			
+		}
+		
+		if (onProgressCallback && i%progressInterval == 0) {
+			onProgressCallback.apply(this, [Math.floor(i/userCount * 100)]);
 		}
 		
 		databaseManager.saveData(rec)
@@ -85,9 +95,17 @@ function loadUsers(numberOfUsers) {
 }
 
 /**
+ * 
+ * @param {Function} [onProgressCallback]
+ * @param {Number} [progressInterval] Default 10.
+ * 
  * @properties={typeid:24,uuid:"4604372A-6AFC-4778-B0C8-B56993DAE232"}
  */
-function loadCountries() {
+function loadCountries(onProgressCallback, progressInterval) {
+	if (!progressInterval) {
+		progressInterval = 10;
+	}
+	
 	var countryDelete = 'Yes';
 	var fs = datasources.db.svy_sample.countries.getFoundSet();
 	if(countryDelete == 'Yes') {
@@ -95,12 +113,24 @@ function loadCountries() {
 		fs.deleteAllRecords();
 	}
 	
-	var countries = JSON.parse(plugins.http.getPageData('http://restcountries.eu/rest/v1/all'))
+	var countries = JSON.parse(plugins.http.getPageData('http://restcountries.eu/rest/v1/all'));
+	var length = Object.keys(countries).length;
+
+	var iteration = 0;
 	for(var i in countries) {
+		iteration++;
+		
 		var rec = fs.getRecord(fs.newRecord());
 		rec.name = countries[i].name;
 		rec.alt_name = countries[i].altSpellings[0];
 		rec.region = countries[i].region
+		
+		// do something at each iteration
+		if (onProgressCallback && iteration%progressInterval == 0) {
+			onProgressCallback.apply(this, [Math.floor(iteration/length * 100)]);
+		}
+		
+		
 	}
 	databaseManager.saveData()
 	
