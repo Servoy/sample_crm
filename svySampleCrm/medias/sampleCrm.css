@@ -31,6 +31,10 @@
 	background-image: linear-gradient(to bottom, #ffffff 0%, #eeeeee 100%);
 }
 
+.navbar-header .navbar-toggle {
+	display:none;
+}
+
 .sidebar-nav {
 	padding-top: 32px;
 }
