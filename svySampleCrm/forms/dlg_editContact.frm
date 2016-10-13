@@ -36,6 +36,7 @@ typeid:47,
 uuid:"74098B43-3043-403D-96DB-6F4B906CAF01"
 },
 {
+formIndex:1,
 json:{
 faclass:"fa-pencil fa-2x",
 location:{
@@ -99,6 +100,7 @@ uuid:"A16A3181-BD20-478C-BDC1-364F43B844AD"
 },
 {
 anchors:11,
+formIndex:2,
 json:{
 anchors:11,
 containedForm:{

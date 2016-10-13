@@ -212,7 +212,7 @@ uuid:"2A45630A-85EE-4519-8D99-F3C503948299"
 },
 {
 customProperties:"attributes:{\
-class:\"col-sm-6 col-createAccount\"\
+class:\"col-sm-12 col-createAccount\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -240,7 +240,7 @@ uuid:"62BF49E7-8176-41F6-BD28-B32CE6791965"
 },
 {
 customProperties:"attributes:{\
-class:\"col-sm-6 col-forgotPassword\"\
+class:\"col-sm-12 col-forgotPassword hidden\"\
 },\
 properties:{\
 packagename:\"12grid\",\
