@@ -4,16 +4,12 @@
 	<comment></comment>
 	<projects>
 		<project>resources</project>
-		<project>servoysample</project>
 		<project>svyUtils</project>
 		<project>randomData</project>
 		<project>svySampleCrm_authenticator</project>
 		<project>svySampleCrm_login</project>
-		<project>servoy-extra-components</project>
-		<project>servoynavigation</project>
 		<project>servoy-navigation</project>
 		<project>svytimelinecomponent</project>
-		<project>svytimeline</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
