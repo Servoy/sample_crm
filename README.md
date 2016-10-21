@@ -13,6 +13,8 @@ Download the component zip from the release page and import the component in Ser
 After importing the solution and installing the sample component add the needed components from the Web Package Manager:
 - Servoy Navigation Component
 - Servoy Extra Component
+- Bootstrap Components
+- Bootstrap 12grid layout
 
 To use the latest source code clone the git repository and checkout the develop branch. Install the egit plugin for Eclipse to clone the repository and import the projects into the workspace.
 
