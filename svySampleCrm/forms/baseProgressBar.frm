@@ -50,7 +50,6 @@ specname:\"column\"\
 items:[
 {
 json:{
-onActionMethodID:"BA1BB821-0073-4489-B2C7-E87D0B2FBABA",
 styleClass:"label-creatingAccount",
 tabSeq:-2,
 text:"We are enabling your account and preparing your sample data<br>\r\
@@ -111,63 +110,6 @@ uuid:"53D61B10-81AB-4A81-9428-B34CEB5D4453"
 location:"1,1",
 typeid:46,
 uuid:"23DE7E65-77AC-416C-8DC2-95C86D8F281E"
-},
-{
-enabled:false,
-json:{
-enabled:false,
-faclass:"fa-key fa-fw",
-glyphicon:"fa fa-key fa-fw",
-inputType:"password",
-onActionMethodID:"FEFF927C-BA32-4FBA-B14B-44F2AC9A3C05",
-placeholderText:"Password",
-tabSeq:2,
-visible:false
-},
-location:"3,3",
-name:"fld_password",
-typeName:"servoyextra-textfieldgroup",
-typeid:47,
-uuid:"37B48FF4-6D74-4881-A1F7-898001837486",
-visible:false
-},
-{
-enabled:false,
-json:{
-enabled:false,
-onActionMethodID:"FEFF927C-BA32-4FBA-B14B-44F2AC9A3C05",
-styleClass:"btn btn-login",
-tabSeq:3,
-text:"Create Account",
-visible:false
-},
-location:"4,4",
-name:"btn_login",
-typeName:"bootstrapcomponents-button",
-typeid:47,
-uuid:"505C60FC-562A-4F7E-8A44-3618BE640F0E",
-visible:false
-},
-{
-enabled:false,
-json:{
-enabled:false,
-faclass:"fa-envelope-o fa-fw",
-glyphicon:"fa fa-envelope-o fa-fw",
-inputType:"text",
-inputValidation:"none",
-onActionMethodID:"FEFF927C-BA32-4FBA-B14B-44F2AC9A3C05",
-placeholderText:"Username",
-readOnly:false,
-tabSeq:1,
-visible:false
-},
-location:"2,2",
-name:"fld_username",
-typeName:"servoyextra-textfieldgroup",
-typeid:47,
-uuid:"87151CF7-5AA6-438F-93CD-D06FA18C4B38",
-visible:false
 },
 {
 json:{
