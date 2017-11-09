@@ -54,7 +54,7 @@ function updateUI() {
 		break;
 	case MODE_PANE.LEFT:
 		// collapse splitpane to the left
-		elements.splitpane.dividerLocation = 1;
+		elements.splitpane.dividerLocation = 0;
 		elements.splitpane.removeStyleClass('select-pane-1');
 		elements.splitpane.addStyleClass('select-pane-2');
 		
